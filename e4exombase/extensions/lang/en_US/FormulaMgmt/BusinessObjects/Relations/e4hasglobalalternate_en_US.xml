@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4HasGlobalAlternate" status="Approved">Has Global Alternate</key>
+   <key locale="en_US" id="Property{::}E4HasGlobalAlternate{::}e4Comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}E4HasGlobalAlternate{::}e4ValueChain" status="Approved">Value Chain</key>
+</Add>
+</TcBusinessDataLocalization>

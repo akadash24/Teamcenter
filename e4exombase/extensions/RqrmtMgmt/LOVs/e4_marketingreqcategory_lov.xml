@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4MarketingCategoryLov" lovType="ListOfValuesString" usage="Suggestive"
+       description="">
+     <TcLOVValue value="Biodiesel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brand" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cleanliness" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cold Temperature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Diesel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Emission System Protection" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Energy Efficiency" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fuel Economy" description="" conditionName="isTrue"/>
+     <TcLOVValue value="High Temperature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ingredient Branding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LSPI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mogas" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Non-toxicity" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oil Drain Interval" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Overall Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sustainability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Total Mileage" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Viscosity Control" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WF Diesel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WF Heating Oil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WF Mogas" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Warranty" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wear Protection" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4MarketingCategoryLov" typeName="E4MarketingReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4Category" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4ReviewPeriodLov{::}Annually" status="Approved">Annually</key>
+   <key locale="en_US" id="LOVValue{::}E4ReviewPeriodLov{::}Every 3 Years" status="Approved">Every 3 Years</key>
+   <key locale="en_US" id="LOVValue{::}E4ReviewPeriodLov{::}Every 5 Years" status="Approved">Every 5 Years</key>
+</Add>
+</TcBusinessDataLocalization>

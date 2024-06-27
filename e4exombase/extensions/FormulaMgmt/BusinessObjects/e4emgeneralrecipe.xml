@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMGeneralRec" parentClassName="E4AbsCPGFormulaM" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMGeneralRecMasterS" parentClassName="E4AbsCPGFormulaMMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMGeneralRecRevMasterS" parentClassName="E4AbsCPGFormulaMRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMGeneralRecRevision" parentClassName="E4AbsCPGFormulaMRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4EMGeneralRecCreI" parentTypeName="E4AbsCPGFormulaMCreI"
+       typeClassName="E4EMGeneralRecCreI" description="CreateInput object for &quot;E4EMGeneralRec&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecCreI"/>
+   <OperationInputType typeName="E4EMGeneralRecMasterCreI" parentTypeName="E4AbsCPGFormulaMMasterCreI"
+       typeClassName="E4EMGeneralRecMasterCreI" description="CreateInput object for &quot;E4EMGeneralRecMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecMasterCreI"/>
+   <OperationInputType typeName="E4EMGeneralRecMasterSCreI" parentTypeName="E4AbsCPGFormulaMMasterSCreI"
+       typeClassName="E4EMGeneralRecMasterSCreI" description="CreateInput object for &quot;E4EMGeneralRecMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecMasterSCreI"/>
+   <OperationInputType typeName="E4EMGeneralRecMasterSSvAI" parentTypeName="E4AbsCPGFormulaMMasterSSvAI"
+       typeClassName="E4EMGeneralRecMasterSSvAI" description="SaveAsInput object for &quot;E4EMGeneralRecMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecMasterSSvAI"/>
+   <OperationInputType typeName="E4EMGeneralRecMasterSvAI" parentTypeName="E4AbsCPGFormulaMMasterSvAI"
+       typeClassName="E4EMGeneralRecMasterSvAI" description="SaveAsInput object for &quot;E4EMGeneralRecMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecMasterSvAI"/>
+   <OperationInputType typeName="E4EMGeneralRecRevMasterSCreI" parentTypeName="E4AbsCPGFormulaMRevMasterSCreI"
+       typeClassName="E4EMGeneralRecRevMasterSCreI" description="CreateInput object for &quot;E4EMGeneralRecRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevMasterSCreI"/>
+   <OperationInputType typeName="E4EMGeneralRecRevMasterSSvAI" parentTypeName="E4AbsCPGFormulaMRevMasterSSvAI"
+       typeClassName="E4EMGeneralRecRevMasterSSvAI" description="SaveAsInput object for &quot;E4EMGeneralRecRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevMasterSSvAI"/>
+   <OperationInputType typeName="E4EMGeneralRecRevisionCreI" parentTypeName="E4AbsCPGFormulaMRevisionCreI"
+       typeClassName="E4EMGeneralRecRevisionCreI" description="CreateInput object for &quot;E4EMGeneralRecRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevisionCreI">
+     <OperationInputProperty propName="e4E4HasRecipe" compoundObjectConstant="" srcPropName="E4HasRecipe"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4EMGeneralRecRevisionRevI" parentTypeName="E4AbsCPGFormulaMRevisionRevI"
+       typeClassName="E4EMGeneralRecRevisionRevI" description="ReviseInput object for &quot;E4EMGeneralRecRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevisionRevI"/>
+   <OperationInputType typeName="E4EMGeneralRecRevisionSvAI" parentTypeName="E4AbsCPGFormulaMRevisionSvAI"
+       typeClassName="E4EMGeneralRecRevisionSvAI" description="SaveAsInput object for &quot;E4EMGeneralRecRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevisionSvAI"/>
+   <OperationInputType typeName="E4EMGeneralRecRevision_alt0CreI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0CreI"
+       typeClassName="E4EMGeneralRecRevision_alt0CreI" description="CreateInput object for &quot;E4EMGeneralRecRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevision_alt0CreI"/>
+   <OperationInputType typeName="E4EMGeneralRecRevision_alt0SvAI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0SvAI"
+       typeClassName="E4EMGeneralRecRevision_alt0SvAI" description="SaveAsInput object for &quot;E4EMGeneralRecRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevision_alt0SvAI"/>
+   <OperationInputType typeName="E4EMGeneralRecSvAI" parentTypeName="E4AbsCPGFormulaMSvAI"
+       typeClassName="E4EMGeneralRecSvAI" description="SaveAsInput object for &quot;E4EMGeneralRec&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecSvAI"/>
+   <TcForm typeName="E4EMGeneralRecMaster" parentTypeName="E4AbsCPGFormulaMMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMGeneralRec&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecMaster" formStorageClassName="E4EMGeneralRecMasterS"/>
+   <TcForm typeName="E4EMGeneralRecRevisionMaster" parentTypeName="E4AbsCPGFormulaMRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMGeneralRecRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevisionMaster" formStorageClassName="E4EMGeneralRecRevMasterS"/>
+   <TcStandardType typeName="E4EMGeneralRec" parentTypeName="E4AbsCPGFormulaM" typeClassName="E4EMGeneralRec"
+       description="" isAbstract="false" artifactName="E4EMGeneralRec"/>
+   <TcStandardType typeName="E4EMGeneralRecMasterS" parentTypeName="E4AbsCPGFormulaMMasterS"
+       typeClassName="E4EMGeneralRecMasterS" description="Form Storage object for &quot;E4EMGeneralRecMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecMasterS"/>
+   <TcStandardType typeName="E4EMGeneralRecRevMasterS" parentTypeName="E4AbsCPGFormulaMRevMasterS"
+       typeClassName="E4EMGeneralRecRevMasterS" description="Form Storage object for &quot;E4EMGeneralRecRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevMasterS"/>
+   <TcStandardType typeName="E4EMGeneralRecRevision" parentTypeName="E4AbsCPGFormulaMRevision"
+       typeClassName="E4EMGeneralRecRevision" description="ItemRevision object for &quot;E4EMGeneralRec&quot;  business object"
+       isAbstract="false" artifactName="E4EMGeneralRecRevision">
+     <TcProperty propName="E4HasRecipe" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMGeneralRec" value="E4EMGeneralRecCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMGeneralRecMaster"
+       value="E4EMGeneralRecMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMGeneralRecMasterS"
+       value="E4EMGeneralRecMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMGeneralRecRevision"
+       value="E4EMGeneralRecRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMGeneralRecRevisionMaster"
+       value="E4EMGeneralRecRevision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMGeneralRecRevMasterS"
+       value="E4EMGeneralRecRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4EMGeneralRec" value="E4EMGeneralRecRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMGeneralRec" value="E4EMGeneralRecMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMGeneralRecRevision"
+       value="E4EMGeneralRecRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4EMGeneralRecRevision"
+       value="E4EMGeneralRecRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMGeneralRec" value="E4EMGeneralRecSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMGeneralRecMaster"
+       value="E4EMGeneralRecMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMGeneralRecMasterS"
+       value="E4EMGeneralRecMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMGeneralRecRevision"
+       value="E4EMGeneralRecRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMGeneralRecRevisionMaster"
+       value="E4EMGeneralRecRevision_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMGeneralRecRevMasterS"
+       value="E4EMGeneralRecRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMGeneralRecRevision"
+       propertyName="E4HasRecipe" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMGeneralRecRevision"
+       propertyName="E4HasRecipe" value="Write"/>
+</Add>
+</TcBusinessData>

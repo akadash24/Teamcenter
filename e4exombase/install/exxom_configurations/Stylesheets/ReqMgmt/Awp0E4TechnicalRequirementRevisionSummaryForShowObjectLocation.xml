@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Technical Requirement revision summary for Show Object Location. 
+
+	History
+    20-May-24       Yamini Patekar                Initial Creation
+===============================================================================-->
+<rendering>
+  <header>
+    <image source="type"/>
+    <property name="owning_user"/>
+    <property name="last_mod_date"/>
+    <property name="release_status_list" renderingHint="overflow"/>
+    <property name="object_type"/>
+  </header>
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+    <page titleKey="tc_xrt_Overview" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+     <column>
+     <section titleKey="tc_xrt_e4_id_info">
+        <property name="item_id" renderingHint="label"/>
+        <!--<property name="item_revision_id" renderingHint="label"/>-->
+        <property name="object_name"/>
+        <property name="e4RequirementDescription"/>
+        <property name="object_type"/>
+      </section>
+      <section titleKey="tc_xrt_e4_status_info">
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <property name="e4RequirementStatus"/>
+            <property name="checked_out" renderingHint="label"/>
+            <property name="checked_out_user"/>
+      </section>
+      <section titleKey="tc_xrt_e4_requirement_info">
+          <property name="e4Category"/>		
+          <property name="e4ClaimSynReq"/>
+          <property name="e4Comment"/>
+          <property name="e4TechCoreAdditional"/>
+          <property name="e4FacilityCertification"/>
+          <property name="e4FacilityTesting"/>
+          <property name="e4ForInternalUseOnly"/>
+          <property name="e4OEMIndustryEBName"/>
+          <property name="e4Region"/>
+          <property name="e4RequirementCost"/>
+          <property name="e4TechReqlevel"/>
+          <property name="e4Time"/>
+        </section>
+        <section titleKey="tc_xrt_e4_user_info">
+          <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+        </section>
+        <section titleKey="tc_xrt_e4_date_info">
+          <property name="e4TechExpirationDate"/>		
+        </section>
+        <section titleKey="tc_xrt_e4_other_info">
+          <inject type="dataset" src="Pdi0Properties"/>
+          <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+        </section>
+        <inject type="dataset" src="S2clScalarRatingOverview"/>
+        <inject type="dataset" src="Mds1SeverityForShowObjectLocation"/>
+        <content visibleWhen="Cls0ClassifiedBy!=null">
+          <inject type="dataset" src="Lbr1LibraryInformation"/>
+          <inject type="dataset" src="Fnd0ClassificationSummary"/>
+        </content>
+        <content visibleWhen="Cls0ClassifiedBy==null and ics_classified!=null">
+          <inject type="dataset" src="Lbr1LibraryInformation"/>
+          <inject type="dataset" src="Fnd0ClassificationSummary"/>
+        </content>
+        <inject type="dataset" src="ProjectListInfo"/>
+        </column>
+        <column>
+          <inject type="dataset" src="Awp0RequirementPreview"/>
+        </column>
+    </page>
+  </content>
+  <inject type="dataset" src="Awb0ContentTab"/>
+  <!--<content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+    <inject type="dataset" src="AttributesTableSummaryForShowObjectLocation" />
+  </content>
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+   <page titleKey="tc_xrt_Documentation" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+        <htmlPanel declarativeKey="Arm0RequirementDocumentation"/>
+   </page>
+  </content>-->
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">    
+    <page titleKey="web_whereused" visibleWhen="ps_parents!=null">
+      <content  visibleWhen="{pref:CM_ReverseTreeAvailable}!=true">
+        <column>
+          <section titleKey="tc_xrt_ParentAssemblies">
+            <objectSet source="ps_parents.ItemRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+              <command commandId="com.teamcenter.rac.pse.sendto" titleKey="tc_xrt_OpenSelectedInStructureManager" renderingHint="commandbutton">
+                <parameter value="true" name="localSelection"/>
+              </command>
+              <tableDisplay>
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+              </tableDisplay>
+              <listDisplay/>
+            </objectSet>
+          </section>
+        </column>
+      </content>
+      <!-- 
+        // ====================================================================================================
+        // The following column defines the display for when Active Workspace Structure solution is installed.
+        // If you have not installed this option, this column should be removed.
+        // ====================================================================================================
+        -->
+      <column>
+        <inject type="dataset" src="Awb0Contexts" />
+      </column>
+      <!--
+        // ====================================================================================================
+        // The following column defines the display for when SDPD - Analysis Request solution is installed.
+        // If you have not installed this option, this column should be removed.
+        // ====================================================================================================
+        -->
+      <inject type="dataset" src="WhereUsedAnalyses" />
+      <!-- 
+        // ====================================================================================================
+        // The following column defines the display for when Active Workspace Structure solution is installed.
+        // If you have not installed this option, this column should be removed.
+        // ====================================================================================================
+        -->
+      <column>
+        <section titleKey="tc_xrt_References">
+          <objectSet source="Awp0ReferencesProvider.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+            <thumbnailDisplay/>
+            <treeDisplay>
+              <property name="object_string"/>
+              <property name="object_type"/>
+              <property name="release_status_list"/>
+              <property name="date_released"/>
+              <property name="owning_user"/>
+            </treeDisplay>
+            <listDisplay/>
+          </objectSet>
+        </section>
+      </column>
+      <column width="50%">
+        <section titleKey="tc_xrt_UsedInStructures">
+          <inject type="dataset" src="UsedInStructures"/>
+        </section>
+      </column>
+    </page>
+  </content>
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+   <page titleKey="attachments">
+    <section titleKey="tc_xrt_Files">
+      <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+        <tableDisplay>
+          <property name="object_string"/>
+          <property name="object_type"/>
+          <property name="release_status_list"/>
+          <property name="date_released"/>
+          <property name="owning_user"/>
+        </tableDisplay>
+        <listDisplay/>
+        <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+        <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+        <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+          <parameter name="localSelection" value="true"/>
+        </command>
+      </objectSet>
+    </section>
+    <section titleKey="tc_xrt_Documents">
+      <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+        <tableDisplay>
+          <property name="object_string"/>
+          <property name="object_type"/>
+          <property name="release_status_list"/>
+          <property name="date_released"/>
+          <property name="owning_user"/>
+        </tableDisplay>
+        <listDisplay/>
+        <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+        <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+        <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+          <parameter name="localSelection" value="true"/>
+        </command>
+      </objectSet>
+    </section>
+    <inject type="dataset" src="lrm1RemoteLinksSummarySection"/>
+   </page>
+  </content>
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+   <page titleKey="tc_xrt_History">
+    <section title=" ">
+      <objectSet source="revision_list.ItemRevision" sortdirection="descending" sortby="last_mod_date" defaultdisplay="tableDisplay">
+        <tableDisplay>
+          <property name="object_string"/>
+          <property name="object_type"/>
+          <property name="release_status_list"/>
+          <property name="date_released"/>
+          <property name="owning_user"/>
+          <property name="last_mod_date"/>          
+        </tableDisplay>
+        <listDisplay/>
+      </objectSet>
+    </section>
+   </page>
+  </content>
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+    <inject type="dataset" src="WorkflowSummaryForShowObjectLocation" />
+  </content>
+  <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+    <inject type="dataset" src="Relations2Summary" />
+  </content>
+ <!-- <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+   <inject type="dataset" src="S2clItemRevSummary"/>
+  </content>
+    <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+        <inject type="dataset" src="Rb0InContextReportsSubLocation" />
+    </content>
+    <content visibleWhen="ActiveWorkspace:Location!=com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+        <inject type="dataset" src="AuditLogForItemRev"/>
+    </content>-->
+    <content>
+    <page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+    <command titleKey="tc_xrt_ExportToExcel"  actionKey="exportExcelAction" commandId = "com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>        
+    <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+	  <section titleKey="tc_xrt_GeneralLogs" initialstate="collapsed">
+      <customPanel java="com.teamcenter.rac.auditmanager.CheckoutHistoyLinkPanel"/>
+      <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+        <tableDisplay>
+          <property name="fnd0LoggedDate"/>
+          <property name="fnd0EventTypeName"/>
+		  <property name="object_name"/>
+          <property name="object_nameOvl"/>
+		  <property name="e4Category"/>
+          <property name="e4CategoryOvl"/>
+          <property name="e4Comment"/>
+          <property name="e4CommentOvl"/>
+          <property name="e4Region"/>
+          <property name="e4RegionOvl"/>
+          <property name="e4RequirementCost"/>
+          <property name="e4RequirementCostOvl"/>
+          <property name="e4RequirementDescription"/>
+          <property name="e4RequirementDescriptionOvl"/>
+		  <property name="e4RequirementStatus"/>
+          <property name="e4RequirementStatusOvl"/>
+          <property name="e4Time"/>
+          <property name="e4TimeOvl"/>
+          <property name="e4ClaimSynReq"/>
+          <property name="e4ClaimSynReqOvl"/>
+          <property name="e4FacilityCertification"/>
+          <property name="e4FacilityCertificationOvl"/>
+          <property name="e4FacilityTesting"/>
+          <property name="e4FacilityTestingOvl"/>
+          <property name="e4ForInternalUseOnly"/>
+          <property name="e4ForInternalUseOnlyOvl"/>
+          <property name="e4OEMIndustryEBName"/>
+          <property name="e4OEMIndustryEBNameOvl"/>
+          <property name="e4TechCoreAdditional"/>
+          <property name="e4TechCoreAdditionalOvl"/>
+          <property name="e4TechExpirationDate"/>
+          <property name="e4TechExpirationDateOvl"/>
+          <property name="e4TechReqlevel"/>
+          <property name="e4TechReqlevelOvl"/>
+        </tableDisplay>
+      </objectSet>
+    </section>
+  </page>
+    </content>
+</rendering>

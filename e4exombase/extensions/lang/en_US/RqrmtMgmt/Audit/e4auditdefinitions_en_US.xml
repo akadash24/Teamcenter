@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4AdditiveOvl" status="Approved">Additive Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4AdditiveTreatRateOvl"
+       status="Approved">AdditiveTreatRate Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4AdditiveTreatRate" status="Approved">Additive Treat Rate</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Additive" status="Approved">Additive</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ApprovalDateOvl" status="Approved">ApprovalDate Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ApprovalDate" status="Approved">Approval Date</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4AuthorityOvl" status="Approved">Authority Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Authority" status="Approved">Authority</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4BrandOvl" status="Approved">Brand Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Brand" status="Approved">Brand</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4CategoryOvl" status="Approved">Category Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Category" status="Approved">Category</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ClaimSynReqOvl" status="Approved">Claim Syntax Requirement Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ClaimSynReq" status="Approved">Claim Syntax Requirement</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4CommentOvl" status="Approved">Comment Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Comment" status="Approved">Comment</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4DisclaimerOvl" status="Approved">Legal Disclaimer Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Disclaimer" status="Approved">Legal Disclaimer</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4FacilityCertificationOvl"
+       status="Approved">Facility Certification Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4FacilityCertification"
+       status="Approved">Facility Certification</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4FacilityTestingOvl" status="Approved">Facility Testing Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4FacilityTesting" status="Approved">Facility Testing</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ForInternalUseOnlyOvl"
+       status="Approved">For Internal Use Only Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ForInternalUseOnly" status="Approved">For Internal Use Only</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4GlobalGuidanceOvl" status="Approved">Global Guidance Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4GlobalGuidance" status="Approved">Global Guidance</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4LastReviewedOvl" status="Approved">Last Reviewed Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4LastReviewed" status="Approved">Last Reviewed</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4MarkClassificationOvl"
+       status="Approved">Marketing Classification Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4MarketingClassification"
+       status="Approved">Marketing Classification</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4MarketingLOBOvl" status="Approved">Marketing LOB Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4MarketingLOB" status="Approved">Marketing LOB</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4OEMIndustryEBNameOvl"
+       status="Approved">OEM Industry EB Name Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4OEMIndustryEBName" status="Approved">OEM Industry EB Name</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegClassificationOvl"
+       status="Approved">Regulatory Classification Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegCoreAdditionalOvl"
+       status="Approved">Reg Core/Additional Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegCoreAdditional" status="Approved">Reg Core/Additional</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegExpirationDateOvl"
+       status="Approved">Regulatory Expiration Date Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegExpirationDate" status="Approved">Regulatory Expiration Date</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegReqLevelOvl" status="Approved">Regulatory Req Level Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegReqLevel" status="Approved">Regulatory Req Level</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegionOvl" status="Approved">Region Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Region" status="Approved">Region</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegulationOvl" status="Approved">Regulation Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Regulation" status="Approved">Regulation</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegulatoryClassification"
+       status="Approved">Regulatory Classification</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegulatoryLOBOvl" status="Approved">Regulatory LOB Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RegulatoryLOB" status="Approved">Regulatory LOB</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RequirementCostOvl" status="Approved">Requirement Cost Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RequirementCost" status="Approved">Requirement Cost</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RequirementDescriptionOvl"
+       status="Approved">Requirement Description Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RequirementDescription"
+       status="Approved">Requirement Description</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RequirementStatusOvl"
+       status="Approved">Requirement Status Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RequirementStatus" status="Approved">Requirement Status</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RiskRatingOvl" status="Approved">Risk Rating Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4RiskRating" status="Approved">Risk Rating</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TechCoreAdditionalOvl"
+       status="Approved">Tech Core/Additional Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TechCoreAdditional" status="Approved">Tech Core/Additional</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TechExpirationDateOvl"
+       status="Approved">Technical Expiration Date Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TechExpirationDate" status="Approved">Technical Expiration Date</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TechReqlevelOvl" status="Approved">Technical Requirement Level Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TechReqlevel" status="Approved">Technical Requirement Level</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4TimeOvl" status="Approved">Time Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4Time" status="Approved">Time</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ValidationPlanOvl" status="Approved">Validation Plan Old</key>
+   <key locale="en_US" id="Property{::}Fnd0GeneralAudit{::}e4ValidationPlan" status="Approved">Validation Plan</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,58 @@
+<subRendering>
+    <!-- Component specification Tab -->
+    <page titleKey="tc_xrt_component_specifications" title="Component Specifications">
+        <section titleKey="tc_xrt_Specifications" title="Specifications">
+            <objectSet source="E4EMMat1UsesMaterial.E4SupplierSpecRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string" width="400"/>
+                    <property name="E4EMMat1UsesMaterial.mat1mass"/>
+                    <property name="E4EMMat1UsesMaterial.mat1uom_tag"/>
+                    <property name="mat1MatClassifications"/>
+                    <property name="mat1ExtendsMaterial"/>
+                    <property name="object_desc"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                    <property name="E4EMMat1UsesMaterial.e4ManufacturingLocation"/>
+                    <property name="E4EMMat1UsesMaterial.e4DistributionLocation"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_string" width="400"/>
+                    <property name="E4EMMat1UsesMaterial.mat1mass"/>
+                    <property name="E4EMMat1UsesMaterial.mat1uom_tag"/>
+                    <property name="mat1MatClassifications"/>
+                    <property name="mat1ExtendsMaterial"/>
+                    <property name="object_desc"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                    <property name="E4EMMat1UsesMaterial.e4ManufacturingLocation"/>
+                    <property name="E4EMMat1UsesMaterial.e4DistributionLocation"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Constituents" title="Constituents" text="Constituents">
+            <htmlPanel declarativeKey="Mtw0CompositionTab"/>
+        </section>
+        <section titleKey="mtw0_xrt_materialparameters" title="Parameters">
+            <objectSet source="GRM(E4EMMat1UsesMaterial,E4SupplierSpecRevision).REF(mat1Parameters,Mat1ParameterDouble),GRM(E4EMMat1UsesMaterial,E4SupplierSpecRevision).REF(mat1Parameters,Mat1ParameterString),GRM(E4EMMat1UsesMaterial,E4SupplierSpecRevision).REF(mat1Parameters,Mat1ParameterSmartTable)" defaultdisplay="tableDisplay" sortby="mat1Category" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string" width="400"/>
+                    <property name="mat1Value"/>
+                    <property name="mat1ValueMax"/>
+                    <property name="mat1UnitAliasName"/>
+                    <property name="mat1Category"/>
+                    <property name="mat1ListOfRefParameters"/>
+                    <property name="object_desc"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</subRendering>

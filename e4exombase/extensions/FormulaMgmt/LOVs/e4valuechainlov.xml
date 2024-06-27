@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4ValueChainLOV" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="Lubes" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Fuels" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Chemicals" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4ValueChainLOV" typeName="E4HasGlobalAlternate">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4ValueChain" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

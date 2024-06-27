@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMMat1Substance" parentClassName="Mat1Substance" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4EMMat1SubstanceCreI" parentTypeName="Mat1SubstanceCreI"
+       typeClassName="E4EMMat1SubstanceCreI" description="CreateInput object for &quot;E4EMMat1Substance&quot; business object"
+       isAbstract="false" artifactName="E4EMMat1SubstanceCreI"/>
+   <OperationInputType typeName="E4EMMat1SubstanceSvAI" parentTypeName="Mat1SubstanceSvAI"
+       typeClassName="E4EMMat1SubstanceSvAI" description="SaveAsInput object for &quot;E4EMMat1Substance&quot; business object"
+       isAbstract="false" artifactName="E4EMMat1SubstanceSvAI"/>
+   <TcStandardType typeName="E4EMMat1Substance" parentTypeName="Mat1Substance" typeClassName="E4EMMat1Substance"
+       description="" isAbstract="false" artifactName="E4EMMat1Substance"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMMat1Substance" value="E4EMMat1SubstanceCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMMat1Substance" value="E4EMMat1SubstanceSvAI"/>
+</Add>
+</TcBusinessData>

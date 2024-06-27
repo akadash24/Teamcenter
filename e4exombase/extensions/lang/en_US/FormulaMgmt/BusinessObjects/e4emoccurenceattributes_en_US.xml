@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4EMOccurenceAttributes" status="Approved">EM Occurence Attributes</key>
+   <key locale="en_US" id="Property{::}E4EMOccurenceAttributes{::}e4LatestConfiguredRevision"
+       status="Approved">Latest Configured Revision</key>
+</Add>
+</TcBusinessDataLocalization>

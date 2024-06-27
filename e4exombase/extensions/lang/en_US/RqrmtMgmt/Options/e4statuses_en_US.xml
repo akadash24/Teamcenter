@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="ReleaseStatus{::}E4Active" status="Approved">Active</key>
+   <key locale="en_US" id="ReleaseStatus{::}E4Development" status="Approved">Development</key>
+   <key locale="en_US" id="ReleaseStatus{::}E4Draft" status="Approved">Draft</key>
+   <key locale="en_US" id="ReleaseStatus{::}E4InActive" status="Approved">InActive</key>
+   <key locale="en_US" id="ReleaseStatus{::}E4InReview" status="Approved">In Review</key>
+   <key locale="en_US" id="ReleaseStatus{::}E4Released" status="Approved">Released</key>
+</Add>
+</TcBusinessDataLocalization>

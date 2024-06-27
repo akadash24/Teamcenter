@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4FacilityTestingLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Unique Batch Testing Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unique First Batch Testing Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Annual Testing Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="First Batch Sample retention required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Annual Batch Sample retention required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Additional Periodic Testing Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Additional Multi-Annual Testing Required" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4FacilityTestingLov" typeName="E4TechnicalReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4FacilityTesting" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

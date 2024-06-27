@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4RegulatoryCategoryLov" lovType="ListOfValuesString" usage="Suggestive"
+       description="">
+     <TcLOVValue value="Food and Pharma" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other Regulations" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transportation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Presence/Absence" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Registration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dossier" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4RegulatoryCategoryLov" typeName="E4RegulatoryReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4Category" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

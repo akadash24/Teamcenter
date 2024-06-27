@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4EMMat1UsesSubstance" status="Approved">EM Substances</key>
+   <key locale="en_US" id="Property{::}E4EMMat1UsesSubstance{::}e4ContainsHazardousMat"
+       status="Approved">Contains Hazardous Material</key>
+</Add>
+</TcBusinessDataLocalization>

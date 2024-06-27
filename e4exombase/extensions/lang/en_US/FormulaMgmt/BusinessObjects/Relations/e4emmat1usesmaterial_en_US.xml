@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4EMMat1UsesMaterial" status="Approved">EM Materials</key>
+   <key locale="en_US" id="Property{::}E4EMMat1UsesMaterial{::}e4DistributionLocation"
+       status="Approved">Distribution Location</key>
+   <key locale="en_US" id="Property{::}E4EMMat1UsesMaterial{::}e4ManufacturingLocation"
+       status="Approved">Manufacturing Location</key>
+</Add>
+</TcBusinessDataLocalization>

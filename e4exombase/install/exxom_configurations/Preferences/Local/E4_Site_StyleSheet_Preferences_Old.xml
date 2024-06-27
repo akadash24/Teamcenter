@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="Active Workspace.REQ">
+    <category_description>Active Workspace preferences</category_description>
+	<preference name="AWC_E4Arm0MarketingReqElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Arm0MarketingRequirementElementSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4Arm0TechnicalReqElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Arm0TechnicalRequirementElementSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4Arm0RegulatoryReqElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Arm0RegulatoryRequirementElementSummary</value>
+      </context>
+    </preference>
+	<preference name="E4Arm0RegulatoryReqElement.INFORENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Arm0RegulatoryRequirementElementInfoSummary</value>
+      </context>
+    </preference>
+	<preference name="E4Arm0TechnicalReqElement.INFORENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Arm0TechnicalRequirementElementInfoSummary</value>
+      </context>
+    </preference>
+	<preference name="E4Arm0MarketingReqElement.INFORENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Arm0MarketingRequirementElementInfoSummary</value>
+      </context>
+    </preference>
+  </category>
+  <category name="Active Workspace">
+    <category_description>Active Workspace preferences</category_description>
+	<preference name="AWC_IAV0TestCase.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Regulatory objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_IAV0TestCaseCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4RegulatoryReq.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Regulatory objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_RegulatoryRequirementCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4RegulatoryReqRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the information stylesheet for E4RegulatoryReqRevision Objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0RegulatoryRequirementRevInfoSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4RegulatoryReqRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4RegulatoryReqRevision Objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0RegulatoryRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4RegulatoryReqRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4RegulatoryReqRevision for ShowObject Location and OccurrenceManagement SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0RegulatoryRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4RegulatoryReqRevision.showObjectLocation.ProjectContentsSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4RegulatoryReqRevision for ShowObject Location and ProjectContents SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0RegulatoryRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4RegulatoryReqRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4RegulatoryReqRevision for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0RegulatoryRequirementRevisionSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4RegulatoryReqRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4RegulatoryReqRevision for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0RegulatoryRequirementRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4TechnicalReq.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Regulatory objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_TechnicalRequirementCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4TechnicalReqRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the information stylesheet for E4TechnicalReqRevision Objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0TechnicalRequirementRevInfoSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4TechnicalReqRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4TechnicalReqRevision Objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0TechnicalRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4TechnicalReqRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4TechnicalReqRevision for ShowObject Location and OccurrenceManagement SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0TechnicalRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4TechnicalReqRevision.showObjectLocation.ProjectContentsSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4TechnicalReqRevision for ShowObject Location and ProjectContents SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0TechnicalRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4TechnicalReqRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4TechnicalReqRevision for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0TechnicalRequirementRevisionSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4TechnicalReqRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4TechnicalReqRevision for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0TechnicalRequirementRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4MarketingReq.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Regulatory objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_MarketingRequirementCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_E4MarketingReqRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the information stylesheet for E4MarketingReqRevisionn Objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0MarketingRequirementRevInfoSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4MarketingReqRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4MarketingReqRevisionn Objects.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0MarketingRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4MarketingReqRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4MarketingReqRevisionn for ShowObject Location and OccurrenceManagement SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0MarketingRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4MarketingReqRevision.showObjectLocation.ProjectContentsSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4MarketingReqRevisionn for ShowObject Location and ProjectContents SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0MarketingRequirementRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4MarketingReqRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4MarketingReqRevisionn for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0MarketingRequirementRevisionSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_E4MarketingReqRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for E4MarketingReqRevisionn for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>E4_Awp0MarketingRequirementRevisionSummary</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

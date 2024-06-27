@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}AAR" status="Approved">AAR</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}AS 9100" status="Approved">AS 9100</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Each facility must be individually approved"
+       status="Approved">Each facility must be individually approved</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Factory Fill Site Audit Required"
+       status="Approved">Factory Fill Site Audit Required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Food Grade" status="Approved">Food Grade</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Halal" status="Approved">Halal</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}IATF Certificate"
+       status="Approved">IATF Certificate</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Kosher" status="Approved">Kosher</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Made in the USA"
+       status="Approved">Made in the USA</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}NUPIC Certified"
+       status="Approved">NUPIC Certified</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Service Fill Site Audit Required"
+       status="Approved">Service Fill Site Audit Required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityCertificationLov{::}Zero-waste facility"
+       status="Approved">Zero-waste facility</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ADATH YEREIM_IGOUD HAREDI" status="Approved">ADATH YEREIM_IGOUD HAREDI</key>
+</Add>
+</TcBusinessDataLocalization>

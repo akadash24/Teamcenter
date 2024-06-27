@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4FuelsTypeLov{::}Esso Supreme 25% Renewable Diesel"
+       status="Approved">Esso Supreme 25% Renewable Diesel</key>
+   <key locale="en_US" id="LOVValue{::}E4FuelsTypeLov{::}Esso Supreme+ Diesel" status="Approved">Esso Supreme+ Diesel</key>
+   <key locale="en_US" id="LOVValue{::}E4FuelsTypeLov{::}Esso Supreme+ Unleaded" status="Approved">Esso Supreme+ Unleaded</key>
+   <key locale="en_US" id="LOVValue{::}E4FuelsTypeLov{::}Esso Synergy Unleaded" status="Approved">Esso Synergy Unleaded</key>
+</Add>
+</TcBusinessDataLocalization>

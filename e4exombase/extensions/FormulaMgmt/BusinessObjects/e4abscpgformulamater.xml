@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4AbsCPGFormulaM" parentClassName="CPGFormulaMater" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4AbsCPGFormulaMMasterS" parentClassName="CPGFormulaMaterMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4AbsCPGFormulaMRevMasterS" parentClassName="CPGFormulaMaterRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4AbsCPGFormulaMRevision" parentClassName="CPGFormulaMaterRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4AbsCPGFormulaMCreI" parentTypeName="CPGFormulaMaterCreI"
+       typeClassName="E4AbsCPGFormulaMCreI" description="CreateInput object for &quot;E4AbsCPGFormulaM&quot; business object"
+       isAbstract="true" artifactName="E4AbsCPGFormulaMCreI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMMasterCreI" parentTypeName="CPGFormulaMaterMasterCreI"
+       typeClassName="E4AbsCPGFormulaMMasterCreI" description="CreateInput object for &quot;E4AbsCPGFormulaMMaster&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMMasterCreI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMMasterSCreI" parentTypeName="CPGFormulaMaterMasterSCreI"
+       typeClassName="E4AbsCPGFormulaMMasterSCreI" description="CreateInput object for &quot;E4AbsCPGFormulaMMasterS&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMMasterSCreI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMMasterSSvAI" parentTypeName="CPGFormulaMaterMasterSSvAI"
+       typeClassName="E4AbsCPGFormulaMMasterSSvAI" description="SaveAsInput object for &quot;E4AbsCPGFormulaMMasterS&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMMasterSSvAI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMMasterSvAI" parentTypeName="CPGFormulaMaterMasterSvAI"
+       typeClassName="E4AbsCPGFormulaMMasterSvAI" description="SaveAsInput object for &quot;E4AbsCPGFormulaMMaster&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMMasterSvAI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevMasterSCreI" parentTypeName="CPGFormulaMaterRevMasterSCreI"
+       typeClassName="E4AbsCPGFormulaMRevMasterSCreI" description="CreateInput object for &quot;E4AbsCPGFormulaMRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMRevMasterSCreI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevMasterSSvAI" parentTypeName="CPGFormulaMaterRevMasterSSvAI"
+       typeClassName="E4AbsCPGFormulaMRevMasterSSvAI" description="SaveAsInput object for &quot;E4AbsCPGFormulaMRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMRevMasterSSvAI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevisi_alt0CreI" parentTypeName="CPGFormulaMaterRevisio_alt0CreI"
+       typeClassName="E4AbsCPGFormulaMRevisi_alt0CreI" description="CreateInput object for &quot;E4AbsCPGFormulaMRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMRevisi_alt0CreI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevisi_alt0SvAI" parentTypeName="CPGFormulaMaterRevisio_alt0SvAI"
+       typeClassName="E4AbsCPGFormulaMRevisi_alt0SvAI" description="SaveAsInput object for &quot;E4AbsCPGFormulaMRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMRevisi_alt0SvAI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevisionCreI" parentTypeName="CPGFormulaMaterRevisionCreI"
+       typeClassName="E4AbsCPGFormulaMRevisionCreI" description="CreateInput object for &quot;E4AbsCPGFormulaMRevision&quot; business object"
+       isAbstract="true" artifactName="E4AbsCPGFormulaMRevisionCreI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevisionRevI" parentTypeName="CPGFormulaMaterRevisionRevI"
+       typeClassName="E4AbsCPGFormulaMRevisionRevI" description="ReviseInput object for &quot;E4AbsCPGFormulaMRevision&quot; business object"
+       isAbstract="true" artifactName="E4AbsCPGFormulaMRevisionRevI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMRevisionSvAI" parentTypeName="CPGFormulaMaterRevisionSvAI"
+       typeClassName="E4AbsCPGFormulaMRevisionSvAI" description="SaveAsInput object for &quot;E4AbsCPGFormulaMRevision&quot; business object"
+       isAbstract="true" artifactName="E4AbsCPGFormulaMRevisionSvAI"/>
+   <OperationInputType typeName="E4AbsCPGFormulaMSvAI" parentTypeName="CPGFormulaMaterSvAI"
+       typeClassName="E4AbsCPGFormulaMSvAI" description="SaveAsInput object for &quot;E4AbsCPGFormulaM&quot; business object"
+       isAbstract="true" artifactName="E4AbsCPGFormulaMSvAI"/>
+   <TcForm typeName="E4AbsCPGFormulaMMaster" parentTypeName="CPGFormulaMaterMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4AbsCPGFormulaM&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMMaster" formStorageClassName="E4AbsCPGFormulaMMasterS"/>
+   <TcForm typeName="E4AbsCPGFormulaMRevisionMaster" parentTypeName="CPGFormulaMaterRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4AbsCPGFormulaMRevision&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMRevisionMaster" formStorageClassName="E4AbsCPGFormulaMRevMasterS"/>
+   <TcStandardType typeName="E4AbsCPGFormulaM" parentTypeName="CPGFormulaMater" typeClassName="E4AbsCPGFormulaM"
+       description="" isAbstract="true" artifactName="E4AbsCPGFormulaM"/>
+   <TcStandardType typeName="E4AbsCPGFormulaMMasterS" parentTypeName="CPGFormulaMaterMasterS"
+       typeClassName="E4AbsCPGFormulaMMasterS" description="Form Storage object for &quot;E4AbsCPGFormulaMMaster&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMMasterS"/>
+   <TcStandardType typeName="E4AbsCPGFormulaMRevMasterS" parentTypeName="CPGFormulaMaterRevMasterS"
+       typeClassName="E4AbsCPGFormulaMRevMasterS" description="Form Storage object for &quot;E4AbsCPGFormulaMRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4AbsCPGFormulaMRevMasterS"/>
+   <TcStandardType typeName="E4AbsCPGFormulaMRevision" parentTypeName="CPGFormulaMaterRevision"
+       typeClassName="E4AbsCPGFormulaMRevision" description="ItemRevision object for &quot;E4AbsCPGFormulaM&quot;  business object"
+       isAbstract="true" artifactName="E4AbsCPGFormulaMRevision"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4AbsCPGFormulaM" value="E4AbsCPGFormulaMCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4AbsCPGFormulaMMaster"
+       value="E4AbsCPGFormulaMMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4AbsCPGFormulaMMasterS"
+       value="E4AbsCPGFormulaMMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4AbsCPGFormulaMRevision"
+       value="E4AbsCPGFormulaMRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4AbsCPGFormulaMRevisionMaster"
+       value="E4AbsCPGFormulaMRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4AbsCPGFormulaMRevMasterS"
+       value="E4AbsCPGFormulaMRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4AbsCPGFormulaM" value="E4AbsCPGFormulaMRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4AbsCPGFormulaM" value="E4AbsCPGFormulaMMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4AbsCPGFormulaMRevision"
+       value="E4AbsCPGFormulaMRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4AbsCPGFormulaMRevision"
+       value="E4AbsCPGFormulaMRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4AbsCPGFormulaM" value="E4AbsCPGFormulaMSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4AbsCPGFormulaMMaster"
+       value="E4AbsCPGFormulaMMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4AbsCPGFormulaMMasterS"
+       value="E4AbsCPGFormulaMMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4AbsCPGFormulaMRevision"
+       value="E4AbsCPGFormulaMRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4AbsCPGFormulaMRevisionMaster"
+       value="E4AbsCPGFormulaMRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4AbsCPGFormulaMRevMasterS"
+       value="E4AbsCPGFormulaMRevMasterSSvAI"/>
+</Add>
+</TcBusinessData>

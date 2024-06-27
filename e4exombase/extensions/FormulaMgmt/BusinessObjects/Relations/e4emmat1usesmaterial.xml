@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMMat1UsesMaterial" parentClassName="Mat1UsesMaterial" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4ManufacturingLocation" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4DistributionLocation" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4EMMat1UsesMaterialCreI" parentTypeName="Mat1UsesMaterialCreI"
+       typeClassName="E4EMMat1UsesMaterialCreI" description="CreateInput object for &quot;E4EMMat1UsesMaterial&quot; business object"
+       isAbstract="false" artifactName="E4EMMat1UsesMaterialCreI">
+     <OperationInputProperty propName="e4ManufacturingLocation" compoundObjectConstant=""
+         srcPropName="e4ManufacturingLocation" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4DistributionLocation" compoundObjectConstant=""
+         srcPropName="e4DistributionLocation" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4EMMat1UsesMaterialSvAI" parentTypeName="Mat1UsesMaterialSvAI"
+       typeClassName="E4EMMat1UsesMaterialSvAI" description="SaveAsInput object for &quot;E4EMMat1UsesMaterial&quot; business object"
+       isAbstract="false" artifactName="E4EMMat1UsesMaterialSvAI"/>
+   <TcStandardType typeName="E4EMMat1UsesMaterial" parentTypeName="Mat1UsesMaterial"
+       typeClassName="E4EMMat1UsesMaterial" description="" isAbstract="false" artifactName="E4EMMat1UsesMaterial"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMMat1UsesMaterial"
+       value="E4EMMat1UsesMaterialCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMMat1UsesMaterial"
+       value="E4EMMat1UsesMaterialSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMMat1UsesMaterial"
+       propertyName="e4DistributionLocation" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMMat1UsesMaterial"
+       propertyName="e4ManufacturingLocation" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMMat1UsesMaterial"
+       propertyName="e4DistributionLocation" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMMat1UsesMaterial"
+       propertyName="e4ManufacturingLocation" value="Write"/>
+</Add>
+</TcBusinessData>

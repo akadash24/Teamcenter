@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}All-in-One Protection Pillar"
+       status="Approved">All-in-One Protection Pillar</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Base Protection Pillar"
+       status="Approved">Base Protection Pillar</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Esso Supreme + Diesel"
+       status="Approved">Esso Supreme + Diesel</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Esso Supreme + Unleaded"
+       status="Approved">Esso Supreme + Unleaded</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Esso Supreme 25% Renewable Diesel"
+       status="Approved">Esso Supreme 25% Renewable Diesel</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Esso Synergy Unleaded"
+       status="Approved">Esso Synergy Unleaded</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Family Claim" status="Approved">Family Claim</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Tailored Protection Pillar"
+       status="Approved">Tailored Protection Pillar</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Tiered Claim" status="Approved">Tiered Claim</key>
+   <key locale="en_US" id="LOVValue{::}E4GlobalGuidance{::}Unbranded" status="Approved">Unbranded</key>
+</Add>
+</TcBusinessDataLocalization>

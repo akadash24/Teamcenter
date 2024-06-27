@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_e4exombase.xml
+    Description: This XML is used by TEM to install or upgrade the "e4exombase" solution.
+--><feature>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <name value="Exom"/>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <property name="feature_name" value="e4exombase"/>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <group value="package"/>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <guid value="C2ADA8523E625AC79E8553D281BDAE38"/>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <bundle value="${feature_name}Bundle.xml"/>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <description value="${feature_name}.description"/>
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    <include file="dataModelDependency.xml"/>
+        
+    <relation>
+        <depends name="apb0attrparmbase" value="380158E63FFFB001623EEA109AA851A6"/>
+        <depends name="crf0cprfoundation" value="EC40DBBF740CAFDB22A8C7C2C752C987"/>
+        <depends name="att0attrtargetmgmt" value="4A92C722DB582B5EF0EF2970F7B57ACA"/>
+        <depends name="pmg0cpmgmt" value="500274EFA230323AAE39035EFD9536DA"/>
+        <depends name="crt0validationcontract" value="0CB91A0BB62B4EB1FF83228BE4EBC694"/>
+        <depends name="aws2" value="EF6284519D32B8DADCF0F05213AF807B"/>
+        <depends name="activeworkspacebom" value="0F47FD6920230AC9CFDB79C9AC941ADA"/>
+        <depends name="arm0activeworkspacereqmgmt" value="FCD37E245AE8ED69797FCCBF4B316813"/>
+        <depends name="arm1awreqmgmtse" value="6A9C3697BF72CF55B17CC0E5B7247B83"/>
+        <depends name="cm" value="E9B8A3F6B7B53AE540DCC54C13B3C201"/>
+        <depends name="icp0campaignmgmt" value="8B79153153700326E98F301446C3E3F0"/>
+        <depends name="iim0ideamgmt" value="0FABFE299308EF8AC079074CD1B836E4"/>
+        <depends name="materialmgmt" value="D8B1E07653BB28A09F52C2FAAF18553A"/>
+        <depends name="prg0programinfra" value="2308336C578ECD01C68A517DFEF7C155"/>
+        <depends name="vendormanagement" value="7EB052BF7B4039A2BB8C9F98009DD22D"/>
+        <depends name="brndmgmt" value="45F89357E65E1965179217FD3A2BB13F"/>
+        <depends name="cpgmaterials" value="B3EFB3DBA8571DE1C3507955606FE5B4"/>
+        <depends name="inm0initiativemgmt" value="85C969FBBA4DCC322F180B82C19CC35C"/>
+        <depends name="pkgart" value="708DA830BE2F600C05515AF4CF1D69B6"/>
+        <depends name="ipm0integprogmgmt" value="34E4FFE61732B8E54425A72C2DD66270"/>
+        <depends name="mtw0materialmgmtaw" value="13F3740151101E6325AFA9CFC232A196"/>
+        <depends name="pka1pkgartaw" value="15455C8BC2849190C9E90CBC93F585C2"/>
+        <depends name="vm1vendormanagementaw" value="B1B77719DD894DCCEAB9527357553282"/>
+        <depends name="ipc0cpgipmcatalyst" value="464D83065FBEA4FD89247D3C375B68ED"/>
+    </relation>
+    <feature>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--  Feature: Data Model -->
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <name value="Data Model"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <property name="feature_id" value="datamodel"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <property name="bmide_optional" value="false"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <property name="template_name" value="${feature_name}"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <property name="template_file" value="${template_name}_template.xml"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <root value="true"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <bundle value="${template_name}Bundle.xml"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <description value="${template_name}.description"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <guid value="A51AE4BFFA5BBCE51994AB984F372165"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <include file="coreDataModel2.xml"/>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+        
+    <dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>

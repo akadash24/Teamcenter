@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4TechnicalCategoryLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="EB/OEM Standard (self reported)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Industry Standard (self reported)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="For Private Label Product Use Only" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EB/OEM Approval (acknowledgement required)" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="EB/OEM Endorsement (acknowledgement required)" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Technical License (agreement required)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Marketing Technical Claim (self reported)" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Trademarked (payment required)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Additional Claims" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Specification of Department of Highways, Thailand" description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4TechnicalCategoryLov" typeName="E4TechnicalReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4Category" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

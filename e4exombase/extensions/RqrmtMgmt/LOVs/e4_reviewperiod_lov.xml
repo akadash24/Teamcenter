@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4ReviewPeriodLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Every 3 Years" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Every 5 Years" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Annually" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

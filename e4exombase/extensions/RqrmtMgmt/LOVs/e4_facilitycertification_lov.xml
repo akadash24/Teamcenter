@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4FacilityCertificationLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="IATF Certificate" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kosher" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Halal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Food Grade" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NUPIC Certified" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Each facility must be individually approved" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="Zero-waste facility" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Made in the USA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Factory Fill Site Audit Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Service Fill Site Audit Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AS 9100" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4FacilityCertificationLov" typeName="E4TechnicalReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4FacilityCertification" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

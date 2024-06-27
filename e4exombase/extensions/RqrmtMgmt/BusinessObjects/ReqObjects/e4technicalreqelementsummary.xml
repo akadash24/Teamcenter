@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <OperationInputType typeName="E4Arm0TechnicalReqElementCreI" parentTypeName="Arm0RequirementElementCreI"
+       typeClassName="E4Arm0TechnicalReqElementCreI" description="CreateInput object for &quot;E4Arm0TechnicalReqElement&quot; business object"
+       isAbstract="false" artifactName="E4Arm0TechnicalReqElementCreI"/>
+   <OperationInputType typeName="E4Arm0TechnicalReqElementSvAI" parentTypeName="Arm0RequirementElementSvAI"
+       typeClassName="E4Arm0TechnicalReqElementSvAI" description="SaveAsInput object for &quot;E4Arm0TechnicalReqElement&quot; business object"
+       isAbstract="false" artifactName="E4Arm0TechnicalReqElementSvAI"/>
+   <TcRuntimeType typeName="E4Arm0TechnicalReqElement" parentTypeName="Arm0RequirementElement"
+       typeClassName="E4Arm0TechnicalReqElement" description="" isAbstract="false"
+       artifactName="E4Arm0TechnicalReqElement">
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4ClaimSynReq" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="1280" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4ClaimSynReq defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4FacilityCertification" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4FacilityCertification defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4FacilityTesting" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4FacilityTesting defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4ForInternalUseOnly" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4ForInternalUseOnly defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4OEMIndustryEBName" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4OEMIndustryEBName defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4TechCoreAdditional" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4TechCoreAdditional defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4TechExpirationDate" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="0" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4TechExpirationDate defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4TechnicalReqRevision_e4TechReqlevel" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4TechnicalReqRevision_e4TechReqlevel defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+   </TcRuntimeType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4Arm0TechnicalReqElement"
+       value="E4Arm0TechnicalReqElementCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4Arm0TechnicalReqElement"
+       value="E4Arm0TechnicalReqElementSvAI"/>
+   <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       value="E4TechnicalReqRevision"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4ClaimSynReq" value="bl_E4TechnicalReqRevision_e4ClaimSynReq"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4FacilityCertification" value="bl_E4TechnicalReqRevision_e4FacilityCertification"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4FacilityTesting" value="bl_E4TechnicalReqRevision_e4FacilityTesting"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4ForInternalUseOnly" value="bl_E4TechnicalReqRevision_e4ForInternalUseOnly"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4OEMIndustryEBName" value="bl_E4TechnicalReqRevision_e4OEMIndustryEBName"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4TechCoreAdditional" value="bl_E4TechnicalReqRevision_e4TechCoreAdditional"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4TechExpirationDate" value="bl_E4TechnicalReqRevision_e4TechExpirationDate"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0TechnicalReqElement"
+       propertyName="bl_E4TechnicalReqRevision_e4TechReqlevel" value="bl_E4TechnicalReqRevision_e4TechReqlevel"/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4RegulatoryCategoryLov{::}Dossier" status="Approved">Dossier</key>
+   <key locale="en_US" id="LOVValue{::}E4RegulatoryCategoryLov{::}Food and Pharma"
+       status="Approved">Food and Pharma</key>
+   <key locale="en_US" id="LOVValue{::}E4RegulatoryCategoryLov{::}Other Regulations"
+       status="Approved">Other Regulations</key>
+   <key locale="en_US" id="LOVValue{::}E4RegulatoryCategoryLov{::}Presence/Absence"
+       status="Approved">Presence/Absence</key>
+   <key locale="en_US" id="LOVValue{::}E4RegulatoryCategoryLov{::}Registration" status="Approved">Registration</key>
+   <key locale="en_US" id="LOVValue{::}E4RegulatoryCategoryLov{::}Transportation"
+       status="Approved">Transportation</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4MarketingReq" parentClassName="E4AbsRequirement" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4MarketingReqMasterS" parentClassName="E4AbsRequirementMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4MarketingReqRevMasterS" parentClassName="E4AbsRequirementRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4MarketingReqRevision" parentClassName="E4AbsRequirementRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4ApprovalDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4Disclaimer" description="" attributeType="POM_string"
+         maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="e4GlobalGuidance" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4LastReviewed" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4Additive" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4AdditiveTreatRate" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4Brand" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4ValidationPlan" description="" attributeType="POM_string"
+         maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4MarketingClassification" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4MarketingLOB" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <OperationInputType typeName="E4MarketingReqCreI" parentTypeName="E4AbsRequirementCreI"
+       typeClassName="E4MarketingReqCreI" description="CreateInput object for &quot;E4MarketingReq&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqCreI"/>
+   <OperationInputType typeName="E4MarketingReqMasterCreI" parentTypeName="E4AbsRequirementMasterCreI"
+       typeClassName="E4MarketingReqMasterCreI" description="CreateInput object for &quot;E4MarketingReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqMasterCreI"/>
+   <OperationInputType typeName="E4MarketingReqMasterSCreI" parentTypeName="E4AbsRequirementMasterSCreI"
+       typeClassName="E4MarketingReqMasterSCreI" description="CreateInput object for &quot;E4MarketingReqMasterS&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqMasterSCreI"/>
+   <OperationInputType typeName="E4MarketingReqMasterSSvAI" parentTypeName="E4AbsRequirementMasterSSvAI"
+       typeClassName="E4MarketingReqMasterSSvAI" description="SaveAsInput object for &quot;E4MarketingReqMasterS&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqMasterSSvAI"/>
+   <OperationInputType typeName="E4MarketingReqMasterSvAI" parentTypeName="E4AbsRequirementMasterSvAI"
+       typeClassName="E4MarketingReqMasterSvAI" description="SaveAsInput object for &quot;E4MarketingReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqMasterSvAI"/>
+   <OperationInputType typeName="E4MarketingReqRevMasterSCreI" parentTypeName="E4AbsRequirementRevMasterSCreI"
+       typeClassName="E4MarketingReqRevMasterSCreI" description="CreateInput object for &quot;E4MarketingReqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevMasterSCreI"/>
+   <OperationInputType typeName="E4MarketingReqRevMasterSSvAI" parentTypeName="E4AbsRequirementRevMasterSSvAI"
+       typeClassName="E4MarketingReqRevMasterSSvAI" description="SaveAsInput object for &quot;E4MarketingReqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevMasterSSvAI"/>
+   <OperationInputType typeName="E4MarketingReqRevisionCreI" parentTypeName="E4AbsRequirementRevisionCreI"
+       typeClassName="E4MarketingReqRevisionCreI" description="CreateInput object for &quot;E4MarketingReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevisionCreI">
+     <OperationInputProperty propName="e4ApprovalDate" compoundObjectConstant="" srcPropName="e4ApprovalDate"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4Disclaimer" compoundObjectConstant="" srcPropName="e4Disclaimer"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4GlobalGuidance" compoundObjectConstant=""
+         srcPropName="e4GlobalGuidance" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4LastReviewed" compoundObjectConstant="" srcPropName="e4LastReviewed"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4Additive" compoundObjectConstant="" srcPropName="e4Additive"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4AdditiveTreatRate" compoundObjectConstant=""
+         srcPropName="e4AdditiveTreatRate" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4Brand" compoundObjectConstant="" srcPropName="e4Brand"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4ValidationPlan" compoundObjectConstant=""
+         srcPropName="e4ValidationPlan" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4MarketingClassification" compoundObjectConstant=""
+         srcPropName="e4MarketingClassification" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4MarketingLOB" compoundObjectConstant="" srcPropName="e4MarketingLOB"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4MarketingReqRevisionRevI" parentTypeName="E4AbsRequirementRevisionRevI"
+       typeClassName="E4MarketingReqRevisionRevI" description="ReviseInput object for &quot;E4MarketingReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevisionRevI"/>
+   <OperationInputType typeName="E4MarketingReqRevisionSvAI" parentTypeName="E4AbsRequirementRevisionSvAI"
+       typeClassName="E4MarketingReqRevisionSvAI" description="SaveAsInput object for &quot;E4MarketingReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevisionSvAI"/>
+   <OperationInputType typeName="E4MarketingReqRevision_alt0CreI" parentTypeName="E4AbsRequirementRevisi_alt0CreI"
+       typeClassName="E4MarketingReqRevision_alt0CreI" description="CreateInput object for &quot;E4MarketingReqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevision_alt0CreI"/>
+   <OperationInputType typeName="E4MarketingReqRevision_alt0SvAI" parentTypeName="E4AbsRequirementRevisi_alt0SvAI"
+       typeClassName="E4MarketingReqRevision_alt0SvAI" description="SaveAsInput object for &quot;E4MarketingReqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevision_alt0SvAI"/>
+   <OperationInputType typeName="E4MarketingReqSvAI" parentTypeName="E4AbsRequirementSvAI"
+       typeClassName="E4MarketingReqSvAI" description="SaveAsInput object for &quot;E4MarketingReq&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqSvAI"/>
+   <TcForm typeName="E4MarketingReqMaster" parentTypeName="E4AbsRequirementMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4MarketingReq&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqMaster" functionality="E4exombase"
+       formStorageClassName="E4MarketingReqMasterS"/>
+   <TcForm typeName="E4MarketingReqRevisionMaster" parentTypeName="E4AbsRequirementRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4MarketingReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevisionMaster" functionality="E4exombase"
+       formStorageClassName="E4MarketingReqRevMasterS"/>
+   <TcStandardType typeName="E4MarketingReq" parentTypeName="E4AbsRequirement" typeClassName="E4MarketingReq"
+       description="" isAbstract="false" artifactName="E4MarketingReq" functionality="E4exombase"/>
+   <TcStandardType typeName="E4MarketingReqMasterS" parentTypeName="E4AbsRequirementMasterS"
+       typeClassName="E4MarketingReqMasterS" description="Form Storage object for &quot;E4MarketingReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqMasterS" functionality="E4exombase"/>
+   <TcStandardType typeName="E4MarketingReqRevMasterS" parentTypeName="E4AbsRequirementRevMasterS"
+       typeClassName="E4MarketingReqRevMasterS" description="Form Storage object for &quot;E4MarketingReqRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4MarketingReqRevMasterS" functionality="E4exombase"/>
+   <TcStandardType typeName="E4MarketingReqRevision" parentTypeName="E4AbsRequirementRevision"
+       typeClassName="E4MarketingReqRevision" description="ItemRevision object for &quot;E4MarketingReq&quot;  business object"
+       isAbstract="false" artifactName="E4MarketingReqRevision" functionality="E4exombase"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4MarketingReq" value="E4MarketingReqCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4MarketingReqMaster"
+       value="E4MarketingReqMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4MarketingReqMasterS"
+       value="E4MarketingReqMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4MarketingReqRevision"
+       value="E4MarketingReqRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4MarketingReqRevisionMaster"
+       value="E4MarketingReqRevision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4MarketingReqRevMasterS"
+       value="E4MarketingReqRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0AllowReviseOperation" typeName="E4MarketingReqRevision"
+       value="false"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4MarketingReq" value="E4MarketingReqRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4MarketingReq" value="E4MarketingReqMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4MarketingReqRevision"
+       value="E4MarketingReqRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4MarketingReqRevision"
+       value="E4MarketingReqRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4MarketingReq" value="E4MarketingReqSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4MarketingReqMaster"
+       value="E4MarketingReqMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4MarketingReqMasterS"
+       value="E4MarketingReqMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4MarketingReqRevision"
+       value="E4MarketingReqRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4MarketingReqRevisionMaster"
+       value="E4MarketingReqRevision_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4MarketingReqRevMasterS"
+       value="E4MarketingReqRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4Additive" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4AdditiveTreatRate" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4ApprovalDate" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4Brand" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4Disclaimer" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4GlobalGuidance" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4LastReviewed" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4MarketingClassification" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4MarketingLOB" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4MarketingReqRevision"
+       propertyName="e4ValidationPlan" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4Additive" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4AdditiveTreatRate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4ApprovalDate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4Brand" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4Disclaimer" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4GlobalGuidance" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4LastReviewed" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4MarketingClassification" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4MarketingLOB" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4MarketingReqRevision"
+       propertyName="e4ValidationPlan" value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4MarketingReqRevision"
+       propertyName="e4MarketingLOB" value="true"/>
+</Add>
+</TcBusinessData>

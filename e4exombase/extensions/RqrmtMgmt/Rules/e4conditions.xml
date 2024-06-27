@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <Condition name="E4_isMarReqRevReleasedGRM" expression="(Function::INLIST(&quot;E4Released&quot;,sec.release_status_list,&quot;object_name&quot;))=false"
+       secured="false" description="">
+     <ConditionParameter name="grm" parameterTypeName="ImanGRM"/>
+     <ConditionParameter name="pri" parameterTypeName="Pmg0ProductRevision"/>
+     <ConditionParameter name="sec" parameterTypeName="E4MarketingReqRevision"/>
+   </Condition>
+   <Condition name="E4_isRegReqRevReleasedGRM" expression="(Function::INLIST(&quot;E4Released&quot;,sec.release_status_list,&quot;object_name&quot;))=false"
+       secured="false" description="">
+     <ConditionParameter name="grm" parameterTypeName="ImanGRM"/>
+     <ConditionParameter name="pri" parameterTypeName="Pmg0ProductRevision"/>
+     <ConditionParameter name="sec" parameterTypeName="E4RegulatoryReqRevision"/>
+   </Condition>
+   <Condition name="E4_isTechReqRevReleasedGRM" expression="(Function::INLIST(&quot;E4Released&quot;,sec.release_status_list,&quot;object_name&quot;))=false"
+       secured="false" description="">
+     <ConditionParameter name="grm" parameterTypeName="ImanGRM"/>
+     <ConditionParameter name="pri" parameterTypeName="Pmg0ProductRevision"/>
+     <ConditionParameter name="sec" parameterTypeName="E4TechnicalReqRevision"/>
+   </Condition>
+</Add>
+</TcBusinessData>

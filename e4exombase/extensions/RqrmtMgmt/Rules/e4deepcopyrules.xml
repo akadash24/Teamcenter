@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcDeepCopyRule typeName="E4MarketingReqRevision" relRefPropName="E4ProductInstance"
+       propertyType="Relation" objectTypeName="Pmg0ProductRevision" conditionName="isTrue"
+       operationName="ITEM_create_from_rev" copyType="NoCopy" isTargetPrimary="false"
+       secured="true" copyRelationAttributes="true" isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="E4RegulatoryReqRevision" relRefPropName="E4ProductInstance"
+       propertyType="Relation" objectTypeName="Pmg0ProductRevision" conditionName="isTrue"
+       operationName="ITEM_create_from_rev" copyType="NoCopy" isTargetPrimary="false"
+       secured="true" copyRelationAttributes="true" isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="E4TechnicalReqRevision" relRefPropName="E4ProductInstance"
+       propertyType="Relation" objectTypeName="Pmg0ProductRevision" conditionName="isTrue"
+       operationName="ITEM_create_from_rev" copyType="NoCopy" isTargetPrimary="false"
+       secured="true" copyRelationAttributes="true" isRequired="false" description=""/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4RegReqLevelLov{::}Product or Prod Family"
+       status="Approved">Product or Prod Family</key>
+   <key locale="en_US" id="LOVValue{::}E4RegReqLevelLov{::}Product" status="Approved">Product</key>
+   <key locale="en_US" id="LOVValue{::}E4RegReqLevelLov{::}Raw Material" status="Approved">Raw Material</key>
+   <key locale="en_US" id="LOVValue{::}E4RegReqLevelLov{::}Substance" status="Approved">Substance</key>
+</Add>
+</TcBusinessDataLocalization>

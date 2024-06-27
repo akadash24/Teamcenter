@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4AuthorityLov" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="1-4-DIOXANE" description="1-4-DIOXANE" conditionName="isTrue"/>
+      <TcLOVValue value="2-ETHYL-1-HEXANOL" description="2-ETHYL-1-HEXANOL" conditionName="isTrue"/>
+      <TcLOVValue value="ACRYLAMIDE" description="ACRYLAMIDE" conditionName="isTrue"/>
+      <TcLOVValue value="ACRYLONITRILE" description="ACRYLONITRILE" conditionName="isTrue"/>
+      <TcLOVValue value="ALKYL MESILATES" description="ALKYL MESILATES" conditionName="isTrue"/>
+      <TcLOVValue value="ALLERGENS IN FOOD" description="ALLERGENS IN FOOD" conditionName="isTrue"/>
+      <TcLOVValue value="ANIMAL DERIVED SUBSTANCES" description="ANIMAL DERIVED SUBSTANCES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ANVISA FOOD CONTACT REGULATION" description="ANVISA FOOD CONTACT REGULATION"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ASBESTOS" description="ASBESTOS" conditionName="isTrue"/>
+      <TcLOVValue value="ATRAZINE" description="ATRAZINE" conditionName="isTrue"/>
+      <TcLOVValue value="BADGE- NOGE - EU 1895/2005" description="BADGE- NOGE - EU 1895/2005"
+          conditionName="isTrue"/>
+      <TcLOVValue value="BENZENE" description="BENZENE" conditionName="isTrue"/>
+      <TcLOVValue value="BENZOPHENONE" description="BENZOPHENONE" conditionName="isTrue"/>
+      <TcLOVValue value="BENZOTRIAZOLES" description="BENZOTRIAZOLES" conditionName="isTrue"/>
+      <TcLOVValue value="BHT-BUTYLATED HYDROXY TOLUENE" description="BHT-BUTYLATED HYDROXY TOLUENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="BIOCIDES" description="BIOCIDES" conditionName="isTrue"/>
+      <TcLOVValue value="BISPHENOL A &amp; F &amp; S" description="BISPHENOL A &amp; F &amp; S"
+          conditionName="isTrue"/>
+      <TcLOVValue value="BLOWING AGENTS" description="BLOWING AGENTS" conditionName="isTrue"/>
+      <TcLOVValue value="BROMINE / BROMINE COMPOUNDS" description="BROMINE / BROMINE COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CALIFORNIA PROP 65 - LIQUIDS" description="CALIFORNIA PROP 65 - LIQUIDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CALIFORNIA PROP 65 - POLYMERS" description="CALIFORNIA PROP 65 - POLYMERS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CANADIAN EPA" description="CANADIAN EPA" conditionName="isTrue"/>
+      <TcLOVValue value="CANADIAN FOOD LAW (HPB)" description="CANADIAN FOOD LAW (HPB)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CHINA FOOD-CONTACT LAW" description="CHINA FOOD-CONTACT LAW"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CHLORINE/CHLORINATED COMPOUNDS" description="CHLORINE/CHLORINATED COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CHOLECALCIFEROL AND MANCOZEB" description="CHOLECALCIFEROL AND MANCOZEB"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CLASSIFICATION &amp; LABELLING" description="CLASSIFICATION &amp; LABELLING"
+          conditionName="isTrue"/>
+      <TcLOVValue value="COBALT / COBALT COMPOUNDS" description="COBALT / COBALT COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="COLORANTS" description="COLORANTS" conditionName="isTrue"/>
+      <TcLOVValue value="CONEG/WASTE PACKAGING" description="CONEG/WASTE PACKAGING"
+          conditionName="isTrue"/>
+      <TcLOVValue value="COSMETICS / INCI" description="COSMETICS / INCI" conditionName="isTrue"/>
+      <TcLOVValue value="DIMETHYLFUMARATE" description="DIMETHYLFUMARATE" conditionName="isTrue"/>
+      <TcLOVValue value="DIOXIN" description="DIOXIN" conditionName="isTrue"/>
+      <TcLOVValue value="DRINKING WATER STATUS -GER/KTW" description="DRINKING WATER STATUS -GER/KTW"
+          conditionName="isTrue"/>
+      <TcLOVValue value="DRUG MASTER FILE (US FDA)" description="DRUG MASTER FILE (US FDA)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ELEMENTAL IMPURITIES" description="ELEMENTAL IMPURITIES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ENDOCRINE DISRUPTORS" description="ENDOCRINE DISRUPTORS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="EPOXIDIZED SOYBEAN OIL" description="EPOXIDIZED SOYBEAN OIL"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ETHYLBENZENE" description="ETHYLBENZENE" conditionName="isTrue"/>
+      <TcLOVValue value="ETHYLENE OXIDE" description="ETHYLENE OXIDE" conditionName="isTrue"/>
+      <TcLOVValue value="EU 2000/53/EC" description="EU 2000/53/EC" conditionName="isTrue"/>
+      <TcLOVValue value="EURASIA AND RUSSIA REACH" description="EURASIA AND RUSSIA REACH"
+          conditionName="isTrue"/>
+      <TcLOVValue value="EUROPEAN FOOD LAW" description="EUROPEAN FOOD LAW" conditionName="isTrue"/>
+      <TcLOVValue value="FIFRA REGULATIONS" description="FIFRA REGULATIONS" conditionName="isTrue"/>
+      <TcLOVValue value="FLAME RETARDANTS" description="FLAME RETARDANTS" conditionName="isTrue"/>
+      <TcLOVValue value="FLUORINE" description="FLUORINE" conditionName="isTrue"/>
+      <TcLOVValue value="FORMALDEHYDE" description="FORMALDEHYDE" conditionName="isTrue"/>
+      <TcLOVValue value="FURANES / BENZOFURANES" description="FURANES / BENZOFURANES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="GMO" description="GMO" conditionName="isTrue"/>
+      <TcLOVValue value="HALAL STATUS" description="HALAL STATUS" conditionName="isTrue"/>
+      <TcLOVValue value="HALAL STATUS - INDONESIA" description="HALAL STATUS - INDONESIA"
+          conditionName="isTrue"/>
+      <TcLOVValue value="HAZARDOUS AIR POLLUTANTS-HAPS" description="HAZARDOUS AIR POLLUTANTS-HAPS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="HCFCS-HFCS-CFCS&amp;OTHER HALONS" description="HCFCS-HFCS-CFCS&amp;OTHER HALONS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="HEXAVALENT CHROMIUM COMPOUNDS" description="HEXAVALENT CHROMIUM COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="IMDS - GADSL" description="IMDS - GADSL" conditionName="isTrue"/>
+      <TcLOVValue value="IMDS STATUS" description="IMDS STATUS" conditionName="isTrue"/>
+      <TcLOVValue value="IODINE / IODINE COMPOUNDS" description="IODINE / IODINE COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ISO 10993" description="ISO 10993" conditionName="isTrue"/>
+      <TcLOVValue value="ISOPROPYLTHIOXAN-THONE (ITX)" description="ISOPROPYLTHIOXAN-THONE (ITX)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="JAPAN FOOD CONTACT REGULATIONS" description="JAPAN FOOD CONTACT REGULATIONS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="JATROPHA PLANT DERIVATIVES" description="JATROPHA PLANT DERIVATIVES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="KOREA AREC REGISTRATION STATUS" description="KOREA AREC REGISTRATION STATUS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="KOSHER STATUS" description="KOSHER STATUS" conditionName="isTrue"/>
+      <TcLOVValue value="LATEX / NATURAL RUBBER" description="LATEX / NATURAL RUBBER"
+          conditionName="isTrue"/>
+      <TcLOVValue value="MELAMINE" description="MELAMINE" conditionName="isTrue"/>
+      <TcLOVValue value="MERCOSUR FOODLAW" description="MERCOSUR FOODLAW" conditionName="isTrue"/>
+      <TcLOVValue value="METALS / METALLOIDS" description="METALS / METALLOIDS" conditionName="isTrue"/>
+      <TcLOVValue value="METHANOL" description="METHANOL" conditionName="isTrue"/>
+      <TcLOVValue value="METHYLNAPHTHALENES/NAPHTHALENE" description="METHYLNAPHTHALENES/NAPHTHALENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="MICA" description="MICA" conditionName="isTrue"/>
+      <TcLOVValue value="MICROPLASTICS" description="MICROPLASTICS" conditionName="isTrue"/>
+      <TcLOVValue value="MINERAL OIL" description="MINERAL OIL" conditionName="isTrue"/>
+      <TcLOVValue value="NANO-SCALE MATERIALS" description="NANO-SCALE MATERIALS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="NATIONAL CHEMICAL INVENTORY" description="NATIONAL CHEMICAL INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="NICKEL / NICKEL COMPOUNDS" description="NICKEL / NICKEL COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="NITROSAMINES" description="NITROSAMINES" conditionName="isTrue"/>
+      <TcLOVValue value="NONYLPHENOL &amp; ...ETHOXYLATES" description="NONYLPHENOL &amp; ...ETHOXYLATES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="OXO-DEGRADABLE PLASTICS" description="OXO-DEGRADABLE PLASTICS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="OZONE DEPLETING SUBSTANCES" description="OZONE DEPLETING SUBSTANCES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="PALM OIL" description="PALM OIL" conditionName="isTrue"/>
+      <TcLOVValue value="PERSISTENT ORGANIC POLLUTANTS" description="PERSISTENT ORGANIC POLLUTANTS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="PESTICIDES" description="PESTICIDES" conditionName="isTrue"/>
+      <TcLOVValue value="PFAS" description="PFAS" conditionName="isTrue"/>
+      <TcLOVValue value="PFOS &amp; PFOA" description="PFOS &amp; PFOA" conditionName="isTrue"/>
+      <TcLOVValue value="PHARMACOPOEIA STATUS (EU)" description="PHARMACOPOEIA STATUS (EU)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="PHARMACOPOEIA STATUS (US)" description="PHARMACOPOEIA STATUS (US)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="PHENOL" description="PHENOL" conditionName="isTrue"/>
+      <TcLOVValue value="PHTHALATES/ADIPATES" description="PHTHALATES/ADIPATES" conditionName="isTrue"/>
+      <TcLOVValue value="PNA / PAH" description="PNA / PAH" conditionName="isTrue"/>
+      <TcLOVValue value="PRIMARY AROMATIC AMINES" description="PRIMARY AROMATIC AMINES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="RADIOACTIVE SUBSTANCES" description="RADIOACTIVE SUBSTANCES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="REACH CANDIDATE LIST" description="REACH CANDIDATE LIST"
+          conditionName="isTrue"/>
+      <TcLOVValue value="REACH REG - OR" description="REACH REG - OR" conditionName="isTrue"/>
+      <TcLOVValue value="REACH-1907/2006 ANNEX XVII" description="REACH-1907/2006 ANNEX XVII"
+          conditionName="isTrue"/>
+      <TcLOVValue value="RESORCINOL (1,3-BENZENEDIOL)" description="RESORCINOL (1,3-BENZENEDIOL)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ROHS" description="ROHS" conditionName="isTrue"/>
+      <TcLOVValue value="SAFETY OF TOYS" description="SAFETY OF TOYS" conditionName="isTrue"/>
+      <TcLOVValue value="SILICONES / SILOXANES" description="SILICONES / SILOXANES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="STYRENE" description="STYRENE" conditionName="isTrue"/>
+      <TcLOVValue value="SUBST. OF VEGETABLE ORIGIN-GMO" description="SUBST. OF VEGETABLE ORIGIN-GMO"
+          conditionName="isTrue"/>
+      <TcLOVValue value="SULFUR" description="SULFUR" conditionName="isTrue"/>
+      <TcLOVValue value="TALC" description="TALC" conditionName="isTrue"/>
+      <TcLOVValue value="THIURAM MIX" description="THIURAM MIX" conditionName="isTrue"/>
+      <TcLOVValue value="TIN / ORGANOTIN COMPOUNDS" description="TIN / ORGANOTIN COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="TNPP" description="TNPP" conditionName="isTrue"/>
+      <TcLOVValue value="TOLUENE" description="TOLUENE" conditionName="isTrue"/>
+      <TcLOVValue value="TOLUENE DIISOCYANATE (TDI)" description="TOLUENE DIISOCYANATE (TDI)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="TSCA - PBT SUBSTANCES" description="TSCA - PBT SUBSTANCES"
+          conditionName="isTrue"/>
+      <TcLOVValue value="TSCA 12B STATUS" description="TSCA 12B STATUS" conditionName="isTrue"/>
+      <TcLOVValue value="UK REACH CANDIDATE LIST" description="UK REACH CANDIDATE LIST"
+          conditionName="isTrue"/>
+      <TcLOVValue value="USA FOOD LAW (FDA)" description="USA FOOD LAW (FDA)" conditionName="isTrue"/>
+      <TcLOVValue value="USA FOOD LAW (FDA) - DIRECT" description="USA FOOD LAW (FDA) - DIRECT"
+          conditionName="isTrue"/>
+      <TcLOVValue value="USP 661.1" description="USP 661.1" conditionName="isTrue"/>
+      <TcLOVValue value="VANADIUM / VANADIUM COMPOUNDS" description="VANADIUM / VANADIUM COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="VOLATILE ORGANIC CPDS-VOC -EU" description="VOLATILE ORGANIC CPDS-VOC -EU"
+          conditionName="isTrue"/>
+      <TcLOVValue value="VOLATILE ORGANIC CPDS-VOC -USA" description="VOLATILE ORGANIC CPDS-VOC -USA"
+          conditionName="isTrue"/>
+      <TcLOVValue value="XYLENES" description="XYLENES" conditionName="isTrue"/>
+      <TcLOVValue value="ZINC / ZINC COMPOUNDS" description="ZINC / ZINC COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ZIRCONIUM /ZIRCONIUM COMPOUNDS" description="ZIRCONIUM /ZIRCONIUM COMPOUNDS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ZZ-NEW REQUIREMENT" description="ZZ-NEW REQUIREMENT" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="1-4-DIOXANE"
+        subLOVName="E4_1-4-DIOXANE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="2-ETHYL-1-HEXANOL"
+        subLOVName="E4_2-ETHYL-1-HEXANOL" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ACRYLAMIDE"
+        subLOVName="E4_ACRYLAMIDE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ACRYLONITRILE"
+        subLOVName="E4_ACRYLONITRILE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ALKYL MESILATES"
+        subLOVName="E4_ALKYL_MESILATES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ALLERGENS IN FOOD"
+        subLOVName="E4_ALLERGENS_IN_FOOD" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ANIMAL DERIVED SUBSTANCES"
+        subLOVName="E4_ANIMAL_DERIVED_SUBSTANCES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ANVISA FOOD CONTACT REGULATION"
+        subLOVName="E4_ANVISA_FOOD_CONTACT_REGULATION" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ASBESTOS" subLOVName="E4_ASBESTOS"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ATRAZINE" subLOVName="E4_ATRAZINE"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BADGE- NOGE - EU 1895/2005"
+        subLOVName="E4_BADGE-NOGE-EU_1895_2005" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BENZENE" subLOVName="E4_BENZENE"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BENZOPHENONE"
+        subLOVName="E4_BENZOPHENONE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BENZOTRIAZOLES"
+        subLOVName="E4_BENZOTRIAZOLES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BHT-BUTYLATED HYDROXY TOLUENE"
+        subLOVName="E4_BHT-BUTYLATED_HYDROXY_TOLUENE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BIOCIDES" subLOVName="E4_BIOCIDES"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BISPHENOL A &amp; F &amp; S"
+        subLOVName="E4_BISPHENOL_A_&amp;_F_&amp;_S" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BLOWING AGENTS"
+        subLOVName="E4_BLOWING_AGENTS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="BROMINE / BROMINE COMPOUNDS"
+        subLOVName="E4_BROMINE_BROMINE-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CALIFORNIA PROP 65 - LIQUIDS"
+        subLOVName="E4_CALIFORNIA_PROP_65-LIQUIDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CALIFORNIA PROP 65 - POLYMERS"
+        subLOVName="E4_CALIFORNIA_PROP_65-POLYMERS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CANADIAN EPA"
+        subLOVName="E4_CANADIAN_EPA" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CANADIAN FOOD LAW (HPB)"
+        subLOVName="E4_CANADIAN_FOOD_LAW_(HPB)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CHINA FOOD-CONTACT LAW"
+        subLOVName="E4_CHINA_FOOD-CONTACT_LAW" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CHLORINE/CHLORINATED COMPOUNDS"
+        subLOVName="E4_CHLORINE_CHLORINATED-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CHOLECALCIFEROL AND MANCOZEB"
+        subLOVName="E4_CHOLECALCIFEROL_AND_MANCOZEB" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CLASSIFICATION &amp; LABELLING"
+        subLOVName="E4_CLASSIFICATION_&amp;_LABELLING" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="COBALT / COBALT COMPOUNDS"
+        subLOVName="E4_COBALT_COBALT-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="COLORANTS"
+        subLOVName="E4_COLORANTS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="CONEG/WASTE PACKAGING"
+        subLOVName="E4_CONEG_WASTE-PACKAGING" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="COSMETICS / INCI"
+        subLOVName="E4_COSMETICS_INCI" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="DIMETHYLFUMARATE"
+        subLOVName="E4_DIMETHYLFUMARATE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="DIOXIN" subLOVName="E4_DIOXIN"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="DRINKING WATER STATUS -GER/KTW"
+        subLOVName="E4_DRINKING_WATER_STATUS-GER_KTW" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="DRUG MASTER FILE (US FDA)"
+        subLOVName="E4_DRUG_MASTER_FILE_(US_FDA)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ELEMENTAL IMPURITIES"
+        subLOVName="E4_ELEMENTAL_IMPURITIES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ENDOCRINE DISRUPTORS"
+        subLOVName="E4_ENDOCRINE_DISRUPTORS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="EPOXIDIZED SOYBEAN OIL"
+        subLOVName="E4_EPOXIDIZED_SOYBEAN_OIL" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ETHYLBENZENE"
+        subLOVName="E4_ETHYLBENZENE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ETHYLENE OXIDE"
+        subLOVName="E4_ETHYLENE_OXIDE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="EU 2000/53/EC"
+        subLOVName="E4_EU_2000-53-EC" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="EURASIA AND RUSSIA REACH"
+        subLOVName="E4_EURASIA_AND_RUSSIA_REACH" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="EUROPEAN FOOD LAW"
+        subLOVName="E4_EUROPEAN_FOOD_LAW" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="FIFRA REGULATIONS"
+        subLOVName="E4_FIFRA_REGULATIONS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="FLAME RETARDANTS"
+        subLOVName="E4_FLAME_RETARDANTS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="FLUORINE" subLOVName="E4_FLUORINE"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="FORMALDEHYDE"
+        subLOVName="E4_FORMALDEHYDE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="FURANES / BENZOFURANES"
+        subLOVName="E4_FURANES_BENZOFURANES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="GMO" subLOVName="E4_GMO"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="HALAL STATUS - INDONESIA"
+        subLOVName="E4_HALAL_STATUS-INDONESIA" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="HALAL STATUS"
+        subLOVName="E4_HALAL_STATUS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="HAZARDOUS AIR POLLUTANTS-HAPS"
+        subLOVName="E4_HAZARDOUS_AIR_POLLUTANTS-HAPS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="HCFCS-HFCS-CFCS&amp;OTHER HALONS"
+        subLOVName="E4_HCFCS-HFCS-CFCS&amp;OTHER_HALONS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="HEXAVALENT CHROMIUM COMPOUNDS"
+        subLOVName="E4_HEXAVALENT_CHROMIUM_COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="IMDS - GADSL"
+        subLOVName="E4_IMDS-GADSL" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="IMDS STATUS"
+        subLOVName="E4_IMDS_STATUS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="IODINE / IODINE COMPOUNDS"
+        subLOVName="E4_IODINE_IODINE-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ISO 10993"
+        subLOVName="E4_ISO-10993" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ISOPROPYLTHIOXAN-THONE (ITX)"
+        subLOVName="E4_ISOPROPYLTHIOXAN-THONE_(ITX)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="JAPAN FOOD CONTACT REGULATIONS"
+        subLOVName="E4_JAPAN_FOOD_CONTACT_REGULATIONS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="JATROPHA PLANT DERIVATIVES"
+        subLOVName="E4_JATROPHA_PLANT_DERIVATIVES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="KOREA AREC REGISTRATION STATUS"
+        subLOVName="E4_KOREA_AREC_REGISTRATION_STATUS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="KOSHER STATUS"
+        subLOVName="E4_KOSHER_STATUS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="LATEX / NATURAL RUBBER"
+        subLOVName="E4_LATEX_NATURAL-RUBBER" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="MELAMINE" subLOVName="E4_MELAMINE"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="MERCOSUR FOODLAW"
+        subLOVName="E4_MERCOSUR_FOODLAW" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="METALS / METALLOIDS"
+        subLOVName="E4_METALS_METALLOIDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="METHANOL" subLOVName="E4_METHANOL"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="METHYLNAPHTHALENES/NAPHTHALENE"
+        subLOVName="E4_METHYLNAPHTHALENES_NAPHTHALENE" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="MICA" subLOVName="E4_MICA"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="MICROPLASTICS"
+        subLOVName="E4_MICROPLASTICS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="MINERAL OIL"
+        subLOVName="E4_MINERAL_OIL" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="NANO-SCALE MATERIALS"
+        subLOVName="E4_NANO-SCALE_MATERIALS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="NATIONAL CHEMICAL INVENTORY"
+        subLOVName="E4_NATIONAL_CHEMICAL_INVENTORY" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="NICKEL / NICKEL COMPOUNDS"
+        subLOVName="E4_NICKEL_NICKEL-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="NITROSAMINES"
+        subLOVName="E4_NITROSAMINES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="NONYLPHENOL &amp; ...ETHOXYLATES"
+        subLOVName="E4_NONYLPHENOL_&amp;...ETHOXYLATES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="OXO-DEGRADABLE PLASTICS"
+        subLOVName="E4_OXO-DEGRADABLE_PLASTICS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="OZONE DEPLETING SUBSTANCES"
+        subLOVName="E4_OZONE_DEPLETING_SUBSTANCES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PALM OIL" subLOVName="E4_PALM_OIL"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PERSISTENT ORGANIC POLLUTANTS"
+        subLOVName="E4_PERSISTENT_ORGANIC_POLLUTANTS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PESTICIDES"
+        subLOVName="E4_PESTICIDES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PFAS" subLOVName="E4_PFAS"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PFOS &amp; PFOA"
+        subLOVName="E4_PFOS_&amp;_PFOA" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PHARMACOPOEIA STATUS (EU)"
+        subLOVName="E4_PHARMACOPOEIA_STATUS_(EU)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PHARMACOPOEIA STATUS (US)"
+        subLOVName="E4_PHARMACOPOEIA_STATUS_(US)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PHENOL" subLOVName="E4_PHENOL"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PHTHALATES/ADIPATES"
+        subLOVName="E4_PHTHALATES_ADIPATES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PNA / PAH"
+        subLOVName="E4_PNA_PAH" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="PRIMARY AROMATIC AMINES"
+        subLOVName="E4_PRIMARY_AROMATIC_AMINES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="RADIOACTIVE SUBSTANCES"
+        subLOVName="E4_RADIOACTIVE_SUBSTANCES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="REACH CANDIDATE LIST"
+        subLOVName="E4_REACH_CANDIDATE_LIST" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="REACH REG - OR"
+        subLOVName="E4_REACH_REG-OR" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="REACH-1907/2006 ANNEX XVII"
+        subLOVName="E4_REACH-1907-2006_ANNEX_XVII" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="RESORCINOL (1,3-BENZENEDIOL)"
+        subLOVName="E4_RESORCINOL_(1,3-BENZENEDIOL)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ROHS" subLOVName="E4_ROHS"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="SAFETY OF TOYS"
+        subLOVName="E4_SAFETY_OF_TOYS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="SILICONES / SILOXANES"
+        subLOVName="E4_SILICONES_SILOXANES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="STYRENE" subLOVName="E4_STYRENE"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="SUBST. OF VEGETABLE ORIGIN-GMO"
+        subLOVName="E4_SUBST._OF_VEGETABLE_ORIGIN-GMO" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="SULFUR" subLOVName="E4_SULFUR"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TALC" subLOVName="E4_TALC"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="THIURAM MIX"
+        subLOVName="E4_THIURAM_MIX" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TIN / ORGANOTIN COMPOUNDS"
+        subLOVName="E4_TIN_ORGANOTIN-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TNPP" subLOVName="E4_TNPP"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TOLUENE DIISOCYANATE (TDI)"
+        subLOVName="E4_TOLUENE_DIISOCYANATE_(TDI)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TOLUENE" subLOVName="E4_TOLUENE"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TSCA - PBT SUBSTANCES"
+        subLOVName="E4_TSCA-PBT_SUBSTANCES" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="TSCA 12B STATUS"
+        subLOVName="E4_TSCA_12B_STATUS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="UK REACH CANDIDATE LIST"
+        subLOVName="E4_UK_REACH_CANDIDATE_LIST" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="USA FOOD LAW (FDA) - DIRECT"
+        subLOVName="E4_USA_FOOD_LAW_(FDA)-DIRECT" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="USA FOOD LAW (FDA)"
+        subLOVName="E4_USA_FOOD_LAW_(FDA)" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="USP 661.1"
+        subLOVName="E4_USP_661.1" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="VANADIUM / VANADIUM COMPOUNDS"
+        subLOVName="E4_VANADIUM_VANADIUM-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="VOLATILE ORGANIC CPDS-VOC -EU"
+        subLOVName="E4_VOLATILE_ORGANIC_CPDS-VOC-EU" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="VOLATILE ORGANIC CPDS-VOC -USA"
+        subLOVName="E4_VOLATILE_ORGANIC_CPDS-VOC-USA" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="XYLENES" subLOVName="E4_XYLENES"
+        conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ZINC / ZINC COMPOUNDS"
+        subLOVName="E4_ZINC_ZINC-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ZIRCONIUM /ZIRCONIUM COMPOUNDS"
+        subLOVName="E4_ZIRCONIUM_ZIRCONIUM-COMPOUNDS" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="E4AuthorityLov" targetValue="ZZ-NEW REQUIREMENT"
+        subLOVName="E4_ZZ-NEW_REQUIREMENT" conditionName="isTrue"/>
+</Add>
+</TcBusinessData>

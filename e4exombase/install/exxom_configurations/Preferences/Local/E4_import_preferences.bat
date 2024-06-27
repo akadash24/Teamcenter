@@ -1,0 +1,3 @@
+REM Update the site preferences
+%TC_BIN%\preferences_manager -mode=import -u=infodba -p=infodba -g=dba  -file="%TC_INSTALL_DIR%\e4exombase\exxom_configurations\Preferences\E4_Site_StyleSheet_Preferences.xml" -scope=SITE -action=OVERRIDE
+%TC_BIN%\preferences_manager -mode=import -u=infodba -p=infodba -g=dba  -file="%TC_INSTALL_DIR%\e4exombase\exxom_configurations\Preferences\E4_Site_ActiveWorkspace_Preferences.xml" -scope=SITE -action=OVERRIDE

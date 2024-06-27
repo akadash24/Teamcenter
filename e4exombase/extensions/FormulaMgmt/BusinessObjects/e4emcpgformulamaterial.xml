@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMCPGFormulaM" parentClassName="E4AbsCPGFormulaM" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMCPGFormulaMMasterS" parentClassName="E4AbsCPGFormulaMMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMCPGFormulaMRevMasterS" parentClassName="E4AbsCPGFormulaMRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMCPGFormulaMRevision" parentClassName="E4AbsCPGFormulaMRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4BackupSupplierRequired" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4ProducedBy" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4VersionType" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4EMCPGFormulaMCreI" parentTypeName="E4AbsCPGFormulaMCreI"
+       typeClassName="E4EMCPGFormulaMCreI" description="CreateInput object for &quot;E4EMCPGFormulaM&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMCreI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMMasterCreI" parentTypeName="E4AbsCPGFormulaMMasterCreI"
+       typeClassName="E4EMCPGFormulaMMasterCreI" description="CreateInput object for &quot;E4EMCPGFormulaMMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMMasterCreI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMMasterSCreI" parentTypeName="E4AbsCPGFormulaMMasterSCreI"
+       typeClassName="E4EMCPGFormulaMMasterSCreI" description="CreateInput object for &quot;E4EMCPGFormulaMMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMMasterSCreI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMMasterSSvAI" parentTypeName="E4AbsCPGFormulaMMasterSSvAI"
+       typeClassName="E4EMCPGFormulaMMasterSSvAI" description="SaveAsInput object for &quot;E4EMCPGFormulaMMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMMasterSSvAI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMMasterSvAI" parentTypeName="E4AbsCPGFormulaMMasterSvAI"
+       typeClassName="E4EMCPGFormulaMMasterSvAI" description="SaveAsInput object for &quot;E4EMCPGFormulaMMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMMasterSvAI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMRevMasterSCreI" parentTypeName="E4AbsCPGFormulaMRevMasterSCreI"
+       typeClassName="E4EMCPGFormulaMRevMasterSCreI" description="CreateInput object for &quot;E4EMCPGFormulaMRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevMasterSCreI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMRevMasterSSvAI" parentTypeName="E4AbsCPGFormulaMRevMasterSSvAI"
+       typeClassName="E4EMCPGFormulaMRevMasterSSvAI" description="SaveAsInput object for &quot;E4EMCPGFormulaMRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevMasterSSvAI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMRevisio_alt0CreI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0CreI"
+       typeClassName="E4EMCPGFormulaMRevisio_alt0CreI" description="CreateInput object for &quot;E4EMCPGFormulaMRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevisio_alt0CreI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMRevisio_alt0SvAI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0SvAI"
+       typeClassName="E4EMCPGFormulaMRevisio_alt0SvAI" description="SaveAsInput object for &quot;E4EMCPGFormulaMRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevisio_alt0SvAI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMRevisionCreI" parentTypeName="E4AbsCPGFormulaMRevisionCreI"
+       typeClassName="E4EMCPGFormulaMRevisionCreI" description="CreateInput object for &quot;E4EMCPGFormulaMRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevisionCreI">
+     <OperationInputProperty propName="e4BackupSupplierRequired" compoundObjectConstant=""
+         srcPropName="e4BackupSupplierRequired" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4ProducedBy" compoundObjectConstant="" srcPropName="e4ProducedBy"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4VersionType" compoundObjectConstant="" srcPropName="e4VersionType"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4E4HasGlobalAlternate" compoundObjectConstant=""
+         srcPropName="E4HasGlobalAlternate" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4E4EMMat1UsesMaterial" compoundObjectConstant=""
+         srcPropName="E4EMMat1UsesMaterial" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4EMCPGFormulaMRevisionRevI" parentTypeName="E4AbsCPGFormulaMRevisionRevI"
+       typeClassName="E4EMCPGFormulaMRevisionRevI" description="ReviseInput object for &quot;E4EMCPGFormulaMRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevisionRevI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMRevisionSvAI" parentTypeName="E4AbsCPGFormulaMRevisionSvAI"
+       typeClassName="E4EMCPGFormulaMRevisionSvAI" description="SaveAsInput object for &quot;E4EMCPGFormulaMRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevisionSvAI"/>
+   <OperationInputType typeName="E4EMCPGFormulaMSvAI" parentTypeName="E4AbsCPGFormulaMSvAI"
+       typeClassName="E4EMCPGFormulaMSvAI" description="SaveAsInput object for &quot;E4EMCPGFormulaM&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMSvAI"/>
+   <TcForm typeName="E4EMCPGFormulaMMaster" parentTypeName="E4AbsCPGFormulaMMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMCPGFormulaM&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMMaster" formStorageClassName="E4EMCPGFormulaMMasterS"/>
+   <TcForm typeName="E4EMCPGFormulaMRevisionMaster" parentTypeName="E4AbsCPGFormulaMRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMCPGFormulaMRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevisionMaster" formStorageClassName="E4EMCPGFormulaMRevMasterS"/>
+   <TcStandardType typeName="E4EMCPGFormulaM" parentTypeName="E4AbsCPGFormulaM" typeClassName="E4EMCPGFormulaM"
+       description="" isAbstract="false" artifactName="E4EMCPGFormulaM"/>
+   <TcStandardType typeName="E4EMCPGFormulaMMasterS" parentTypeName="E4AbsCPGFormulaMMasterS"
+       typeClassName="E4EMCPGFormulaMMasterS" description="Form Storage object for &quot;E4EMCPGFormulaMMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMMasterS"/>
+   <TcStandardType typeName="E4EMCPGFormulaMRevMasterS" parentTypeName="E4AbsCPGFormulaMRevMasterS"
+       typeClassName="E4EMCPGFormulaMRevMasterS" description="Form Storage object for &quot;E4EMCPGFormulaMRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevMasterS"/>
+   <TcStandardType typeName="E4EMCPGFormulaMRevision" parentTypeName="E4AbsCPGFormulaMRevision"
+       typeClassName="E4EMCPGFormulaMRevision" description="ItemRevision object for &quot;E4EMCPGFormulaM&quot;  business object"
+       isAbstract="false" artifactName="E4EMCPGFormulaMRevision">
+     <TcProperty propName="E4HasGlobalAlternate" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+     <TcProperty propName="E4EMMat1UsesMaterial" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMCPGFormulaM" value="E4EMCPGFormulaMCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMCPGFormulaMMaster"
+       value="E4EMCPGFormulaMMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMCPGFormulaMMasterS"
+       value="E4EMCPGFormulaMMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMCPGFormulaMRevision"
+       value="E4EMCPGFormulaMRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMCPGFormulaMRevisionMaster"
+       value="E4EMCPGFormulaMRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMCPGFormulaMRevMasterS"
+       value="E4EMCPGFormulaMRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4EMCPGFormulaM" value="E4EMCPGFormulaMRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMCPGFormulaM" value="E4EMCPGFormulaMMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMCPGFormulaMRevision"
+       value="E4EMCPGFormulaMRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4EMCPGFormulaMRevision"
+       value="E4EMCPGFormulaMRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMCPGFormulaM" value="E4EMCPGFormulaMSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMCPGFormulaMMaster"
+       value="E4EMCPGFormulaMMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMCPGFormulaMMasterS"
+       value="E4EMCPGFormulaMMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMCPGFormulaMRevision"
+       value="E4EMCPGFormulaMRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMCPGFormulaMRevisionMaster"
+       value="E4EMCPGFormulaMRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMCPGFormulaMRevMasterS"
+       value="E4EMCPGFormulaMRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4BackupSupplierRequired" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4ContainsHazardousMat" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMCPGFormulaMRevision"
+       propertyName="E4EMMat1UsesMaterial" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMCPGFormulaMRevision"
+       propertyName="E4HasGlobalAlternate" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4ProducedBy" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4VersionType" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4BackupSupplierRequired" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4ContainsHazardousMat" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMCPGFormulaMRevision"
+       propertyName="E4EMMat1UsesMaterial" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMCPGFormulaMRevision"
+       propertyName="E4HasGlobalAlternate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4ProducedBy" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMCPGFormulaMRevision"
+       propertyName="e4VersionType" value="Write"/>
+   <TcCompoundPropertyRule destTypeName="E4EMCPGFormulaMRevision" destPropertyName="e4ContainsHazardousMat"
+       sourceTypeName="E4EMMat1UsesSubstance" sourcePropertyName="e4ContainsHazardousMat"
+       isReadOnly="false" pathToSource="GRM(E4EMMat1UsesMaterial,E4SupplierSpecRevision).GRM(E4EMMat1UsesSubstance,E4EMMat1UsesSubstance).e4ContainsHazardousMat"
+       description=""/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4EMCPGFormulaMMasterS" status="Approved">EMCPG Formula M Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMCPGFormulaMMaster" status="Approved">EMCPG Formula M Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMCPGFormulaMRevMasterS" status="Approved">EMCPG Formula M Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMCPGFormulaMRevisionMaster" status="Approved">EMCPG Formula M Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMCPGFormulaMRevision" status="Approved">EM Formula Material Revision</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMCPGFormulaM" status="Approved">EM Formula Material</key>
+   <key locale="en_US" id="Property{::}E4EMCPGFormulaMRevision{::}e4BackupSupplierRequired"
+       status="Approved">Backup Supplier Required?</key>
+   <key locale="en_US" id="Property{::}E4EMCPGFormulaMRevision{::}e4ContainsHazardousMat"
+       status="Approved">Contains Hazardous Material</key>
+   <key locale="en_US" id="Property{::}E4EMCPGFormulaMRevision{::}e4ProducedBy" status="Approved">Produced By</key>
+   <key locale="en_US" id="Property{::}E4EMCPGFormulaMRevision{::}e4VersionType" status="Approved">Version Type</key>
+</Add>
+</TcBusinessDataLocalization>

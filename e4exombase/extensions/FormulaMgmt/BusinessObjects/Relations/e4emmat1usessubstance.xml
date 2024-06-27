@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMMat1UsesSubstance" parentClassName="Mat1UsesSubstance"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4ContainsHazardousMat" description="" attributeType="POM_logical"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <OperationInputType typeName="E4EMMat1UsesSubstanceCreI" parentTypeName="Mat1UsesSubstanceCreI"
+       typeClassName="E4EMMat1UsesSubstanceCreI" description="CreateInput object for &quot;E4EMMat1UsesSubstance&quot; business object"
+       isAbstract="false" artifactName="E4EMMat1UsesSubstanceCreI">
+     <OperationInputProperty propName="e4ContainsHazardousMat" compoundObjectConstant=""
+         srcPropName="e4ContainsHazardousMat" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4EMMat1UsesSubstanceSvAI" parentTypeName="Mat1UsesSubstanceSvAI"
+       typeClassName="E4EMMat1UsesSubstanceSvAI" description="SaveAsInput object for &quot;E4EMMat1UsesSubstance&quot; business object"
+       isAbstract="false" artifactName="E4EMMat1UsesSubstanceSvAI"/>
+   <TcStandardType typeName="E4EMMat1UsesSubstance" parentTypeName="Mat1UsesSubstance"
+       typeClassName="E4EMMat1UsesSubstance" description="" isAbstract="false" artifactName="E4EMMat1UsesSubstance"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMMat1UsesSubstance"
+       value="E4EMMat1UsesSubstanceCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMMat1UsesSubstance"
+       value="E4EMMat1UsesSubstanceSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMMat1UsesSubstance"
+       propertyName="e4ContainsHazardousMat" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMMat1UsesSubstance"
+       propertyName="e4ContainsHazardousMat" value="Write"/>
+</Add>
+</TcBusinessData>

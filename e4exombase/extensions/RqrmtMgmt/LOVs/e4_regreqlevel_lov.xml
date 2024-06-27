@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4RegReqLevelLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Raw Material" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Substance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Product" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Product or Prod Family" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4RegReqLevelLov" typeName="E4RegulatoryReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4RegReqLevel" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

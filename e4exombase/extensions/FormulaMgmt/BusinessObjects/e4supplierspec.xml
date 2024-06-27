@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4SupplierSpec" parentClassName="Mat1Material" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4SupplierSpecMasterS" parentClassName="Mat1MaterialMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4SupplierSpecRevMasterS" parentClassName="Mat1MaterialRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4SupplierSpecRevision" parentClassName="Mat1MaterialRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4VendorList" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4SupplierSpecCreI" parentTypeName="Mat1MaterialCreI"
+       typeClassName="E4SupplierSpecCreI" description="CreateInput object for &quot;E4SupplierSpec&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecCreI"/>
+   <OperationInputType typeName="E4SupplierSpecMasterCreI" parentTypeName="Mat1MaterialMasterCreI"
+       typeClassName="E4SupplierSpecMasterCreI" description="CreateInput object for &quot;E4SupplierSpecMaster&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecMasterCreI"/>
+   <OperationInputType typeName="E4SupplierSpecMasterSCreI" parentTypeName="Mat1MaterialMasterSCreI"
+       typeClassName="E4SupplierSpecMasterSCreI" description="CreateInput object for &quot;E4SupplierSpecMasterS&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecMasterSCreI"/>
+   <OperationInputType typeName="E4SupplierSpecMasterSSvAI" parentTypeName="Mat1MaterialMasterSSvAI"
+       typeClassName="E4SupplierSpecMasterSSvAI" description="SaveAsInput object for &quot;E4SupplierSpecMasterS&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecMasterSSvAI"/>
+   <OperationInputType typeName="E4SupplierSpecMasterSvAI" parentTypeName="Mat1MaterialMasterSvAI"
+       typeClassName="E4SupplierSpecMasterSvAI" description="SaveAsInput object for &quot;E4SupplierSpecMaster&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecMasterSvAI"/>
+   <OperationInputType typeName="E4SupplierSpecRevMasterSCreI" parentTypeName="Mat1MaterialRevMasterSCreI"
+       typeClassName="E4SupplierSpecRevMasterSCreI" description="CreateInput object for &quot;E4SupplierSpecRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevMasterSCreI"/>
+   <OperationInputType typeName="E4SupplierSpecRevMasterSSvAI" parentTypeName="Mat1MaterialRevMasterSSvAI"
+       typeClassName="E4SupplierSpecRevMasterSSvAI" description="SaveAsInput object for &quot;E4SupplierSpecRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevMasterSSvAI"/>
+   <OperationInputType typeName="E4SupplierSpecRevisionCreI" parentTypeName="Mat1MaterialRevisionCreI"
+       typeClassName="E4SupplierSpecRevisionCreI" description="CreateInput object for &quot;E4SupplierSpecRevision&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevisionCreI">
+     <OperationInputProperty propName="e4E4EMMat1UsesSubstance" compoundObjectConstant=""
+         srcPropName="E4EMMat1UsesSubstance" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4VendorList" compoundObjectConstant="" srcPropName="e4VendorList"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4SupplierSpecRevisionRevI" parentTypeName="Mat1MaterialRevisionRevI"
+       typeClassName="E4SupplierSpecRevisionRevI" description="ReviseInput object for &quot;E4SupplierSpecRevision&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevisionRevI"/>
+   <OperationInputType typeName="E4SupplierSpecRevisionSvAI" parentTypeName="Mat1MaterialRevisionSvAI"
+       typeClassName="E4SupplierSpecRevisionSvAI" description="SaveAsInput object for &quot;E4SupplierSpecRevision&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevisionSvAI"/>
+   <OperationInputType typeName="E4SupplierSpecRevision_alt0CreI" parentTypeName="Mat1MaterialRevisionMasterCreI"
+       typeClassName="E4SupplierSpecRevision_alt0CreI" description="CreateInput object for &quot;E4SupplierSpecRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevision_alt0CreI"/>
+   <OperationInputType typeName="E4SupplierSpecRevision_alt0SvAI" parentTypeName="Mat1MaterialRevisionMasterSvAI"
+       typeClassName="E4SupplierSpecRevision_alt0SvAI" description="SaveAsInput object for &quot;E4SupplierSpecRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevision_alt0SvAI"/>
+   <OperationInputType typeName="E4SupplierSpecSvAI" parentTypeName="Mat1MaterialSvAI"
+       typeClassName="E4SupplierSpecSvAI" description="SaveAsInput object for &quot;E4SupplierSpec&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecSvAI"/>
+   <TcForm typeName="E4SupplierSpecMaster" parentTypeName="Mat1MaterialMaster" typeClassName="Form"
+       description="MasterForm object for &quot;E4SupplierSpec&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecMaster" formStorageClassName="E4SupplierSpecMasterS"/>
+   <TcForm typeName="E4SupplierSpecRevisionMaster" parentTypeName="Mat1MaterialRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4SupplierSpecRevision&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevisionMaster" formStorageClassName="E4SupplierSpecRevMasterS"/>
+   <TcStandardType typeName="E4SupplierSpec" parentTypeName="Mat1Material" typeClassName="E4SupplierSpec"
+       description="" isAbstract="false" artifactName="E4SupplierSpec"/>
+   <TcStandardType typeName="E4SupplierSpecMasterS" parentTypeName="Mat1MaterialMasterS"
+       typeClassName="E4SupplierSpecMasterS" description="Form Storage object for &quot;E4SupplierSpecMaster&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecMasterS"/>
+   <TcStandardType typeName="E4SupplierSpecRevMasterS" parentTypeName="Mat1MaterialRevMasterS"
+       typeClassName="E4SupplierSpecRevMasterS" description="Form Storage object for &quot;E4SupplierSpecRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevMasterS"/>
+   <TcStandardType typeName="E4SupplierSpecRevision" parentTypeName="Mat1MaterialRevision"
+       typeClassName="E4SupplierSpecRevision" description="ItemRevision object for &quot;E4SupplierSpec&quot;  business object"
+       isAbstract="false" artifactName="E4SupplierSpecRevision">
+     <TcProperty propName="E4EMMat1UsesSubstance" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4SupplierSpec" value="E4SupplierSpecCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4SupplierSpecMaster"
+       value="E4SupplierSpecMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4SupplierSpecMasterS"
+       value="E4SupplierSpecMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4SupplierSpecRevision"
+       value="E4SupplierSpecRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4SupplierSpecRevisionMaster"
+       value="E4SupplierSpecRevision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4SupplierSpecRevMasterS"
+       value="E4SupplierSpecRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4SupplierSpec" value="E4SupplierSpecRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4SupplierSpec" value="E4SupplierSpecMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4SupplierSpecRevision"
+       value="E4SupplierSpecRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4SupplierSpecRevision"
+       value="E4SupplierSpecRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4SupplierSpec" value="E4SupplierSpecSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4SupplierSpecMaster"
+       value="E4SupplierSpecMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4SupplierSpecMasterS"
+       value="E4SupplierSpecMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4SupplierSpecRevision"
+       value="E4SupplierSpecRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4SupplierSpecRevisionMaster"
+       value="E4SupplierSpecRevision_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4SupplierSpecRevMasterS"
+       value="E4SupplierSpecRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4SupplierSpecRevision"
+       propertyName="E4EMMat1UsesSubstance" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4SupplierSpecRevision"
+       propertyName="e4VendorList" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4SupplierSpecRevision"
+       propertyName="E4EMMat1UsesSubstance" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4SupplierSpecRevision"
+       propertyName="e4VendorList" value="Write"/>
+</Add>
+</TcBusinessData>

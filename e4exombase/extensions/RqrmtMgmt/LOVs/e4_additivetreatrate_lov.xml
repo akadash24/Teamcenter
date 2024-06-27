@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4AdditiveTreatRateLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="766 ppmv" description="" conditionName="isTrue"/>
+     <TcLOVValue value="452 ppmv" description="" conditionName="isTrue"/>
+     <TcLOVValue value="383 ppmv" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4AdditiveTreatRateLov" typeName="E4MarketingReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4AdditiveTreatRate" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

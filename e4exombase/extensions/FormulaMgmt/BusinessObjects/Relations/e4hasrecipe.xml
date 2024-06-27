@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4HasRecipe" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4HasRecipeCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="E4HasRecipeCreI" description="CreateInput object for &quot;E4HasRecipe&quot; business object"
+       isAbstract="false" artifactName="E4HasRecipeCreI"/>
+   <OperationInputType typeName="E4HasRecipeSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="E4HasRecipeSvAI" description="SaveAsInput object for &quot;E4HasRecipe&quot; business object"
+       isAbstract="false" artifactName="E4HasRecipeSvAI"/>
+   <TcStandardType typeName="E4HasRecipe" parentTypeName="ImanRelation" typeClassName="E4HasRecipe"
+       description="" isAbstract="false" artifactName="E4HasRecipe"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4HasRecipe" value="E4HasRecipeCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4HasRecipe" value="E4HasRecipeSvAI"/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Esso / Mobil" status="Approved">Esso / Mobil</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Esso, Mobil" status="Approved">Esso, Mobil</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Esso" status="Approved">Esso</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Exxon &amp; Mobil" status="Approved">Exxon &amp; Mobil</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Exxon, Mobil" status="Approved">Exxon, Mobil</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}ExxonMobil" status="Approved">ExxonMobil</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Exxon" status="Approved">Exxon</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Imperial, Esso" status="Approved">Imperial, Esso</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Mobil" status="Approved">Mobil</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}N/A" status="Approved">N/A</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Sinopec/ Esso" status="Approved">Sinopec/ Esso</key>
+   <key locale="en_US" id="LOVValue{::}E4BrandLov{::}Unbranded" status="Approved">Unbranded</key>
+</Add>
+</TcBusinessDataLocalization>

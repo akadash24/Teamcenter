@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Biodiesel" status="Approved">Biodiesel</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Brand" status="Approved">Brand</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Cleanliness" status="Approved">Cleanliness</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Cold Temperature"
+       status="Approved">Cold Temperature</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Diesel" status="Approved">Diesel</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Emission System Protection"
+       status="Approved">Emission System Protection</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Energy Efficiency"
+       status="Approved">Energy Efficiency</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Fuel Economy" status="Approved">Fuel Economy</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}High Temperature"
+       status="Approved">High Temperature</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Ingredient Branding"
+       status="Approved">Ingredient Branding</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}LSPI" status="Approved">LSPI</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Mogas" status="Approved">Mogas</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Non-toxicity" status="Approved">Non-toxicity</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Oil Drain Interval"
+       status="Approved">Oil Drain Interval</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Overall Performance"
+       status="Approved">Overall Performance</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Sustainability" status="Approved">Sustainability</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Total Mileage" status="Approved">Total Mileage</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Viscosity Control"
+       status="Approved">Viscosity Control</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}WF Diesel" status="Approved">WF Diesel</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}WF Heating Oil" status="Approved">WF Heating Oil</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}WF Mogas" status="Approved">WF Mogas</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Warranty" status="Approved">Warranty</key>
+   <key locale="en_US" id="LOVValue{::}E4MarketingCategoryLov{::}Wear Protection"
+       status="Approved">Wear Protection</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4TechnicalReqMasterS" status="Approved">Technical Req Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4TechnicalReqMaster" status="Approved">Technical Requirement Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4TechnicalReqRevMasterS" status="Approved">Technical Req Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4TechnicalReqRevisionMaster" status="Approved">Technical Requirement Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4TechnicalReqRevision" status="Approved">Technical Requirement Revision</key>
+   <key locale="en_US" id="BusinessObject{::}E4TechnicalReq" status="Approved">Technical Requirement</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4ClaimSynReq" status="Approved">TXT : Claim Syntax Requirement</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4FacilityCertification"
+       status="Approved">Facility Certification</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4FacilityTesting"
+       status="Approved">Facility Testing</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4ForInternalUseOnly"
+       status="Approved">For Internal Use Only</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4OEMIndustryEBName"
+       status="Approved">OEM Industry EB Name</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4TechCoreAdditional"
+       status="Approved">Core/Additional</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4TechExpirationDate"
+       status="Approved">Requirement Expiration Date</key>
+   <key locale="en_US" id="Property{::}E4TechnicalReqRevision{::}e4TechReqlevel" status="Approved">Requirement Level</key>
+</Add>
+</TcBusinessDataLocalization>

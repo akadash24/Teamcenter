@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+===============================================================================
+Filename: Awp0E4EMMat1SubstanceCreate.xml
+Default activeworkspace style sheet rendering for Substance creation.
+-->
+<rendering>
+    <page>
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="mat1cas_number" />
+            <!--Following dataset is contributed from Medical Device Active Workspace -->
+            <inject type="dataset" src="Imd1MatINNAttrSubRendering"/>
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

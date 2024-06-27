@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4BrandLov" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="N/A" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Esso" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Esso / Mobil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Esso, Mobil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Exxon" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Exxon &amp; Mobil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Exxon, Mobil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ExxonMobil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Imperial, Esso" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mobil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Sinopec/ Esso" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Unbranded" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4BrandLov" typeName="E4MarketingReqRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4Brand" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,2 @@
+%TC_BIN%\install_xml_stylesheet_datasets -u=infodba -p=infodba -g=dba -input="%TC_INSTALL_DIR%\e4exombase\exxom_configurations\Stylesheets\AWC\E4_import_awc_stylesheet_input.dat" -replace
+REM %TC_BIN%\install_xml_stylesheet_datasets -u=infodba -p=infodba -g=dba -input="C:\Exxon\BMIDE\wrksps\e4exombase\install\exxom_configurations\Stylesheets\AWC\E4_import_awc_stylesheet_input.dat" -replace

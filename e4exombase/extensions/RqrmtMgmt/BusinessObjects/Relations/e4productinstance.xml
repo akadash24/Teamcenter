@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4ProductInstance" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4ProductInstanceCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="E4ProductInstanceCreI" description="CreateInput object for &quot;E4ProductInstance&quot; business object"
+       isAbstract="false" artifactName="E4ProductInstanceCreI"/>
+   <OperationInputType typeName="E4ProductInstanceSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="E4ProductInstanceSvAI" description="SaveAsInput object for &quot;E4ProductInstance&quot; business object"
+       isAbstract="false" artifactName="E4ProductInstanceSvAI"/>
+   <TcStandardType typeName="E4ProductInstance" parentTypeName="ImanRelation" typeClassName="E4ProductInstance"
+       description="" isAbstract="false" artifactName="E4ProductInstance" functionality="E4exombase"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4ProductInstance" value="E4ProductInstanceCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4ProductInstance" value="E4ProductInstanceSvAI"/>
+</Add>
+</TcBusinessData>

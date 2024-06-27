@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}Additional Multi-Annual Testing Required"
+       status="Approved">Additional Multi-Annual Testing Required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}Additional Periodic Testing Required"
+       status="Approved">Additional Periodic Testing Required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}Annual Batch Sample retention required"
+       status="Approved">Annual Batch Sample retention required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}Annual Testing Required"
+       status="Approved">Annual Testing Required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}First Batch Sample retention required"
+       status="Approved">First Batch Sample retention required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}Unique Batch Testing Required"
+       status="Approved">Unique Batch Testing Required</key>
+   <key locale="en_US" id="LOVValue{::}E4FacilityTestingLov{::}Unique First Batch Testing Required"
+       status="Approved">Unique First Batch Testing Required</key>
+</Add>
+</TcBusinessDataLocalization>

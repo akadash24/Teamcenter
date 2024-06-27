@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Australia" status="Approved">Australia</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Bahamas" status="Approved">Bahamas</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Barbados" status="Approved">Barbados</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Belgium" status="Approved">Belgium</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Bermuda" status="Approved">Bermuda</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Canada" status="Approved">Canada</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Cayman_Islands" status="Approved">Cayman_Islands</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}China_Guangzhou" status="Approved">China_Guangzhou</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}China_SSPC" status="Approved">China_SSPC</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Colombia" status="Approved">Colombia</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Cyprus" status="Approved">Cyprus</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Dominican_Rep" status="Approved">Dominican_Rep</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Ecuador" status="Approved">Ecuador</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Egypt" status="Approved">Egypt</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}France" status="Approved">France</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Germany" status="Approved">Germany</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Guadeloupe" status="Approved">Guadeloupe</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Guernsey" status="Approved">Guernsey</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Hong_Kong" status="Approved">Hong_Kong</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Indonesia" status="Approved">Indonesia</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Italy" status="Approved">Italy</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Luxembourg" status="Approved">Luxembourg</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Macau" status="Approved">Macau</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Martinique" status="Approved">Martinique</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Mexico" status="Approved">Mexico</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Netherlands" status="Approved">Netherlands</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}New_Zealand" status="Approved">New_Zealand</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Nigeria" status="Approved">Nigeria</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Norway" status="Approved">Norway</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Pac_Island_CNMI_Saipan_Rota_Tinian"
+       status="Approved">Pac_Island_CNMI_Saipan_Rota_Tinian</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Pac_Island_CNMI_Saipan" status="Approved">Pac_Island_CNMI_Saipan</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Pac_Island_Fiji" status="Approved">Pac_Island_Fiji</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Pac_Island_Guam" status="Approved">Pac_Island_Guam</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Pac_Island_New_Caledonia" status="Approved">Pac_Island_New_Caledonia</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Pac_Island__Papua_New_Guinea"
+       status="Approved">Pac_Island__Papua_New_Guinea</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Singapore" status="Approved">Singapore</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}Thailand" status="Approved">Thailand</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}U.K." status="Approved">U.K.</key>
+   <key locale="en_US" id="LOVValue{::}E4RegionLov{::}U.S." status="Approved">U.S.</key>
+</Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Awp0E4SupplierSpecRevisionSummary.xml
+Default activeworkspace style sheet for displaying Material Revision.
+ -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+	<Content visibleWhen= "ActiveWorkspace:Location!com.siemens.splm.clientfx.tcui.xrt.showObjectLocation">
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name="item_id"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <property name="mat1ExtendsMaterial"/>
+				<property name="e4VendorList"/>
+                <inject type="dataset" src="Sci1Mat1MaterialRevisionSummary"/>
+            </section>
+        </column>
+        <column>
+            <content visibleWhen="REF(items_tag, E4SupplierSpec).scp0is_confidential != true">
+                <inject type="dataset" src="Mtw0Mat1UsesSubstanceCustom"/>
+            </content>
+        </column>
+    </page>
+    <inject type="dataset" src="Mtw0ParametersTab"/>
+    <inject type="dataset" src="Scp0MaterialLabReportTab"/>
+    <content  visibleWhen="{pref:SubstanceCompliance_feature_installed}!= true">     
+        <inject type="dataset" src="Awp0AttachmentsTab"/>
+    </content>
+    <content  visibleWhen="{pref:SubstanceCompliance_feature_installed}== true">     
+        <inject type="dataset" src="Scw0AttachmentsTab"/>
+    </content>
+    <inject type="dataset" src="Awp0WhereUsedTab"/>
+    <inject type="dataset" src="AuditLogForItemRev"/>
+    <content  visibleWhen="sci0IsIMDSObject == True and {pref:IMDSIntegration_feature_installed}==true and sci0MaterialSupplier != null">
+        <inject type="dataset" src="Sci1IMDSTabSummaryForMaterial"/>
+    </content>
+    <content  visibleWhen="sci0IsIMDSObject == True and {pref:IMDSIntegration_feature_installed}==true and sci0MaterialSupplier == null">
+        <inject type="dataset" src="Sci1IMDSTabSummaryForOwnMaterial"/>
+    </content>
+</rendering>

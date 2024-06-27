@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4TestResultsLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Pass" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fail" description="" conditionName="isTrue"/>
+   </TcLOV>
+</Add>
+</TcBusinessData>

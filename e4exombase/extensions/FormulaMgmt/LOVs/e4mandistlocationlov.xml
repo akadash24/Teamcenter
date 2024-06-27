@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4ManDistLocationLOV" lovType="ListOfValuesString" usage="Suggestive"
+       description="">
+     <TcLOVValue value="Spring" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Baytown" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Beaumont" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Carlsbad" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4ManDistLocationLOV" typeName="E4EMMat1UsesMaterial">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4DistributionLocation" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="E4ManDistLocationLOV" typeName="E4EMMat1UsesMaterial">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4ManufacturingLocation" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

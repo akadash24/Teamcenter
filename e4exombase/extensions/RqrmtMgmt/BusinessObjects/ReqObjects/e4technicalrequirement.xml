@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4TechnicalReq" parentClassName="E4AbsRequirement" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4TechnicalReqMasterS" parentClassName="E4AbsRequirementMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4TechnicalReqRevMasterS" parentClassName="E4AbsRequirementRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4TechnicalReqRevision" parentClassName="E4AbsRequirementRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4ClaimSynReq" description="" attributeType="POM_string"
+         maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4FacilityTesting" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4ForInternalUseOnly" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4OEMIndustryEBName" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4TechReqlevel" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4FacilityCertification" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="e4TechCoreAdditional" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4TechExpirationDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4TechnicalReqCreI" parentTypeName="E4AbsRequirementCreI"
+       typeClassName="E4TechnicalReqCreI" description="CreateInput object for &quot;E4TechnicalReq&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqCreI"/>
+   <OperationInputType typeName="E4TechnicalReqMasterCreI" parentTypeName="E4AbsRequirementMasterCreI"
+       typeClassName="E4TechnicalReqMasterCreI" description="CreateInput object for &quot;E4TechnicalReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqMasterCreI"/>
+   <OperationInputType typeName="E4TechnicalReqMasterSCreI" parentTypeName="E4AbsRequirementMasterSCreI"
+       typeClassName="E4TechnicalReqMasterSCreI" description="CreateInput object for &quot;E4TechnicalReqMasterS&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqMasterSCreI"/>
+   <OperationInputType typeName="E4TechnicalReqMasterSSvAI" parentTypeName="E4AbsRequirementMasterSSvAI"
+       typeClassName="E4TechnicalReqMasterSSvAI" description="SaveAsInput object for &quot;E4TechnicalReqMasterS&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqMasterSSvAI"/>
+   <OperationInputType typeName="E4TechnicalReqMasterSvAI" parentTypeName="E4AbsRequirementMasterSvAI"
+       typeClassName="E4TechnicalReqMasterSvAI" description="SaveAsInput object for &quot;E4TechnicalReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqMasterSvAI"/>
+   <OperationInputType typeName="E4TechnicalReqRevMasterSCreI" parentTypeName="E4AbsRequirementRevMasterSCreI"
+       typeClassName="E4TechnicalReqRevMasterSCreI" description="CreateInput object for &quot;E4TechnicalReqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevMasterSCreI"/>
+   <OperationInputType typeName="E4TechnicalReqRevMasterSSvAI" parentTypeName="E4AbsRequirementRevMasterSSvAI"
+       typeClassName="E4TechnicalReqRevMasterSSvAI" description="SaveAsInput object for &quot;E4TechnicalReqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevMasterSSvAI"/>
+   <OperationInputType typeName="E4TechnicalReqRevisionCreI" parentTypeName="E4AbsRequirementRevisionCreI"
+       typeClassName="E4TechnicalReqRevisionCreI" description="CreateInput object for &quot;E4TechnicalReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevisionCreI">
+     <OperationInputProperty propName="e4ClaimSynReq" compoundObjectConstant="" srcPropName="e4ClaimSynReq"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4FacilityTesting" compoundObjectConstant=""
+         srcPropName="e4FacilityTesting" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4ForInternalUseOnly" compoundObjectConstant=""
+         srcPropName="e4ForInternalUseOnly" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4OEMIndustryEBName" compoundObjectConstant=""
+         srcPropName="e4OEMIndustryEBName" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4TechReqlevel" compoundObjectConstant="" srcPropName="e4TechReqlevel"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4FacilityCertification" compoundObjectConstant=""
+         srcPropName="e4FacilityCertification" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4TechCoreAdditional" compoundObjectConstant=""
+         srcPropName="e4TechCoreAdditional" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4TechExpirationDate" compoundObjectConstant=""
+         srcPropName="e4TechExpirationDate" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4TechnicalReqRevisionRevI" parentTypeName="E4AbsRequirementRevisionRevI"
+       typeClassName="E4TechnicalReqRevisionRevI" description="ReviseInput object for &quot;E4TechnicalReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevisionRevI"/>
+   <OperationInputType typeName="E4TechnicalReqRevisionSvAI" parentTypeName="E4AbsRequirementRevisionSvAI"
+       typeClassName="E4TechnicalReqRevisionSvAI" description="SaveAsInput object for &quot;E4TechnicalReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevisionSvAI"/>
+   <OperationInputType typeName="E4TechnicalReqRevision_alt0CreI" parentTypeName="E4AbsRequirementRevisi_alt0CreI"
+       typeClassName="E4TechnicalReqRevision_alt0CreI" description="CreateInput object for &quot;E4TechnicalReqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevision_alt0CreI"/>
+   <OperationInputType typeName="E4TechnicalReqRevision_alt0SvAI" parentTypeName="E4AbsRequirementRevisi_alt0SvAI"
+       typeClassName="E4TechnicalReqRevision_alt0SvAI" description="SaveAsInput object for &quot;E4TechnicalReqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevision_alt0SvAI"/>
+   <OperationInputType typeName="E4TechnicalReqSvAI" parentTypeName="E4AbsRequirementSvAI"
+       typeClassName="E4TechnicalReqSvAI" description="SaveAsInput object for &quot;E4TechnicalReq&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqSvAI"/>
+   <TcForm typeName="E4TechnicalReqMaster" parentTypeName="E4AbsRequirementMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4TechnicalReq&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqMaster" functionality="E4exombase"
+       formStorageClassName="E4TechnicalReqMasterS"/>
+   <TcForm typeName="E4TechnicalReqRevisionMaster" parentTypeName="E4AbsRequirementRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4TechnicalReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevisionMaster" functionality="E4exombase"
+       formStorageClassName="E4TechnicalReqRevMasterS"/>
+   <TcStandardType typeName="E4TechnicalReq" parentTypeName="E4AbsRequirement" typeClassName="E4TechnicalReq"
+       description="" isAbstract="false" artifactName="E4TechnicalReq" functionality="E4exombase"/>
+   <TcStandardType typeName="E4TechnicalReqMasterS" parentTypeName="E4AbsRequirementMasterS"
+       typeClassName="E4TechnicalReqMasterS" description="Form Storage object for &quot;E4TechnicalReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqMasterS" functionality="E4exombase"/>
+   <TcStandardType typeName="E4TechnicalReqRevMasterS" parentTypeName="E4AbsRequirementRevMasterS"
+       typeClassName="E4TechnicalReqRevMasterS" description="Form Storage object for &quot;E4TechnicalReqRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevMasterS" functionality="E4exombase"/>
+   <TcStandardType typeName="E4TechnicalReqRevision" parentTypeName="E4AbsRequirementRevision"
+       typeClassName="E4TechnicalReqRevision" description="ItemRevision object for &quot;E4TechnicalReq&quot;  business object"
+       isAbstract="false" artifactName="E4TechnicalReqRevision" functionality="E4exombase"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4TechnicalReq" value="E4TechnicalReqCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4TechnicalReqMaster"
+       value="E4TechnicalReqMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4TechnicalReqMasterS"
+       value="E4TechnicalReqMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4TechnicalReqRevision"
+       value="E4TechnicalReqRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4TechnicalReqRevisionMaster"
+       value="E4TechnicalReqRevision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4TechnicalReqRevMasterS"
+       value="E4TechnicalReqRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0AllowReviseOperation" typeName="E4TechnicalReqRevision"
+       value="false"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4TechnicalReq" value="E4TechnicalReqRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4TechnicalReq" value="E4TechnicalReqMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4TechnicalReqRevision"
+       value="E4TechnicalReqRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4TechnicalReqRevision"
+       value="E4TechnicalReqRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4TechnicalReq" value="E4TechnicalReqSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4TechnicalReqMaster"
+       value="E4TechnicalReqMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4TechnicalReqMasterS"
+       value="E4TechnicalReqMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4TechnicalReqRevision"
+       value="E4TechnicalReqRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4TechnicalReqRevisionMaster"
+       value="E4TechnicalReqRevision_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4TechnicalReqRevMasterS"
+       value="E4TechnicalReqRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="E4MarketingReqRevision"
+       propertyName="e4ApprovalDate" value="false"/>
+   <TcPropertyConstantAttach constantName="CopyFromOriginal" typeName="E4MarketingReqRevision"
+       propertyName="e4LastReviewed" value="false"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4ClaimSynReq" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4FacilityCertification" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4FacilityTesting" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4ForInternalUseOnly" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4OEMIndustryEBName" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechCoreAdditional" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechExpirationDate" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechReqlevel" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4ClaimSynReq" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4FacilityCertification" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4FacilityTesting" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4ForInternalUseOnly" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4OEMIndustryEBName" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechCoreAdditional" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechExpirationDate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechReqlevel" value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4MarketingReqRevision"
+       propertyName="e4Region" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4MarketingReqRevision"
+       propertyName="e4RequirementDescription" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4TechnicalReqRevision"
+       propertyName="e4Category" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4TechnicalReqRevision"
+       propertyName="e4OEMIndustryEBName" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4TechnicalReqRevision"
+       propertyName="e4Region" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4TechnicalReqRevision"
+       propertyName="e4RequirementDescription" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4TechnicalReqRevision"
+       propertyName="e4TechReqlevel" value="true"/>
+</Add>
+</TcBusinessData>

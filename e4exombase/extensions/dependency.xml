@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes currentTemplateVersion="14.0_0" displayName="Exom" enableOpsDataDeploy="true" guid="A51AE4BFFA5BBCE51994AB984F372165" isDescriptionMandatory="false" name="e4exombase" optional="true" prefixes="E4" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="apb0attrparmbase_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="crf0cprfoundation_template.xml"/>
+    <include file="icp0campaignmgmt_template.xml"/>
+    <include file="iim0ideamgmt_template.xml"/>
+    <include file="materialmgmt_template.xml"/>
+    <include file="prg0programinfra_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="att0attrtargetmgmt_template.xml"/>
+    <include file="brndmgmt_template.xml"/>
+    <include file="cpgmaterials_template.xml"/>
+    <include file="inm0initiativemgmt_template.xml"/>
+    <include file="pkgart_template.xml"/>
+    <include file="pmg0cpmgmt_template.xml"/>
+    <include file="ipm0integprogmgmt_template.xml"/>
+    <include file="arm1awreqmgmtse_template.xml"/>
+    <include file="crt0validationcontract_template.xml"/>
+    <include file="arm0activeworkspacereqmgmt_template.xml"/>
+    <include file="mtw0materialmgmtaw_template.xml"/>
+    <include file="pka1pkgartaw_template.xml"/>
+    <include file="vm1vendormanagementaw_template.xml"/>
+    <include file="ipc0cpgipmcatalyst_template.xml"/>
+</TcBusinessDataIncludes>

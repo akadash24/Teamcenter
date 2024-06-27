@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Default style sheet for displaying Marketing Requirement Element summary. 
+
+	History
+    20-May-24       Yamini Patekar                Initial Creation
+===============================================================================-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="awb0Name"/>
+        <property name="awb0ArchetypeName"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" format="TwoColumn" visibleWhen="awb0UnderlyingObjectType!=IAV0MeasureReqmtRevision and awb0UnderlyingObjectType!=IAV0TestCondRevision and awb0UnderlyingObjectType!=IAV0InspectReqmtRevision">
+        <firstcolumn>
+            <section titleKey="tc_xrt_e4_id_info">
+                <property name = "awb0ArchetypeId"/>
+                <!--<property name = "awb0ArchetypeRevId"/>-->
+                <property name = "awb0ArchetypeRevName"/>
+                <property name = "REF(awb0UnderlyingObject,E4MarketingReqRevision).e4RequirementDescription"/>
+                <property name = "awb0OccName"/>
+                <property name = "awb0Sequence"/>
+			</section>
+	        <section titleKey="tc_xrt_e4_status_info">
+				<property name = "awb0ArchetypeRevRelStatus" renderingHint = "label"/>
+				<property name = "awb0ArchetypeRevReleaseDate" renderingHint = "label"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4RequirementStatus" renderingHint="label"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).checked_out" renderingHint="label"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).checked_out_user"/>
+			 </section>
+			 <section titleKey="tc_xrt_e4_requirement_info">
+                <property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Additive"/>
+                <property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4AdditiveTreatRate"/>	
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Brand"/>			
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Category"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4MarketingClassification"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Comment"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Disclaimer"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4GlobalGuidance"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4MarketingLOB"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Region"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4RequirementCost"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4Time"/>
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4ValidationPlan"/>
+			  </section>
+			  <section titleKey="tc_xrt_e4_user_info">
+				<property name="awb0ArchetypeRevOwningUser" renderingHint = "objectlink" modifiable = "false"/>
+				<property name="awb0ArchetypeRevOwningGroup" renderingHint = "objectlink" modifiable = "false"/>
+				<property name="awb0ArchetypeRevLastModUser"/>
+			  </section>
+			  <section titleKey="tc_xrt_e4_date_info">
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4ApprovalDate"/>	
+				<property name="REF(awb0UnderlyingObject,E4MarketingReqRevision).e4LastReviewed"/>		
+			  </section>
+			  <section titleKey="tc_xrt_e4_other_info">      
+				<property name = "awb0Parent"/>
+				<property name = "awb0NumberOfChildren"/>
+				<property name = "awb0IsPrecise"/>
+				<inject type="dataset" src="Pdi0ElementProperties"/>
+			 </section>
+            <inject type="dataset" src="S2clScalarRatingOverview"/>
+            <inject type="dataset" src="Mds1ShowSeverityProperty"/>
+            <inject type="dataset" src="Fnd0ClassificationSummary"/>
+        </firstcolumn>
+        <!--<secondcolumn>
+            <inject type="dataset" src="Awp0RequirementPreview"/>
+            <view name="actions">
+                <command actionKey="reviseAction" commandId="com.teamcenter.rac.revise"/>
+                <command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs"/>
+            </view>
+        </secondcolumn>-->
+    </page>
+    <inject type="dataset" src="AttributesTableSummaryAwb0Element" />
+    <inject type="evaluate" src="awb0UnderlyingObject"/>
+</rendering>

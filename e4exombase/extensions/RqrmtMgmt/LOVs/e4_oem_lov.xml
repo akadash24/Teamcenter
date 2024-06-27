@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4OEMLov" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="DANA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="RENAULT" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ASTM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SAE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AS/NZS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GEK" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NGC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GE Power" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mitsubishi Power Ltd" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Safran" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FIAT" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MB" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Baker Hughes Nuovo Pignone" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MTU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MAN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ZF" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Ingersoll Rand" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Rolls-Royce Solutions Augsburg (former MTU Onsite Energy)"
+          description="" conditionName="isTrue"/>
+      <TcLOVValue value="Anglo Belgian Corporation" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NLGI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MAN Energy Solutions Copenhagen (Heritage MAN B&amp;W)" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="SKF Marine" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DIN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VW" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JMC FORD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FAW Jiefang" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GreatWall Motor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PORSCHE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Milacron" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Sinotruk" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JMC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LanDai Power" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BYD Auto" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bundeswehr" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MTU Onsite Energy" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Ford China" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Winterthur Gas and Diesel Engine (Heritage Wartsila &amp; Sulzer)"
+          description="" conditionName="isTrue"/>
+      <TcLOVValue value="Wartsila Norway AS - Marine Solutions Propulsion" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="OPEL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ACEA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MACK" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CUMMINS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Caterpillar / MaK" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MAN Energy Solutions Augsburg (Heritage MAN B&amp;W)" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="Rolls-Royce Marine North America Inc." description="" conditionName="isTrue"/>
+      <TcLOVValue value="Meritor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VOLVO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TATA MOTORS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SCANIA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Daimler Truck" description="" conditionName="isTrue"/>
+      <TcLOVValue value="China GB" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AIRBUS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="vgbe energy service GmbH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Wartsila" description="" conditionName="isTrue"/>
+      <TcLOVValue value="API" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CRRC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Stemco" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Jaguar Land Rover" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Jaguar" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JASO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Progress Rail" description="" conditionName="isTrue"/>
+      <TcLOVValue value="STELLANTIS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ISO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Primetals Technologies" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SMS Group" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ILSAC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Indian Standard" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Eaton" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Continental Motors, Inc." description="" conditionName="isTrue"/>
+      <TcLOVValue value="Textron Lycoming" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Caterpillar" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DETROIT DIESEL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Kenworth" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ALLISON" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MARUTI SUZUKI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TOYOTA*" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AUDI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SAAB" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Indonesia SNI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Aisin" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NISSAN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Daihatsu" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Honda" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mitsubishi" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Subaru" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Suzuki" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ACEA/EMA/JAMA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CCMC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Detroit" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DOT" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Komatsu" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NISSAN MOTORS INDIA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="RENK" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TISI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CEN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PTI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VALTRA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CLAAS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="R. Bosch AS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AAE (STO 003)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AAR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AGCO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Canadian Standards Association" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CNH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FORDNH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HONDA/ACURA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JICASE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JIS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JOHN DEERE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MASSEY FERGUSON" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Iveco" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AGMA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mazda" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AUSTRALIAN STANDARD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BMW" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DAF" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DEUTZ" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LEXUS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="RENAULT TRUCKS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ISUZU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FORD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CHRYSLER" description="" conditionName="isTrue"/>
+      <TcLOVValue value="New Holland" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EPA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JCB" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Hyundai" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SAIC Motor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="KAMAZ" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bombardier" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Husky" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MIL (US)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NATO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Voith Turbo" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AVTODISEL (YaMZ)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GIMA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="USDA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Rolls Royce Corporation" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EMD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mitsui Miike Machinery" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Ishibashi Manufacturing" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Suzlon" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Delijia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AAFC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bucyrus International" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Canadian Food Inspection Agency" description="" conditionName="isTrue"/>
+      <TcLOVValue value="P&amp;H Shovels" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Wikov Industry" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CN GPower" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Envision" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Goldwind" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mitsubishi Heavy Industries (MHI)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VOITH RETARDER" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Hitachi" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BENTLEY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FAWDE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="INNIO Waukesha" description="" conditionName="isTrue"/>
+      <TcLOVValue value="McLaren Automotive" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LMOA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Danieli" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Morgoil" description="" conditionName="isTrue"/>
+      <TcLOVValue value="RVI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TIMKEN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bosch Rexroth" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Navistar, Inc." description="" conditionName="isTrue"/>
+      <TcLOVValue value="TWIN DISC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Eaton Truck Components" description="" conditionName="isTrue"/>
+      <TcLOVValue value="INTERNATIONAL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ATR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BAE/AVRO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BOEING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Boeing-Long Beach" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Airbus Canada" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CESSNA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EMBRAER" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FOKKER" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GOODRICH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GULFSTREAM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HONEYWELL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LOCKHEED" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Meggitt (ABSC)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Meggitt (DUNLOP)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MILITARY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PARKER/CLEVELAND" description="" conditionName="isTrue"/>
+      <TcLOVValue value="US NAVY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AVTOVAZ (Lada cars)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ASTON MARTIN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="KUBOTA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MHI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GE Renewable Energy" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Siemens Westinghouse" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Fives Cincinnati" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MAN Energy Solutions Oberhausen (Heritage MAN D&amp;T)" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="Siemens" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Siemens Industrial Turbo Machinery" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Department of Highways, Thailand" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AASHTO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BRITISH EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GERMAN EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GREEK EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BELGIAN EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DUTCH EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FRENCH EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PORTUGUESE EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NORWEIGIAN EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AUSTRIAN EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FINNISH EUROPEAN NORMALIZAITON" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SWISS EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ROMANIAN EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ABB Turbo" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GE Power (former Alstom Power)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SWEDISH EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SPANISH EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ITALIAN EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CYPRUS EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="THAI INDUSTRIAL STANDARDS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GRUMMAN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FAA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HUGHES AIRCRAFT" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DOD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MCDONNELL DOUGLAS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MILITARY, FORMER SOVIET UNION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NORTHROP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MALTA EUROPEAN NORMALIZATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GM EMD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="COMAC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FDA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="European Regulation" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JP PHARM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="European Pharmacopoeia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="US Pharmacopeia/National Formulary" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JP FOOD ADDITIVE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EUROPEAN DIRECTIVE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FRAMO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="INDUSTRY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Japan Engine Corporation (Heritage MHI)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="US EPA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="INNIO Jenbacher" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Caterpillar Energy Solutions" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MWM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Magna Powertrain" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Perkins" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Dresser Rand" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GESAMP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FM Global" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Kosher Certification Council" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bergen Engines AS (former Rolls-Royce Bergen)" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="Turkish Standard" description="" conditionName="isTrue"/>
+      <TcLOVValue value="RAL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Takamatsu Machinery Co., Ltd." description="" conditionName="isTrue"/>
+      <TcLOVValue value="TYHI(Taiyuan Heavy Industry)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Nordex" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Eickhoff Antriebstechnik GmbH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DNV-GL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ZF Wind Power" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Winergy" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Senvion" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Hansen" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Jahnel-Kestermann" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Siemens Gamesa Renewable Energy" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Kapp Gmbh" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VESTAS WIND SYSTEMS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Chery" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Safran Landing Systems (Messier-Bugatti)" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="JCMAS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JAC Motor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DFCV" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Arburg" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Stromag AG" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Schuler Group" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Krauss-Maffei" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SMS Siemag" description="" conditionName="isTrue"/>
+      <TcLOVValue value="WGK" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HOCNF" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Swedish Standard" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AFNOR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="IEC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Kia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HMC (Hyundai Motors)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HYUNDAI DYMOS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Ortlinghaus-Werke GmbH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PSA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GUASCOR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FINCANTIERI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SKF Marine GmbH" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Flender" description="" conditionName="isTrue"/>
+      <TcLOVValue value="IMO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Moventas OY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Valmet" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ThyssenKrupp Rothe Erde" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Siemens Traction Gears GmbH (former Flender Rail)" description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="SEW-Eurodrive" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Voith Paper" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Watteeuw" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GE Transportation, A Wabtec Company" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Blue Angel" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SATURN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Toyota" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Nexteer" description="" conditionName="isTrue"/>
+      <TcLOVValue value="American Motor Corp" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="International Biodegradable Products Institute, Inc." description=""
+          conditionName="isTrue"/>
+      <TcLOVValue value="Denison" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NSF" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Burckhardt" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Stoeber Antriebstechnik" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Svanehoj Danmark A/S" description="" conditionName="isTrue"/>
+      <TcLOVValue value="IFANCA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="US Pharmacopoeia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LMZ" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Solar Turbines" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Halal Food Council of Europe" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NMMA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ADATH YEREIM_IGOUD HAREDI" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4OEMLov" typeName="E4TechnicalReqRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4OEMIndustryEBName" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

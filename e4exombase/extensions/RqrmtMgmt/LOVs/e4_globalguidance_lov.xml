@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4GlobalGuidance" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="All-in-One Protection Pillar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Base Protection Pillar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Family Claim" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tailored Protection Pillar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tiered Claim" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unbranded" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Esso Supreme + Diesel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Esso Supreme + Unleaded" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Esso Supreme 25% Renewable Diesel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Esso Synergy Unleaded" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4GlobalGuidance" typeName="E4MarketingReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4GlobalGuidance" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

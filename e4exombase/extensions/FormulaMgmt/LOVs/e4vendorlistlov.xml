@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <LOVDynamic name="E4VendorLOV" description="" usage="Exhaustive" queryClause="SELECT qid FROM VendorRevision WHERE &quot;items_tag.item_id&quot; LIKE &quot;*&quot;"
+       dataType="PROP_string" queryType="VendorRevision" lovValueAttribute="object_name"
+       lovValueDescriptionAttribute="">
+     <LOVFilterAttribute value="object_desc"/>
+     <LOVFilterAttribute value="fnd0CurrentLocationCode"/>
+   </LOVDynamic>
+   <TcLOVAttach lovName="E4VendorLOV" typeName="E4SupplierSpecRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4VendorList" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

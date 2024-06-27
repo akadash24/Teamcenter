@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4AdditiveTreatRateLov{::}383 ppmv" status="Approved">383 ppmv</key>
+   <key locale="en_US" id="LOVValue{::}E4AdditiveTreatRateLov{::}452 ppmv" status="Approved">452 ppmv</key>
+   <key locale="en_US" id="LOVValue{::}E4AdditiveTreatRateLov{::}766 ppmv" status="Approved">766 ppmv</key>
+</Add>
+</TcBusinessDataLocalization>

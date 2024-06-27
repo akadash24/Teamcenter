@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <OperationInputType typeName="E4Arm0MarketingReqElementCreI" parentTypeName="Arm0RequirementElementCreI"
+       typeClassName="E4Arm0MarketingReqElementCreI" description="CreateInput object for &quot;E4Arm0MarketingReqElement&quot; business object"
+       isAbstract="false" artifactName="E4Arm0MarketingReqElementCreI"/>
+   <OperationInputType typeName="E4Arm0MarketingReqElementSvAI" parentTypeName="Arm0RequirementElementSvAI"
+       typeClassName="E4Arm0MarketingReqElementSvAI" description="SaveAsInput object for &quot;E4Arm0MarketingReqElement&quot; business object"
+       isAbstract="false" artifactName="E4Arm0MarketingReqElementSvAI"/>
+   <TcRuntimeType typeName="E4Arm0MarketingReqElement" parentTypeName="Arm0RequirementElement"
+       typeClassName="E4Arm0MarketingReqElement" description="" isAbstract="false"
+       artifactName="E4Arm0MarketingReqElement">
+     <TcProperty propName="bl_E4MarketingReqRevision_e4Additive" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4Additive defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4AdditiveTreatRate" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4AdditiveTreatRate defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4ApprovalDate" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="0" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4ApprovalDate defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4Brand" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4Brand defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4Disclaimer" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="1280" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4Disclaimer defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4GlobalGuidance" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4GlobalGuidance defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4LastReviewed" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="0" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4LastReviewed defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4MarketingClassification" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4MarketingClassification defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4MarketingLOB" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4MarketingLOB defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4MarketingReqRevision_e4ValidationPlan" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="1280" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4MarketingReqRevision_e4ValidationPlan defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4Authority" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4Authority defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+   </TcRuntimeType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4Arm0MarketingReqElement"
+       value="E4Arm0MarketingReqElementCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4Arm0MarketingReqElement"
+       value="E4Arm0MarketingReqElementSvAI"/>
+   <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="E4Arm0MarketingReqElement"
+       value="E4MarketingReqRevision"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4Additive" value="bl_E4MarketingReqRevision_e4Additive"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4AdditiveTreatRate" value="bl_E4MarketingReqRevision_e4AdditiveTreatRate"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4ApprovalDate" value="bl_E4MarketingReqRevision_e4ApprovalDate"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4Brand" value="bl_E4MarketingReqRevision_e4Brand"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4Disclaimer" value="bl_E4MarketingReqRevision_e4Disclaimer"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4GlobalGuidance" value="bl_E4MarketingReqRevision_e4GlobalGuidance"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4LastReviewed" value="bl_E4MarketingReqRevision_e4LastReviewed"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4MarketingClassification" value="bl_E4MarketingReqRevision_e4MarketingClassification"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4MarketingLOB" value="bl_E4MarketingReqRevision_e4MarketingLOB"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4MarketingReqRevision_e4ValidationPlan" value="bl_E4MarketingReqRevision_e4ValidationPlan"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0MarketingReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4Authority" value="bl_E4RegulatoryReqRevision_e4Authority"/>
+</Add>
+</TcBusinessData>

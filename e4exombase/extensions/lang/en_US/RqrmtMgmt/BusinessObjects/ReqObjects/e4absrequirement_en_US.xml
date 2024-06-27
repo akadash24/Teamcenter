@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4AbsRequirementMasterS" status="Approved">Abs Requirement Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4AbsRequirementMaster" status="Approved">Abstract Requirement Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4AbsRequirementRevMasterS" status="Approved">Abs Requirement Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4AbsRequirementRevisionMaster" status="Approved">Abstract Requirement Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4AbsRequirementRevision" status="Approved">Abstract Requirement Revision</key>
+   <key locale="en_US" id="BusinessObject{::}E4AbsRequirement" status="Approved">Abstract Requirement</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}creation_date"
+       status="Approved">Creation On</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4Category" status="Approved">Category</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4Comment" status="Approved">Comment</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4Region" status="Approved">Region</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4RequirementCost"
+       status="Approved">Requirement Cost (USD)</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4RequirementDescription"
+       status="Approved">Requirement Description</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4RequirementStatus"
+       status="Approved">Requirement Status</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}e4Time" status="Approved">Requirement Implementation Time (Days)</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}item_id" status="Approved">Requirement ID</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}owning_user" status="Approved">Requirement Expert</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirementRevision{::}release_status_list"
+       status="Approved">Lifecycle Status</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirement{::}creation_date" status="Approved">Creation On</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirement{::}owning_user" status="Approved">Requirement Expert</key>
+   <key locale="en_US" id="Property{::}E4AbsRequirement{::}release_status_list" status="Approved">Lifecycle Status</key>
+</Add>
+</TcBusinessDataLocalization>

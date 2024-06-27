@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcRevNamingRule name="E4ReqRevNamingRule" excludeSkipLetters="true">
+      <TcInitRevDetails revisionType="Numeric" revisionStart="001" revisionDescription=""/>
+   </TcRevNamingRule>
+   <TcNamingRuleAttach ruleName="E4ReqRevNamingRule" typeName="E4MarketingReq" propertyName="item_revision_id"
+        case="Mix" conditionName="isTrue" override="false" ruleType="RevisionNamingRule"
+        description=""/>
+   <TcNamingRuleAttach ruleName="E4ReqRevNamingRule" typeName="E4RegulatoryReq" propertyName="item_revision_id"
+        case="Mix" conditionName="isTrue" override="false" ruleType="RevisionNamingRule"
+        description=""/>
+   <TcNamingRuleAttach ruleName="E4ReqRevNamingRule" typeName="E4TechnicalReq" propertyName="item_revision_id"
+        case="Mix" conditionName="isTrue" override="false" ruleType="RevisionNamingRule"
+        description=""/>
+</Add>
+</TcBusinessData>

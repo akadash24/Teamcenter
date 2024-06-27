@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4RequirementStatusLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Latest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Historical" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4RequirementStatusLov" typeName="E4AbsRequirementRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4RequirementStatus" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

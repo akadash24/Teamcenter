@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Technical Requirement Revision Info summary. 
+
+	History
+    20-May-24       Yamini Patekar                Initial Creation
+=================================================================================-->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+     <section titleKey="tc_xrt_e4_id_info">
+        <property name="item_id" renderingHint="label"/>
+        <!--<property name="item_revision_id" renderingHint="label"/>-->
+        <property name="object_name"/>
+        <property name="e4RequirementDescription"/>
+        <property name="object_type"/>
+	 </section>
+	 <section titleKey="tc_xrt_e4_status_info">
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="date_released" renderingHint="label"/>
+		<property name="e4RequirementStatus"/>
+		<property name="checked_out" renderingHint="label"/>
+        <property name="checked_out_user"/>
+	 </section>
+     <section titleKey="tc_xrt_e4_requirement_info">
+        <property name="e4Category"/>		
+        <property name="e4ClaimSynReq"/>
+        <property name="e4Comment"/>
+        <property name="e4TechCoreAdditional"/>
+        <property name="e4FacilityCertification"/>
+        <property name="e4FacilityTesting"/>
+        <property name="e4ForInternalUseOnly"/>
+        <property name="e4OEMIndustryEBName"/>
+        <property name="e4Region"/>
+        <property name="e4RequirementCost"/>
+        <property name="e4TechReqlevel"/>
+        <property name="e4Time"/>
+	  </section>
+	  <section titleKey="tc_xrt_e4_user_info">
+	    <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_user"/>
+	  </section>
+      <section titleKey="tc_xrt_e4_date_info">
+        <property name="e4TechExpirationDate"/>			
+      </section>
+    </page>
+    <page titleKey="attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <listDisplay/>
+                <parameter name="localSelection" value="true"/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

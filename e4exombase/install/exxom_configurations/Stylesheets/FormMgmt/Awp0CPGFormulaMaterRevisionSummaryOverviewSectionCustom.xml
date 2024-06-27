@@ -1,0 +1,58 @@
+<subRendering>
+    <section titleKey="tc_xrt_formulaMater_properties">
+        <property name="fnd0Maturity"/>
+        <property name="date_released" renderingHint="label"/>
+        <break/>
+        <!--Following dataset is contributed from Initiative Lifecycle Management (ILM) Active Workspace -->
+        <inject type="dataset" src="Ipm1GateReviewAttributesPropSection"/>
+        <break/>
+        <inject type="dataset" src="Ipc1DisciplinePropSection"/>
+        <break/>
+        <!-- object specific attributes -->
+        <property name="material_function"/>
+        <break/>
+        <property name="IMAN_based_on" titleKey="tc_xrt_BasedOn"/>
+        <property name="e4BackupSupplierRequired"/>
+         <property name="e4ContainsHazardousMat"/>
+         <property name="e4ProducedBy"/>
+         <property name="E4HasRecipe"/>	
+         <property name="e4VersionType"/>
+         <property name="awp0ConfiguredRevision"/>
+    </section>
+    <!-- Classification Info -->
+    <content visibleWhen="Cls0ClassifiedBy!=null">
+        <inject type="dataset" src="Fnd0ClassificationSummary"/>
+    </content>
+    <content visibleWhen="Cls0ClassifiedBy==null and ics_classified!=null">
+        <inject type="dataset" src="Fnd0ClassificationSummary"/>
+    </content>
+    <!-- TCPRoject Info -->
+    <content visibleWhen="owning_project!=null">
+        <inject type="dataset" src="ProjectListInfo"/>
+    </content>
+    <section titleKey="tc_xrt_formulated_dev_briefs">
+        <objectSet source = "IMAN_reference.CPBriefRevision" defaultdisplay = "tableDisplay"  sortby="object_name" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string" width="400"/>
+                <property name="object_desc"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </tableDisplay>
+            <treeDisplay>
+                <property name="object_string" width="400"/>
+                <property name="object_desc"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </treeDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>
+</subRendering>

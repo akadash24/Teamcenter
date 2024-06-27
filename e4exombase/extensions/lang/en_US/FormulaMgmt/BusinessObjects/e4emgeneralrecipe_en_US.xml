@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}E4EMGeneralRecMasterS" status="Approved">EM General Rec Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMGeneralRecMaster" status="Approved">EM General Rec Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMGeneralRecRevMasterS" status="Approved">EM General Rec Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMGeneralRecRevisionMaster" status="Approved">EM General Rec Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMGeneralRecRevision" status="Approved">EM General Recipe Revision</key>
+   <key locale="en_US" id="BusinessObject{::}E4EMGeneralRec" status="Approved">EM General Recipe</key>
+</Add>
+</TcBusinessDataLocalization>

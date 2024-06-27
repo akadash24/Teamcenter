@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcNamingRule name="E4ComponentNamingRule">
+      <TcPattern generateCounters="true" patternString="&quot;COMP-&quot;NNNNNN">
+         <TcCounter initialValue="COMP-000001" maximumValue="COMP-999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="E4ComponentNamingRule" typeName="E4EMComponent" propertyName="item_id"
+         case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule"
+         description=""/>
+</Add>
+</TcBusinessData>

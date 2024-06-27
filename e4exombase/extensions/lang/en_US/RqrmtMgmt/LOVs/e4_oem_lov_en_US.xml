@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AAE (STO 003)" status="Approved">AAE (STO 003)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AAFC" status="Approved">AAFC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AAR" status="Approved">AAR</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AASHTO" status="Approved">AASHTO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ABB Turbo" status="Approved">ABB Turbo</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ACEA/EMA/JAMA" status="Approved">ACEA/EMA/JAMA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ACEA" status="Approved">ACEA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AFNOR" status="Approved">AFNOR</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AGCO" status="Approved">AGCO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AGMA" status="Approved">AGMA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AIRBUS" status="Approved">AIRBUS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ALLISON" status="Approved">ALLISON</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}API" status="Approved">API</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AS/NZS" status="Approved">AS/NZS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ASTM" status="Approved">ASTM</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ASTON MARTIN" status="Approved">ASTON MARTIN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AS" status="Approved">AS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ATR" status="Approved">ATR</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AUDI" status="Approved">AUDI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AUSTRALIAN STANDARD" status="Approved">AUSTRALIAN STANDARD</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AUSTRIAN EUROPEAN NORMALIZATION"
+       status="Approved">AUSTRIAN EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AVTODISEL (YaMZ)" status="Approved">AVTODISEL (YaMZ)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}AVTOVAZ (Lada cars)" status="Approved">AVTOVAZ (Lada cars)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Airbus Canada" status="Approved">Airbus Canada</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Aisin" status="Approved">Aisin</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}American Motor Corp" status="Approved">American Motor Corp</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Anglo Belgian Corporation" status="Approved">Anglo Belgian Corporation</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Arburg" status="Approved">Arburg</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BAE/AVRO" status="Approved">BAE/AVRO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BELGIAN EUROPEAN NORMALIZATION"
+       status="Approved">BELGIAN EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BENTLEY" status="Approved">BENTLEY</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BMW" status="Approved">BMW</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BOEING" status="Approved">BOEING</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BRITISH EUROPEAN NORMALIZATION"
+       status="Approved">BRITISH EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BS" status="Approved">BS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}BYD Auto" status="Approved">BYD Auto</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Baker Hughes Nuovo Pignone" status="Approved">Baker Hughes Nuovo Pignone</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Bergen Engines AS (former Rolls-Royce Bergen)"
+       status="Approved">Bergen Engines AS (former Rolls-Royce Bergen)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Blue Angel" status="Approved">Blue Angel</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Boeing-Long Beach" status="Approved">Boeing-Long Beach</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Bombardier" status="Approved">Bombardier</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Bosch Rexroth" status="Approved">Bosch Rexroth</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Bucyrus International" status="Approved">Bucyrus International</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Bundeswehr" status="Approved">Bundeswehr</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Burckhardt" status="Approved">Burckhardt</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CCMC" status="Approved">CCMC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CEN" status="Approved">CEN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CESSNA" status="Approved">CESSNA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CHRYSLER" status="Approved">CHRYSLER</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CLAAS" status="Approved">CLAAS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CN GPower" status="Approved">CN GPower</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CNH" status="Approved">CNH</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}COMAC" status="Approved">COMAC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CRRC" status="Approved">CRRC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CUMMINS" status="Approved">CUMMINS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}CYPRUS EUROPEAN NORMALIZATION"
+       status="Approved">CYPRUS EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Canadian Food Inspection Agency"
+       status="Approved">Canadian Food Inspection Agency</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Canadian Standards Association"
+       status="Approved">Canadian Standards Association</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Caterpillar / MaK" status="Approved">Caterpillar / MaK</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Caterpillar Energy Solutions" status="Approved">Caterpillar Energy Solutions</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Caterpillar" status="Approved">Caterpillar</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Chery" status="Approved">Chery</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}China GB" status="Approved">China GB</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Continental Motors, Inc." status="Approved">Continental Motors, Inc.</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DAF" status="Approved">DAF</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DANA" status="Approved">DANA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DETROIT DIESEL" status="Approved">DETROIT DIESEL</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DEUTZ" status="Approved">DEUTZ</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DFCV" status="Approved">DFCV</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DIN" status="Approved">DIN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DNV-GL" status="Approved">DNV-GL</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DOD" status="Approved">DOD</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DOT" status="Approved">DOT</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}DUTCH EUROPEAN NORMALIZATION" status="Approved">DUTCH EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Daihatsu" status="Approved">Daihatsu</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Daimler Truck" status="Approved">Daimler Truck</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Danieli" status="Approved">Danieli</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Delijia" status="Approved">Delijia</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Denison" status="Approved">Denison</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Department of Highways, Thailand"
+       status="Approved">Department of Highways, Thailand</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Detroit" status="Approved">Detroit</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Dresser Rand" status="Approved">Dresser Rand</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}EMBRAER" status="Approved">EMBRAER</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}EMD" status="Approved">EMD</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}EPA" status="Approved">EPA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}EUROPEAN DIRECTIVE" status="Approved">EUROPEAN DIRECTIVE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Eaton Truck Components" status="Approved">Eaton Truck Components</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Eaton" status="Approved">Eaton</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Eickhoff Antriebstechnik GmbH"
+       status="Approved">Eickhoff Antriebstechnik GmbH</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Envision" status="Approved">Envision</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}European Pharmacopoeia" status="Approved">European Pharmacopoeia</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}European Regulation" status="Approved">European Regulation</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FAA" status="Approved">FAA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FAW Jiefang" status="Approved">FAW Jiefang</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FAWDE" status="Approved">FAWDE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FDA" status="Approved">FDA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FIAT" status="Approved">FIAT</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FINCANTIERI" status="Approved">FINCANTIERI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FINNISH EUROPEAN NORMALIZAITON"
+       status="Approved">FINNISH EUROPEAN NORMALIZAITON</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FM Global" status="Approved">FM Global</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FOKKER" status="Approved">FOKKER</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FORDNH" status="Approved">FORDNH</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FORD" status="Approved">FORD</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FRAMO" status="Approved">FRAMO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}FRENCH EUROPEAN NORMALIZATION"
+       status="Approved">FRENCH EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Fives Cincinnati" status="Approved">Fives Cincinnati</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Flender" status="Approved">Flender</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Ford China" status="Approved">Ford China</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GE Power (former Alstom Power)"
+       status="Approved">GE Power (former Alstom Power)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GE Power" status="Approved">GE Power</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GE Renewable Energy" status="Approved">GE Renewable Energy</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GE Transportation, A Wabtec Company"
+       status="Approved">GE Transportation, A Wabtec Company</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GEK" status="Approved">GEK</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GERMAN EUROPEAN NORMALIZATION"
+       status="Approved">GERMAN EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GESAMP" status="Approved">GESAMP</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GE" status="Approved">GE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GIMA" status="Approved">GIMA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GM EMD" status="Approved">GM EMD</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GM" status="Approved">GM</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GOODRICH" status="Approved">GOODRICH</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GREEK EUROPEAN NORMALIZATION" status="Approved">GREEK EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GRUMMAN" status="Approved">GRUMMAN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GUASCOR" status="Approved">GUASCOR</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GULFSTREAM" status="Approved">GULFSTREAM</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Goldwind" status="Approved">Goldwind</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}GreatWall Motor" status="Approved">GreatWall Motor</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}HMC (Hyundai Motors)" status="Approved">HMC (Hyundai Motors)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}HOCNF" status="Approved">HOCNF</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}HONDA/ACURA" status="Approved">HONDA/ACURA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}HONEYWELL" status="Approved">HONEYWELL</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}HUGHES AIRCRAFT" status="Approved">HUGHES AIRCRAFT</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}HYUNDAI DYMOS" status="Approved">HYUNDAI DYMOS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Halal Food Council of Europe" status="Approved">Halal Food Council of Europe</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Hansen" status="Approved">Hansen</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Hitachi" status="Approved">Hitachi</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Honda" status="Approved">Honda</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Husky" status="Approved">Husky</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Hyundai" status="Approved">Hyundai</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}IEC" status="Approved">IEC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}IFANCA" status="Approved">IFANCA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ILSAC" status="Approved">ILSAC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}IMO" status="Approved">IMO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}INDUSTRY" status="Approved">INDUSTRY</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}INNIO Jenbacher" status="Approved">INNIO Jenbacher</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}INNIO Waukesha" status="Approved">INNIO Waukesha</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}INTERNATIONAL" status="Approved">INTERNATIONAL</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ISO" status="Approved">ISO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ISUZU" status="Approved">ISUZU</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ITALIAN EUROPEAN NORMALIZATION"
+       status="Approved">ITALIAN EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Indian Standard" status="Approved">Indian Standard</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Indonesia SNI" status="Approved">Indonesia SNI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Ingersoll Rand" status="Approved">Ingersoll Rand</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}International Biodegradable Products Institute, Inc."
+       status="Approved">International Biodegradable Products Institute, Inc.</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Ishibashi Manufacturing" status="Approved">Ishibashi Manufacturing</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Iveco" status="Approved">Iveco</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JAC Motor" status="Approved">JAC Motor</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JASO" status="Approved">JASO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JCB" status="Approved">JCB</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JCMAS" status="Approved">JCMAS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JICASE" status="Approved">JICASE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JIS" status="Approved">JIS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JMC FORD" status="Approved">JMC FORD</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JMC" status="Approved">JMC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JOHN DEERE" status="Approved">JOHN DEERE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JP FOOD ADDITIVE" status="Approved">JP FOOD ADDITIVE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}JP PHARM" status="Approved">JP PHARM</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Jaguar Land Rover" status="Approved">Jaguar Land Rover</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Jaguar" status="Approved">Jaguar</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Jahnel-Kestermann" status="Approved">Jahnel-Kestermann</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Japan Engine Corporation (Heritage MHI)"
+       status="Approved">Japan Engine Corporation (Heritage MHI)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}KAMAZ" status="Approved">KAMAZ</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}KUBOTA" status="Approved">KUBOTA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Kapp Gmbh" status="Approved">Kapp Gmbh</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Kenworth" status="Approved">Kenworth</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Kia" status="Approved">Kia</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Komatsu" status="Approved">Komatsu</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Kosher Certification Council" status="Approved">Kosher Certification Council</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Krauss-Maffei" status="Approved">Krauss-Maffei</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}LEXUS" status="Approved">LEXUS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}LMOA" status="Approved">LMOA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}LMZ" status="Approved">LMZ</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}LOCKHEED" status="Approved">LOCKHEED</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}LanDai Power" status="Approved">LanDai Power</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MACK" status="Approved">MACK</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MALTA EUROPEAN NORMALIZATION" status="Approved">MALTA EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MAN Energy Solutions Augsburg (Heritage MAN B&amp;W)"
+       status="Approved">MAN Energy Solutions Augsburg (Heritage MAN B&amp;W)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MAN Energy Solutions Copenhagen (Heritage MAN B&amp;W)"
+       status="Approved">MAN Energy Solutions Copenhagen (Heritage MAN B&amp;W)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MAN Energy Solutions Oberhausen (Heritage MAN D&amp;T)"
+       status="Approved">MAN Energy Solutions Oberhausen (Heritage MAN D&amp;T)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MAN" status="Approved">MAN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MARUTI SUZUKI" status="Approved">MARUTI SUZUKI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MASSEY FERGUSON" status="Approved">MASSEY FERGUSON</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MB" status="Approved">MB</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MCDONNELL DOUGLAS" status="Approved">MCDONNELL DOUGLAS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MHI" status="Approved">MHI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MIL (US)" status="Approved">MIL (US)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MILITARY, FORMER SOVIET UNION"
+       status="Approved">MILITARY, FORMER SOVIET UNION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MILITARY" status="Approved">MILITARY</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MS" status="Approved">MS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MTU Onsite Energy" status="Approved">MTU Onsite Energy</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MTU" status="Approved">MTU</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}MWM" status="Approved">MWM</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Magna Powertrain" status="Approved">Magna Powertrain</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Mazda" status="Approved">Mazda</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}McLaren Automotive" status="Approved">McLaren Automotive</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Meggitt (ABSC)" status="Approved">Meggitt (ABSC)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Meggitt (DUNLOP)" status="Approved">Meggitt (DUNLOP)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Meritor" status="Approved">Meritor</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Milacron" status="Approved">Milacron</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Mitsubishi Heavy Industries (MHI)"
+       status="Approved">Mitsubishi Heavy Industries (MHI)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Mitsubishi Power Ltd" status="Approved">Mitsubishi Power Ltd</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Mitsubishi" status="Approved">Mitsubishi</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Mitsui Miike Machinery" status="Approved">Mitsui Miike Machinery</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Morgoil" status="Approved">Morgoil</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Moventas OY" status="Approved">Moventas OY</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NATO" status="Approved">NATO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NGC" status="Approved">NGC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NISSAN MOTORS INDIA" status="Approved">NISSAN MOTORS INDIA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NISSAN" status="Approved">NISSAN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NLGI" status="Approved">NLGI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NMMA" status="Approved">NMMA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NORTHROP" status="Approved">NORTHROP</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NORWEIGIAN EUROPEAN NORMALIZATION"
+       status="Approved">NORWEIGIAN EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}NSF" status="Approved">NSF</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Navistar, Inc." status="Approved">Navistar, Inc.</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}New Holland" status="Approved">New Holland</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Nexteer" status="Approved">Nexteer</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Nordex" status="Approved">Nordex</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}OPEL" status="Approved">OPEL</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Ortlinghaus-Werke GmbH" status="Approved">Ortlinghaus-Werke GmbH</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}P&amp;H Shovels" status="Approved">P&amp;H Shovels</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}PARKER/CLEVELAND" status="Approved">PARKER/CLEVELAND</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}PORSCHE" status="Approved">PORSCHE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}PORTUGUESE EUROPEAN NORMALIZATION"
+       status="Approved">PORTUGUESE EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}PSA" status="Approved">PSA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}PTI" status="Approved">PTI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Perkins" status="Approved">Perkins</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Primetals Technologies" status="Approved">Primetals Technologies</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Progress Rail" status="Approved">Progress Rail</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}R. Bosch AS" status="Approved">R. Bosch AS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}RAL" status="Approved">RAL</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}RENAULT TRUCKS" status="Approved">RENAULT TRUCKS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}RENAULT" status="Approved">RENAULT</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}RENK" status="Approved">RENK</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ROMANIAN EUROPEAN NORMALIZATION"
+       status="Approved">ROMANIAN EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}RVI" status="Approved">RVI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Rolls Royce Corporation" status="Approved">Rolls Royce Corporation</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Rolls-Royce Marine North America Inc."
+       status="Approved">Rolls-Royce Marine North America Inc.</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Rolls-Royce Solutions Augsburg (former MTU Onsite Energy)"
+       status="Approved">Rolls-Royce Solutions Augsburg (former MTU Onsite Energy)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SAAB" status="Approved">SAAB</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SAE" status="Approved">SAE</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SAIC Motor" status="Approved">SAIC Motor</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SATURN" status="Approved">SATURN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SCANIA" status="Approved">SCANIA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SEW-Eurodrive" status="Approved">SEW-Eurodrive</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SKF Marine GmbH" status="Approved">SKF Marine GmbH</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SKF Marine" status="Approved">SKF Marine</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SMS Group" status="Approved">SMS Group</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SMS Siemag" status="Approved">SMS Siemag</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SPANISH EUROPEAN NORMALIZATION"
+       status="Approved">SPANISH EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}STELLANTIS" status="Approved">STELLANTIS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SWEDISH EUROPEAN NORMALIZATION"
+       status="Approved">SWEDISH EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}SWISS EUROPEAN NORMALIZATION" status="Approved">SWISS EUROPEAN NORMALIZATION</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Safran Landing Systems (Messier-Bugatti)"
+       status="Approved">Safran Landing Systems (Messier-Bugatti)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Safran" status="Approved">Safran</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Schuler Group" status="Approved">Schuler Group</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Senvion" status="Approved">Senvion</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Siemens Gamesa Renewable Energy"
+       status="Approved">Siemens Gamesa Renewable Energy</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Siemens Industrial Turbo Machinery"
+       status="Approved">Siemens Industrial Turbo Machinery</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Siemens Traction Gears GmbH (former Flender Rail)"
+       status="Approved">Siemens Traction Gears GmbH (former Flender Rail)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Siemens Westinghouse" status="Approved">Siemens Westinghouse</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Siemens" status="Approved">Siemens</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Sinotruk" status="Approved">Sinotruk</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Solar Turbines" status="Approved">Solar Turbines</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Stemco" status="Approved">Stemco</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Stoeber Antriebstechnik" status="Approved">Stoeber Antriebstechnik</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Stromag AG" status="Approved">Stromag AG</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Subaru" status="Approved">Subaru</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Suzlon" status="Approved">Suzlon</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Suzuki" status="Approved">Suzuki</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Svanehoj Danmark A/S" status="Approved">Svanehoj Danmark A/S</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Swedish Standard" status="Approved">Swedish Standard</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TATA MOTORS" status="Approved">TATA MOTORS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}THAI INDUSTRIAL STANDARDS" status="Approved">THAI INDUSTRIAL STANDARDS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TIMKEN" status="Approved">TIMKEN</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TISI" status="Approved">TISI</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TOYOTA*" status="Approved">TOYOTA*</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TS" status="Approved">TS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TWIN DISC" status="Approved">TWIN DISC</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}TYHI(Taiyuan Heavy Industry)" status="Approved">TYHI(Taiyuan Heavy Industry)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Takamatsu Machinery Co., Ltd."
+       status="Approved">Takamatsu Machinery Co., Ltd.</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Textron Lycoming" status="Approved">Textron Lycoming</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ThyssenKrupp Rothe Erde" status="Approved">ThyssenKrupp Rothe Erde</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Toyota" status="Approved">Toyota</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Turkish Standard" status="Approved">Turkish Standard</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}US EPA" status="Approved">US EPA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}US NAVY" status="Approved">US NAVY</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}US Pharmacopeia/National Formulary"
+       status="Approved">US Pharmacopeia/National Formulary</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}US Pharmacopoeia" status="Approved">US Pharmacopoeia</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}USDA" status="Approved">USDA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}VALTRA" status="Approved">VALTRA</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}VESTAS WIND SYSTEMS" status="Approved">VESTAS WIND SYSTEMS</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}VOITH RETARDER" status="Approved">VOITH RETARDER</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}VOLVO" status="Approved">VOLVO</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}VW" status="Approved">VW</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Valmet" status="Approved">Valmet</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Voith Paper" status="Approved">Voith Paper</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Voith Turbo" status="Approved">Voith Turbo</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}WGK" status="Approved">WGK</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Wartsila Norway AS - Marine Solutions Propulsion"
+       status="Approved">Wartsila Norway AS - Marine Solutions Propulsion</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Wartsila" status="Approved">Wartsila</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Watteeuw" status="Approved">Watteeuw</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Wikov Industry" status="Approved">Wikov Industry</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Winergy" status="Approved">Winergy</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}Winterthur Gas and Diesel Engine (Heritage Wartsila &amp; Sulzer)"
+       status="Approved">Winterthur Gas and Diesel Engine (Heritage Wartsila &amp; Sulzer)</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ZF Wind Power" status="Approved">ZF Wind Power</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}ZF" status="Approved">ZF</key>
+   <key locale="en_US" id="LOVValue{::}E4OEMLov{::}vgbe energy service GmbH" status="Approved">vgbe energy service GmbH</key>
+</Add>
+</TcBusinessDataLocalization>

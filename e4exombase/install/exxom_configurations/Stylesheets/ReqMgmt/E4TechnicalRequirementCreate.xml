@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: RequirementCreate.xml
+
+    Style sheet rendering for Requirement creation.
+ 	History
+    20-May-24       Yamini Patekar                Initial Creation
+=======================================================================
+-->
+
+<rendering>
+    <page title="Technical Requirement Revision" titleKey="Technical Requirement Revision">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" />
+            <!--<property name="revision:item_revision_id" />-->
+            <property name="object_name" />
+            <property name="revision:e4RequirementDescription" />
+            <property name="revision:e4Category" />
+            <property name="revision:e4OEMIndustryEBName" />
+            <property name="revision:e4TechReqlevel" />
+            <property name="revision:e4Region" />
+            <!-- Sub-rendering for Active workspace Program planning -->
+            <inject type="dataset" src="Pgp1TargetCreate" />
+        </section>
+    </page>
+</rendering>

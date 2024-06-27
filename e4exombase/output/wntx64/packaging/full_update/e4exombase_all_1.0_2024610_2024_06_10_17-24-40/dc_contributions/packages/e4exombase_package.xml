@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="C2ADA8523E625AC79E8553D281BDAE38" packageId="e4exombase">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="apb0attrparmbase" type="requires"/>
+        <dependency id="crf0cprfoundation" type="requires"/>
+        <dependency id="att0attrtargetmgmt" type="requires"/>
+        <dependency id="pmg0cpmgmt" type="requires"/>
+        <dependency id="crt0validationcontract" type="requires"/>
+        <dependency id="aws2" type="requires"/>
+        <dependency id="activeworkspacebom" type="requires"/>
+        <dependency id="arm0activeworkspacereqmgmt" type="requires"/>
+        <dependency id="arm1awreqmgmtse" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="A51AE4BFFA5BBCE51994AB984F372165">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_e4exombase_path}/artifacts/e4exombase_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_e4exombase_path}/artifacts/e4exombase_install.zip"/>
+                    <copy file="${Teamcenter_e4exombase_path}/artifacts/e4exombase_icons.zip" todir="${Teamcenter_root_path}/install/e4exombase"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="e4exombase"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_e4exombase_path}/artifacts/e4exombase_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_e4exombase_path}/artifacts/e4exombase_install.zip"/>
+                    <copy file="${Teamcenter_e4exombase_path}/artifacts/e4exombase_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/e4exombase"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="e4exombase"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

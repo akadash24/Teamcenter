@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Default style sheet for displaying Technical Requirement Element Info summary. 
+
+	History
+    20-May-24       Yamini Patekar                Initial Creation
+===============================================================================-->
+<rendering>
+    <header>
+        <property name = "awb0Name"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_e4_id_info">
+                <property name = "awb0ArchetypeId"/>
+                <!--<property name = "awb0ArchetypeRevId"/>-->
+                <property name = "awb0ArchetypeRevName"/>
+                <property name = "REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4RequirementDescription"/>
+                <property name = "awb0OccName"/>
+                <property name = "awb0Sequence"/>
+			</section>
+	        <section titleKey="tc_xrt_e4_status_info">
+				<property name = "awb0ArchetypeRevRelStatus" renderingHint = "label"/>
+				<property name = "awb0ArchetypeRevReleaseDate" renderingHint = "label"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4RequirementStatus" renderingHint="label"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).checked_out" renderingHint="label"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).checked_out_user"/>
+			 </section>
+			 <section titleKey="tc_xrt_e4_requirement_info">
+                <property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4Category"/>
+                <property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4ClaimSynReq"/>				
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4Comment"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4TechCoreAdditional"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4FacilityCertification"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4FacilityTesting"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4ForInternalUseOnly"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4OEMIndustryEBName"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4Region"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4RequirementCost"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4TechReqlevel"/>
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4Time"/>
+			  </section>
+			  <section titleKey="tc_xrt_e4_user_info">
+				<property name="awb0ArchetypeRevOwningUser" renderingHint = "objectlink" modifiable = "false"/>
+				<property name="awb0ArchetypeRevOwningGroup" renderingHint = "objectlink" modifiable = "false"/>
+				<property name="awb0ArchetypeRevLastModUser"/>
+			  </section>
+			  <section titleKey="tc_xrt_e4_date_info">
+				<property name="REF(awb0UnderlyingObject,E4TechnicalReqRevision).e4TechExpirationDate"/>		
+			  </section>
+			  <section titleKey="tc_xrt_e4_other_info">      
+				<property name = "awb0Parent"/>
+				<property name = "awb0NumberOfChildren"/>
+				<property name = "awb0IsPrecise"/>
+				<inject type="dataset" src="Pdi0ElementProperties"/>
+			 </section>
+    </page>
+</rendering>

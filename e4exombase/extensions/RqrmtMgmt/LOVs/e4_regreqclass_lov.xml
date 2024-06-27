@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4RegReqClassLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Self Reported" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Acknowledgement Required" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Registration Required" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4RegReqClassLov" typeName="E4RegulatoryReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4RegulatoryClassification" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

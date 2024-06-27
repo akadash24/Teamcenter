@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4ManDistLocationLOV{::}Baytown" status="Approved">Baytown</key>
+   <key locale="en_US" id="LOVValue{::}E4ManDistLocationLOV{::}Beaumont" status="Approved">Beaumont</key>
+   <key locale="en_US" id="LOVValue{::}E4ManDistLocationLOV{::}Carlsbad" status="Approved">Carlsbad</key>
+   <key locale="en_US" id="LOVValue{::}E4ManDistLocationLOV{::}Spring" status="Approved">Spring</key>
+</Add>
+</TcBusinessDataLocalization>

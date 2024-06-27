@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <OperationInputType typeName="E4Arm0RegulatoryReqElementCreI" parentTypeName="Arm0RequirementElementCreI"
+       typeClassName="E4Arm0RegulatoryReqElementCreI" description="CreateInput object for &quot;E4Arm0RegulatoryReqElement&quot; business object"
+       isAbstract="false" artifactName="E4Arm0RegulatoryReqElementCreI"/>
+   <OperationInputType typeName="E4Arm0RegulatoryReqElementSvAI" parentTypeName="Arm0RequirementElementSvAI"
+       typeClassName="E4Arm0RegulatoryReqElementSvAI" description="SaveAsInput object for &quot;E4Arm0RegulatoryReqElement&quot; business object"
+       isAbstract="false" artifactName="E4Arm0RegulatoryReqElementSvAI"/>
+   <TcRuntimeType typeName="E4Arm0RegulatoryReqElement" parentTypeName="Arm0RequirementElement"
+       typeClassName="E4Arm0RegulatoryReqElement" description="" isAbstract="false"
+       artifactName="E4Arm0RegulatoryReqElement">
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4Authority" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4Authority defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4ForInternalUseOnly" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4ForInternalUseOnly defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4RegCoreAdditional" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4RegCoreAdditional defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4RegExpirationDate" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="0" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4RegExpirationDate defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4RegReqLevel" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4RegReqLevel defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4Regulation" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="1280" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4Regulation defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4RegulatoryClassification"
+         propTypeName="Runtime" propValueType="PROP_string" propMaxStringLength="128"
+         isArray="false" arrayLength="0" description="Property Created to map the property bl_E4RegulatoryReqRevision_e4RegulatoryClassification defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4RegulatoryLOB" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4RegulatoryLOB defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="bl_E4RegulatoryReqRevision_e4RiskRating" propTypeName="Runtime"
+         propValueType="PROP_string" propMaxStringLength="128" isArray="false" arrayLength="0"
+         description="Property Created to map the property bl_E4RegulatoryReqRevision_e4RiskRating defined on type BOMLine"
+         referencedTypeConstant="" referencedType=""/>
+   </TcRuntimeType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4Arm0RegulatoryReqElement"
+       value="E4Arm0RegulatoryReqElementCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4Arm0RegulatoryReqElement"
+       value="E4Arm0RegulatoryReqElementSvAI"/>
+   <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       value="E4RegulatoryReqRevision"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4Authority" value="bl_E4RegulatoryReqRevision_e4Authority"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4ForInternalUseOnly" value="bl_E4RegulatoryReqRevision_e4ForInternalUseOnly"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4RegCoreAdditional" value="bl_E4RegulatoryReqRevision_e4RegCoreAdditional"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4RegExpirationDate" value="bl_E4RegulatoryReqRevision_e4RegExpirationDate"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4RegReqLevel" value="bl_E4RegulatoryReqRevision_e4RegReqLevel"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4Regulation" value="bl_E4RegulatoryReqRevision_e4Regulation"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4RegulatoryClassification" value="bl_E4RegulatoryReqRevision_e4RegulatoryClassification"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4RegulatoryLOB" value="bl_E4RegulatoryReqRevision_e4RegulatoryLOB"/>
+   <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" typeName="E4Arm0RegulatoryReqElement"
+       propertyName="bl_E4RegulatoryReqRevision_e4RiskRating" value="bl_E4RegulatoryReqRevision_e4RiskRating"/>
+</Add>
+</TcBusinessData>

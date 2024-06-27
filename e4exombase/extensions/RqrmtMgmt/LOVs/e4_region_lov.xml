@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4RegionLov" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="Australia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bahamas" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Barbados" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Belgium" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bermuda" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Canada" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Cayman_Islands" description="" conditionName="isTrue"/>
+      <TcLOVValue value="China_Guangzhou" description="" conditionName="isTrue"/>
+      <TcLOVValue value="China_SSPC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Colombia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Cyprus" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Dominican_Rep" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Ecuador" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Egypt" description="" conditionName="isTrue"/>
+      <TcLOVValue value="France" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Germany" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Guadeloupe" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Guernsey" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Hong_Kong" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Indonesia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Italy" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Luxembourg" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Macau" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Martinique" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mexico" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Netherlands" description="" conditionName="isTrue"/>
+      <TcLOVValue value="New_Zealand" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Nigeria" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Norway" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pac_Island_CNMI_Saipan" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pac_Island_CNMI_Saipan_Rota_Tinian" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pac_Island_Fiji" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pac_Island_Guam" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pac_Island_New_Caledonia" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pac_Island__Papua_New_Guinea" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Singapore" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Thailand" description="" conditionName="isTrue"/>
+      <TcLOVValue value="U.K." description="" conditionName="isTrue"/>
+      <TcLOVValue value="U.S." description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4RegionLov" typeName="E4AbsRequirementRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4Region" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

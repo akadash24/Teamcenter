@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4TechReqLevelLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Meets" description="" conditionName="isTrue"/>
+     <TcLOVValue value="QualityLevel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Approved" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Obtainable" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Meets the Engine Test Requirements" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Licensable" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Registered" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quality Level (Agriculture Applications Only)" description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4TechReqLevelLov" typeName="E4TechnicalReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4TechReqlevel" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

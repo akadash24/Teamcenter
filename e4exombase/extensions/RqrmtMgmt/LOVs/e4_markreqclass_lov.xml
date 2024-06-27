@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4MarkReqClassLov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Global" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NA" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4MarkReqClassLov" typeName="E4MarketingReqRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4MarketingClassification" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

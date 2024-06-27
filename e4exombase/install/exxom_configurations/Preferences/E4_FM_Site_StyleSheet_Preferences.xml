@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="Active Workspace">
+    <category_description>Active Workspace preferences</category_description>
+	    <preference name="AWC_E2HasAlternate.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>AWC_E2HasAlternate.CREATERENDERING</preference_description>
+      <context name="Teamcenter">
+        <value>E2HasAlternateCreate</value>
+      </context>
+    </preference>
+
+	    <preference name="TCAllowedParentTypes_CPGFormulaMater" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of valid parent item types for a given child type i.e. CPGFormulaMater</preference_description>
+      <context name="Teamcenter">
+        <value>CPFinishProduct</value>
+        <value>CPGFormulaMater</value>
+      </context>
+    </preference>
+	
+		    <preference name="TCAllowedParentTypes_E4EMComponent" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of valid parent item types for a given child type i.e. E4EMComponent</preference_description>
+      <context name="Teamcenter">
+        <value>CPFinishProduct</value>
+		<value>E4EMCPGFormulaM</value>
+        <value>E4EMGeneralRec</value>
+		<value>E4EMSiteRecipe</value>
+		<value>E4EMPlantRecipe</value>
+      </context>
+    </preference>
+    <preference name="AWC_Awb0DesignElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+<preference_description>Registration of summary stylesheet for Awb0DesignElement objects. Default Value: Awb0DesignElementSummary</preference_description>
+<context name="Teamcenter">
+<value>Awb0DesignElementSummaryCustom</value>
+</context>
+</preference>
+	
+	    <preference name="AWC_E4EMCPGFormulaMRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for CPGFormulaMaterRevision objects.
+Default:Spm1CPGFormulaMaterRevisionSummary</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMCPGFormulaMaterialRevisionSummary</value>
+      </context>
+    </preference>
+		    <preference name="AWC_E4EMComponentRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for CPGFormulaMaterRevision objects.
+Default:Spm1CPGFormulaMaterRevisionSummary</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMComponentRevisionSummary</value>
+      </context>
+    </preference>
+
+	    <preference name="AWC_E4EMMat1UsesSubstance.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Substances relation objects.
+Default: Mtw0Mat1UsesSubstanceCreate</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMMat1UsesSubstanceCreate</value>
+      </context>
+    </preference>
+	
+	    <preference name="AWC_E4SupplierSpecRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Supplier Spec (E4SupplierSpecRevision) objects.
+Default: Mtw0Mat1MaterialRevisionSummary</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4SupplierSpecRevisionSummary</value>
+      </context>
+    </preference>
+					    <preference name="AWC_E4SupplierSpec.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Supplier Spec objects. Default "Mtw0Mat1MaterialCreate"</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4SupplierSpecCreate</value>
+      </context>
+    </preference>
+	
+				    <preference name="AWC_E4EMMat1Substance.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Substance objects. Default "Mtw0Mat1SubstanceCreate"</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMMat1SubstanceCreate</value>
+      </context>
+    </preference>
+
+	    <preference name="AWC_E4EMCPGFormulaM.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the creation stylesheet for E4EMCPGFormulaM objects.
+Default: Awp0ItemCreate</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMCPGFormulaMCreate</value>
+      </context>
+    </preference>
+
+		    <preference name="AWC_E4EMComponent.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the creation stylesheet for E4EMComponent objects.
+Default: Awp0ItemCreate</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMComponentCreate</value>
+      </context>
+    </preference>
+		    <preference name="AWC_E4EMMat1UsesMaterial.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Materials (Mat1UsesMaterial) relation objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMMat1UsesMaterialCreate</value>
+      </context>
+    </preference>
+
+	    <preference name="AWC_E4EMCPGFormulaMRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for CPGFormulaMaterRevision objects for ShowObject Location and OccurrenceManagement SubLocation.
+Default: Spm1CPGFormulaMaterRevisionSummary</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMCPGFormulaMaterialRevisionSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	
+		    <preference name="AWC_E4EMComponentRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for Component Revision objects for ShowObject Location and OccurrenceManagement SubLocation.
+Default: Spm1CPGFormulaMaterRevisionSummary</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4EMComponentRevisionSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+			    <preference name="AWC_E4SupplierSpecRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for Supplier Spec Revision objects for ShowObject Location and OccurrenceManagement SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0E4SupplierSpecRevisionSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+
+	
+	<preference name="ICS_classifiable_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Teamcenter types that can be classified. If you create new child business objects or new business objects and want to be able to classify them, you must add their names to this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>Mfg0MEResource</value>
+        <value>Mfg0MEResourceRevision</value>
+        <value>Mfg0MEEquipment</value>
+        <value>Mfg0MEEquipmentRevision</value>
+        <value>Mfg0MENCMachine</value>
+        <value>Mfg0MENCMachineRevision</value>
+        <value>Mfg0Conveyor</value>
+        <value>Mfg0ConveyorRevision</value>
+        <value>Mfg0MERobot</value>
+        <value>Mfg0MERobotRevision</value>
+        <value>Mfg0MESensor</value>
+        <value>Mfg0MESensorRevision</value>
+        <value>Mfg0MEPLC</value>
+        <value>Mfg0MEPLCRevision</value>
+        <value>Mfg0MENCTool</value>
+        <value>Mfg0MENCToolRevision</value>
+        <value>Mfg0MEFactoryTool</value>
+        <value>Mfg0MEFactoryToolRevision</value>
+        <value>Mfg0MEFixtureRoot</value>
+        <value>Mfg0MEFixtureRootRevision</value>
+        <value>MENCMachining</value>
+        <value>MENCMachining Revision</value>
+        <value>MEStationRevision</value>
+        <value>CPMarketingBrief</value>
+        <value>CPMarketingBriefRevision</value>
+        <value>CPThemeBoard</value>
+        <value>CPThemeBoardRevision</value>
+        <value>Signal</value>
+        <value>SignalRevision</value>
+        <value>PSSignal</value>
+        <value>PSSignalRevision</value>
+        <value>Message</value>
+        <value>Message Revision</value>
+        <value>Mfg0Cable</value>
+        <value>Mfg0CableRevision</value>
+        <value>PM0CMMProbeAssy</value>
+        <value>PM0CMMProbeAssyRevision</value>
+        <value>PM0CMMProbeComp</value>
+        <value>PM0CMMProbeCompRevision</value>
+        <value>PM0NCToolAssy</value>
+        <value>PM0NCToolAssyRevision</value>
+        <value>PM0NCToolComp</value>
+        <value>PM0NCToolCompRevision</value>
+        <value>PM0AMPrinter</value>
+        <value>PM0AMPrinterRevision</value>
+        <value>PM0Gauge</value>
+        <value>PM0GaugeRevision</value>
+        <value>PM0NCDevice</value>
+        <value>PM0NCDeviceRevision</value>
+        <value>PM0NCFixture</value>
+        <value>PM0NCFixtureRevision</value>
+        <value>Pmg0ProductRevision</value>
+        <value>CommercialPart</value>
+        <value>CommercialPart Revision</value>
+        <value>ManufacturerPart</value>
+        <value>ManufacturerPart Revision</value>
+        <value>CPFinishProduct</value>
+        <value>CPFinishProductRevision</value>
+        <value>CPTradeItem</value>
+        <value>CPTradeItemRevision</value>
+        <value>CPBrandAsset</value>
+        <value>CPBrandAssetRevision</value>
+        <value>CPBrandEquity</value>
+        <value>CPBrandEquityRevision</value>
+        <value>Brm0ProductLine</value>
+        <value>Brm0ProductLineRevision</value>
+        <value>Mat1Substance</value>
+        <value>Fsh0Finish</value>
+        <value>Fsh0FinishGroup</value>
+        <value>CPGChemical</value>
+        <value>CPGChemicalRevision</value>
+        <value>CPGFormulaMater</value>
+        <value>CPGFormulaMaterRevision</value>
+        <value>CPGIngredient</value>
+        <value>CPGIngredientRevision</value>
+        <value>CPGRawMaterial</value>
+        <value>CPGRawMaterialRevision</value>
+        <value>CPArtwork</value>
+        <value>CPArtworkRevision</value>
+        <value>CPCopyElement</value>
+        <value>CPCopyElementRevision</value>
+        <value>CPCopy</value>
+        <value>CPCopyRevision</value>
+        <value>CPDesignBrief</value>
+        <value>CPDesignBriefRevision</value>
+        <value>CPDieLine</value>
+        <value>CPDieLineRevision</value>
+        <value>CPGraphicElement</value>
+        <value>CPGraphicElementRevision</value>
+        <value>CPPackageConcept</value>
+        <value>CPPackageConceptRevision</value>
+        <value>CPPackageItem</value>
+        <value>CPPackageItemRevision</value>
+        <value>CPPackageRough</value>
+        <value>CPPackageRoughRevision</value>
+        <value>CPTechnicalBrief</value>
+        <value>CPTechnicalBriefRevision</value>
+        <value>MEProcessRevision</value>
+        <value>MEOPRevision</value>
+		<value>E4EMCPGFormulaM</value>
+		<value>E4EMCPGFormulaMRevision</value>
+		<value>E4EMMat1Substance</value>
+		<value>E4EMComponent</value>
+		<value>E4EMComponentRevision</value>
+		<value>E4EMGeneralRec</value>
+		<value>E4EMGeneralRecRevision</value>
+		<value>E4EMSiteRecipe</value>
+		<value>E4EMSiteRecipeRevision</value>
+		<value>E4EMPlantRecipe</value>
+		<value>E4EMPlantRecipeRevision</value>
+		<value>E4SupplierSpec</value>
+		<value>E4SupplierSpecRevision</value>
+      </context>
+    </preference>	
+  </category>
+</preferences>

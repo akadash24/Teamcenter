@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4VersionTypeLOV{::}Additive" status="Approved">Additive</key>
+   <key locale="en_US" id="LOVValue{::}E4VersionTypeLOV{::}Pre-mix" status="Approved">Pre-mix</key>
+   <key locale="en_US" id="LOVValue{::}E4VersionTypeLOV{::}Raw Material" status="Approved">Raw Material</key>
+</Add>
+</TcBusinessDataLocalization>

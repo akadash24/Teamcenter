@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4EMComponentRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4EMCPGFormulaMRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4EMGeneralRecRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4EMPlantRecipeRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4EMSiteRecipeRevision"/>
+   </TcGlobalConstantAttach>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4VersionTypeLOV" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Additive" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pre-mix" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Raw Material" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4VersionTypeLOV" typeName="E4EMCPGFormulaMRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4VersionType" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

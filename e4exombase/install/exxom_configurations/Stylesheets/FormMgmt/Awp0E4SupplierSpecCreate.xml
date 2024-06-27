@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+    Filename: Awp0E4SupplierSpecCreateCustom.xml
+ 
+    Style sheet rendering for Material creation.
+==================================================
+-->
+<rendering>
+    <page>
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+			<property name="revision:e4VendorList"/>
+            <property name="revision:mat1MatCatalogRev"/>
+            <inject type="dataset" src="Sci1ItemCreate"/>
+            <inject type="dataset" src="Sci1Mat1MaterialCreate"/>
+        </section>
+    </page>
+</rendering>
+ 

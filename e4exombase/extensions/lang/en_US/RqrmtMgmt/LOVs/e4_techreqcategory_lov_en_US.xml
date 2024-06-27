@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}Additional Claims"
+       status="Approved">Additional Claims</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}EB/OEM Approval (acknowledgement required)"
+       status="Approved">EB/OEM Approval (acknowledgement required)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}EB/OEM Endorsement (acknowledgement required)"
+       status="Approved">EB/OEM Endorsement (acknowledgement required)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}EB/OEM Standard (self reported)"
+       status="Approved">EB/OEM Standard (self reported)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}For Private Label Product Use Only"
+       status="Approved">For Private Label Product Use Only</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}Industry Standard (self reported)"
+       status="Approved">Industry Standard (self reported)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}Marketing Technical Claim (self reported)"
+       status="Approved">Marketing Technical Claim (self reported)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}Specification of Department of Highways, Thailand"
+       status="Approved">Specification of Department of Highways, Thailand</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}Technical License (agreement required)"
+       status="Approved">Technical License (agreement required)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechnicalCategoryLov{::}Trademarked (payment required)"
+       status="Approved">Trademarked (payment required)</key>
+</Add>
+</TcBusinessDataLocalization>

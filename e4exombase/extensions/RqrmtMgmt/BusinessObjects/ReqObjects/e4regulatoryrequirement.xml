@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4RegulatoryReq" parentClassName="E4AbsRequirement" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4RegulatoryReqMasterS" parentClassName="E4AbsRequirementMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4RegulatoryReqRevMasterS" parentClassName="E4AbsRequirementRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4RegulatoryReqRevision" parentClassName="E4AbsRequirementRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4Authority" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4ForInternalUseOnly" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4Regulation" description="" attributeType="POM_string"
+         maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="e4RiskRating" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4RegReqLevel" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4RegulatoryClassification" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4RegCoreAdditional" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="e4RegulatoryLOB" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="e4RegExpirationDate" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4RegulatoryReqCreI" parentTypeName="E4AbsRequirementCreI"
+       typeClassName="E4RegulatoryReqCreI" description="CreateInput object for &quot;E4RegulatoryReq&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqCreI"/>
+   <OperationInputType typeName="E4RegulatoryReqMasterCreI" parentTypeName="E4AbsRequirementMasterCreI"
+       typeClassName="E4RegulatoryReqMasterCreI" description="CreateInput object for &quot;E4RegulatoryReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqMasterCreI"/>
+   <OperationInputType typeName="E4RegulatoryReqMasterSCreI" parentTypeName="E4AbsRequirementMasterSCreI"
+       typeClassName="E4RegulatoryReqMasterSCreI" description="CreateInput object for &quot;E4RegulatoryReqMasterS&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqMasterSCreI"/>
+   <OperationInputType typeName="E4RegulatoryReqMasterSSvAI" parentTypeName="E4AbsRequirementMasterSSvAI"
+       typeClassName="E4RegulatoryReqMasterSSvAI" description="SaveAsInput object for &quot;E4RegulatoryReqMasterS&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqMasterSSvAI"/>
+   <OperationInputType typeName="E4RegulatoryReqMasterSvAI" parentTypeName="E4AbsRequirementMasterSvAI"
+       typeClassName="E4RegulatoryReqMasterSvAI" description="SaveAsInput object for &quot;E4RegulatoryReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqMasterSvAI"/>
+   <OperationInputType typeName="E4RegulatoryReqRevMasterSCreI" parentTypeName="E4AbsRequirementRevMasterSCreI"
+       typeClassName="E4RegulatoryReqRevMasterSCreI" description="CreateInput object for &quot;E4RegulatoryReqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevMasterSCreI"/>
+   <OperationInputType typeName="E4RegulatoryReqRevMasterSSvAI" parentTypeName="E4AbsRequirementRevMasterSSvAI"
+       typeClassName="E4RegulatoryReqRevMasterSSvAI" description="SaveAsInput object for &quot;E4RegulatoryReqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevMasterSSvAI"/>
+   <OperationInputType typeName="E4RegulatoryReqRevisio_alt0CreI" parentTypeName="E4AbsRequirementRevisi_alt0CreI"
+       typeClassName="E4RegulatoryReqRevisio_alt0CreI" description="CreateInput object for &quot;E4RegulatoryReqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevisio_alt0CreI"/>
+   <OperationInputType typeName="E4RegulatoryReqRevisio_alt0SvAI" parentTypeName="E4AbsRequirementRevisi_alt0SvAI"
+       typeClassName="E4RegulatoryReqRevisio_alt0SvAI" description="SaveAsInput object for &quot;E4RegulatoryReqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevisio_alt0SvAI"/>
+   <OperationInputType typeName="E4RegulatoryReqRevisionCreI" parentTypeName="E4AbsRequirementRevisionCreI"
+       typeClassName="E4RegulatoryReqRevisionCreI" description="CreateInput object for &quot;E4RegulatoryReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevisionCreI">
+     <OperationInputProperty propName="e4Authority" compoundObjectConstant="" srcPropName="e4Authority"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4ForInternalUseOnly" compoundObjectConstant=""
+         srcPropName="e4ForInternalUseOnly" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4Regulation" compoundObjectConstant="" srcPropName="e4Regulation"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4RiskRating" compoundObjectConstant="" srcPropName="e4RiskRating"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4RegReqLevel" compoundObjectConstant="" srcPropName="e4RegReqLevel"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4RegulatoryClassification" compoundObjectConstant=""
+         srcPropName="e4RegulatoryClassification" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4RegCoreAdditional" compoundObjectConstant=""
+         srcPropName="e4RegCoreAdditional" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4RegulatoryLOB" compoundObjectConstant=""
+         srcPropName="e4RegulatoryLOB" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="e4RegExpirationDate" compoundObjectConstant=""
+         srcPropName="e4RegExpirationDate" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4RegulatoryReqRevisionRevI" parentTypeName="E4AbsRequirementRevisionRevI"
+       typeClassName="E4RegulatoryReqRevisionRevI" description="ReviseInput object for &quot;E4RegulatoryReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevisionRevI"/>
+   <OperationInputType typeName="E4RegulatoryReqRevisionSvAI" parentTypeName="E4AbsRequirementRevisionSvAI"
+       typeClassName="E4RegulatoryReqRevisionSvAI" description="SaveAsInput object for &quot;E4RegulatoryReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevisionSvAI"/>
+   <OperationInputType typeName="E4RegulatoryReqSvAI" parentTypeName="E4AbsRequirementSvAI"
+       typeClassName="E4RegulatoryReqSvAI" description="SaveAsInput object for &quot;E4RegulatoryReq&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqSvAI"/>
+   <TcForm typeName="E4RegulatoryReqMaster" parentTypeName="E4AbsRequirementMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4RegulatoryReq&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqMaster" functionality="E4exombase"
+       formStorageClassName="E4RegulatoryReqMasterS"/>
+   <TcForm typeName="E4RegulatoryReqRevisionMaster" parentTypeName="E4AbsRequirementRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4RegulatoryReqRevision&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevisionMaster" functionality="E4exombase"
+       formStorageClassName="E4RegulatoryReqRevMasterS"/>
+   <TcStandardType typeName="E4RegulatoryReq" parentTypeName="E4AbsRequirement" typeClassName="E4RegulatoryReq"
+       description="" isAbstract="false" artifactName="E4RegulatoryReq" functionality="E4exombase"/>
+   <TcStandardType typeName="E4RegulatoryReqMasterS" parentTypeName="E4AbsRequirementMasterS"
+       typeClassName="E4RegulatoryReqMasterS" description="Form Storage object for &quot;E4RegulatoryReqMaster&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqMasterS" functionality="E4exombase"/>
+   <TcStandardType typeName="E4RegulatoryReqRevMasterS" parentTypeName="E4AbsRequirementRevMasterS"
+       typeClassName="E4RegulatoryReqRevMasterS" description="Form Storage object for &quot;E4RegulatoryReqRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevMasterS" functionality="E4exombase"/>
+   <TcStandardType typeName="E4RegulatoryReqRevision" parentTypeName="E4AbsRequirementRevision"
+       typeClassName="E4RegulatoryReqRevision" description="ItemRevision object for &quot;E4RegulatoryReq&quot;  business object"
+       isAbstract="false" artifactName="E4RegulatoryReqRevision" functionality="E4exombase"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4RegulatoryReq" value="E4RegulatoryReqCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4RegulatoryReqMaster"
+       value="E4RegulatoryReqMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4RegulatoryReqMasterS"
+       value="E4RegulatoryReqMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4RegulatoryReqRevision"
+       value="E4RegulatoryReqRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4RegulatoryReqRevisionMaster"
+       value="E4RegulatoryReqRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4RegulatoryReqRevMasterS"
+       value="E4RegulatoryReqRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0AllowReviseOperation" typeName="E4RegulatoryReqRevision"
+       value="false"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4RegulatoryReq" value="E4RegulatoryReqRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4RegulatoryReq" value="E4RegulatoryReqMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4RegulatoryReqRevision"
+       value="E4RegulatoryReqRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4RegulatoryReqRevision"
+       value="E4RegulatoryReqRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4RegulatoryReq" value="E4RegulatoryReqSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4RegulatoryReqMaster"
+       value="E4RegulatoryReqMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4RegulatoryReqMasterS"
+       value="E4RegulatoryReqMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4RegulatoryReqRevision"
+       value="E4RegulatoryReqRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4RegulatoryReqRevisionMaster"
+       value="E4RegulatoryReqRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4RegulatoryReqRevMasterS"
+       value="E4RegulatoryReqRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Authority" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4ForInternalUseOnly" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegCoreAdditional" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegExpirationDate" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegReqLevel" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Regulation" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegulatoryClassification" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegulatoryLOB" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RiskRating" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Authority" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4ForInternalUseOnly" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegCoreAdditional" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegExpirationDate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegReqLevel" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Regulation" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegulatoryClassification" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegulatoryLOB" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RiskRating" value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Authority" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Category" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Region" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4RegulatoryReqRevision"
+       propertyName="e4Regulation" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RegulatoryLOB" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="E4RegulatoryReqRevision"
+       propertyName="e4RequirementDescription" value="true"/>
+</Add>
+</TcBusinessData>

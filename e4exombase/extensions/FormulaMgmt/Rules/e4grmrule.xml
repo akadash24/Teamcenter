@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcGRMRule primaryTypeName="E4EMComponentRevision" secondaryTypeName="E4EMComponentRevision"
+       relationTypeName="E4HasGlobalAlternate" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="-1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="E4EMCPGFormulaMRevision" secondaryTypeName="E4EMCPGFormulaMRevision"
+       relationTypeName="E4HasGlobalAlternate" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="-1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="E4EMCPGFormulaMRevision" secondaryTypeName="E4EMGeneralRecRevision"
+       relationTypeName="E4HasRecipe" conditionName="isTrue" primaryCardinality="1"
+       secondaryCardinality="-1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="E4EMGeneralRecRevision" secondaryTypeName="E4EMSiteRecipeRevision"
+       relationTypeName="E4HasRecipe" conditionName="isTrue" primaryCardinality="1"
+       secondaryCardinality="-1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="E4EMSiteRecipeRevision" secondaryTypeName="E4EMPlantRecipeRevision"
+       relationTypeName="E4HasRecipe" conditionName="isTrue" primaryCardinality="1"
+       secondaryCardinality="-1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="E4SupplierSpecRevision" secondaryTypeName="VendorRevision"
+       relationTypeName="VMRepresents" conditionName="isTrue" primaryCardinality="1"
+       secondaryCardinality="1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+</Add>
+</TcBusinessData>

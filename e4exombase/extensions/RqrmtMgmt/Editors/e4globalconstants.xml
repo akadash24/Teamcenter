@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="E4MarketingReqRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="E4RegulatoryReqRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="E4TechnicalReqRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4MarketingReqRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4RegulatoryReqRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Fnd0BOMLineRevConfigProps" value="">
+      <ConstantValue value="E4TechnicalReqRevision"/>
+   </TcGlobalConstantAttach>
+</Add>
+</TcBusinessData>

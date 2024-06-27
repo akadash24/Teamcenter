@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMOccurenceAttributes" parentClassName="Fnd0AbstractOccAttrs"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4LatestConfiguredRevision" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4EMOccurenceAttributesCreI" parentTypeName="Fnd0AbstractOccAttrsCreI"
+       typeClassName="E4EMOccurenceAttributesCreI" description="CreateInput object for &quot;E4EMOccurenceAttributes&quot; business object"
+       isAbstract="false" artifactName="E4EMOccurenceAttributesCreI">
+     <OperationInputProperty propName="e4LatestConfiguredRevision" compoundObjectConstant=""
+         srcPropName="e4LatestConfiguredRevision" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4EMOccurenceAttributesSvAI" parentTypeName="Fnd0AbstractOccAttrsSvAI"
+       typeClassName="E4EMOccurenceAttributesSvAI" description="SaveAsInput object for &quot;E4EMOccurenceAttributes&quot; business object"
+       isAbstract="false" artifactName="E4EMOccurenceAttributesSvAI"/>
+   <TcStandardType typeName="E4EMOccurenceAttributes" parentTypeName="Fnd0AbstractOccAttrs"
+       typeClassName="E4EMOccurenceAttributes" description="" isAbstract="false" artifactName="E4EMOccurenceAttributes"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMOccurenceAttributes"
+       value="E4EMOccurenceAttributesCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMOccurenceAttributes"
+       value="E4EMOccurenceAttributesSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMOccurenceAttributes"
+       propertyName="e4LatestConfiguredRevision" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMOccurenceAttributes"
+       propertyName="e4LatestConfiguredRevision" value="Write"/>
+</Add>
+</TcBusinessData>

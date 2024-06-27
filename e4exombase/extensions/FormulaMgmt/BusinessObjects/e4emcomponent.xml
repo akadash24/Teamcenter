@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMComponent" parentClassName="E4AbsCPGFormulaM" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMComponentMasterS" parentClassName="E4AbsCPGFormulaMMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMComponentRevMasterS" parentClassName="E4AbsCPGFormulaMRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMComponentRevision" parentClassName="E4AbsCPGFormulaMRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4EMComponentCreI" parentTypeName="E4AbsCPGFormulaMCreI"
+       typeClassName="E4EMComponentCreI" description="CreateInput object for &quot;E4EMComponent&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentCreI"/>
+   <OperationInputType typeName="E4EMComponentMasterCreI" parentTypeName="E4AbsCPGFormulaMMasterCreI"
+       typeClassName="E4EMComponentMasterCreI" description="CreateInput object for &quot;E4EMComponentMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentMasterCreI"/>
+   <OperationInputType typeName="E4EMComponentMasterSCreI" parentTypeName="E4AbsCPGFormulaMMasterSCreI"
+       typeClassName="E4EMComponentMasterSCreI" description="CreateInput object for &quot;E4EMComponentMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentMasterSCreI"/>
+   <OperationInputType typeName="E4EMComponentMasterSSvAI" parentTypeName="E4AbsCPGFormulaMMasterSSvAI"
+       typeClassName="E4EMComponentMasterSSvAI" description="SaveAsInput object for &quot;E4EMComponentMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentMasterSSvAI"/>
+   <OperationInputType typeName="E4EMComponentMasterSvAI" parentTypeName="E4AbsCPGFormulaMMasterSvAI"
+       typeClassName="E4EMComponentMasterSvAI" description="SaveAsInput object for &quot;E4EMComponentMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentMasterSvAI"/>
+   <OperationInputType typeName="E4EMComponentRevMasterSCreI" parentTypeName="E4AbsCPGFormulaMRevMasterSCreI"
+       typeClassName="E4EMComponentRevMasterSCreI" description="CreateInput object for &quot;E4EMComponentRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevMasterSCreI"/>
+   <OperationInputType typeName="E4EMComponentRevMasterSSvAI" parentTypeName="E4AbsCPGFormulaMRevMasterSSvAI"
+       typeClassName="E4EMComponentRevMasterSSvAI" description="SaveAsInput object for &quot;E4EMComponentRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevMasterSSvAI"/>
+   <OperationInputType typeName="E4EMComponentRevisionCreI" parentTypeName="E4AbsCPGFormulaMRevisionCreI"
+       typeClassName="E4EMComponentRevisionCreI" description="CreateInput object for &quot;E4EMComponentRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevisionCreI"/>
+   <OperationInputType typeName="E4EMComponentRevisionM_alt0CreI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0CreI"
+       typeClassName="E4EMComponentRevisionM_alt0CreI" description="CreateInput object for &quot;E4EMComponentRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevisionM_alt0CreI"/>
+   <OperationInputType typeName="E4EMComponentRevisionM_alt0SvAI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0SvAI"
+       typeClassName="E4EMComponentRevisionM_alt0SvAI" description="SaveAsInput object for &quot;E4EMComponentRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevisionM_alt0SvAI"/>
+   <OperationInputType typeName="E4EMComponentRevisionRevI" parentTypeName="E4AbsCPGFormulaMRevisionRevI"
+       typeClassName="E4EMComponentRevisionRevI" description="ReviseInput object for &quot;E4EMComponentRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevisionRevI"/>
+   <OperationInputType typeName="E4EMComponentRevisionSvAI" parentTypeName="E4AbsCPGFormulaMRevisionSvAI"
+       typeClassName="E4EMComponentRevisionSvAI" description="SaveAsInput object for &quot;E4EMComponentRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevisionSvAI"/>
+   <OperationInputType typeName="E4EMComponentSvAI" parentTypeName="E4AbsCPGFormulaMSvAI"
+       typeClassName="E4EMComponentSvAI" description="SaveAsInput object for &quot;E4EMComponent&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentSvAI"/>
+   <TcForm typeName="E4EMComponentMaster" parentTypeName="E4AbsCPGFormulaMMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMComponent&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentMaster" formStorageClassName="E4EMComponentMasterS"/>
+   <TcForm typeName="E4EMComponentRevisionMaster" parentTypeName="E4AbsCPGFormulaMRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMComponentRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevisionMaster" formStorageClassName="E4EMComponentRevMasterS"/>
+   <TcStandardType typeName="E4EMComponent" parentTypeName="E4AbsCPGFormulaM" typeClassName="E4EMComponent"
+       description="" isAbstract="false" artifactName="E4EMComponent"/>
+   <TcStandardType typeName="E4EMComponentMasterS" parentTypeName="E4AbsCPGFormulaMMasterS"
+       typeClassName="E4EMComponentMasterS" description="Form Storage object for &quot;E4EMComponentMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentMasterS"/>
+   <TcStandardType typeName="E4EMComponentRevMasterS" parentTypeName="E4AbsCPGFormulaMRevMasterS"
+       typeClassName="E4EMComponentRevMasterS" description="Form Storage object for &quot;E4EMComponentRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMComponentRevMasterS"/>
+   <TcStandardType typeName="E4EMComponentRevision" parentTypeName="E4AbsCPGFormulaMRevision"
+       typeClassName="E4EMComponentRevision" description="ItemRevision object for &quot;E4EMComponent&quot;  business object"
+       isAbstract="false" artifactName="E4EMComponentRevision"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMComponent" value="E4EMComponentCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMComponentMaster"
+       value="E4EMComponentMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMComponentMasterS"
+       value="E4EMComponentMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMComponentRevision"
+       value="E4EMComponentRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMComponentRevisionMaster"
+       value="E4EMComponentRevisionM_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMComponentRevMasterS"
+       value="E4EMComponentRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4EMComponent" value="E4EMComponentRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMComponent" value="E4EMComponentMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMComponentRevision"
+       value="E4EMComponentRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4EMComponentRevision"
+       value="E4EMComponentRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMComponent" value="E4EMComponentSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMComponentMaster"
+       value="E4EMComponentMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMComponentMasterS"
+       value="E4EMComponentMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMComponentRevision"
+       value="E4EMComponentRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMComponentRevisionMaster"
+       value="E4EMComponentRevisionM_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMComponentRevMasterS"
+       value="E4EMComponentRevMasterSSvAI"/>
+</Add>
+</TcBusinessData>

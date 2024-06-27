@@ -1,0 +1,43 @@
+****************************
+   PLMXML Log File Header   
+   ----------------------   
+            IMPORT          
+****************************
+Server Hostname :  USMUMYPATEKAR2
+Teamcenter version :  Teamcenter V14000.2.1.12_20230419.00
+Syslog-FileName :  C:\Users\ypatekar\Siemens\logs\Teamcenter\ServerManagers\TcCluster\PoolA\\TcServer\process\tcserver.exe635889ce.syslog
+LOG-FileName is:  Requirement Release Process.xml.log
+XML-FileName is:  Requirement Release Process.xml
+XSLT-FileName is:  
+TransferMode Name :  workflow_template_import
+OverWrite-ExistingData is:  0
+CheckOutObjects-UponExport is:  0
+CheckFor-ExportPrivilege is:  1
+****************************
+Workflow Template Import Mode: No Overwrite
+Warning: namedACL -acl=Write Access not found in Teamcenter, needs to be imported independently
+
+
+
+
+///// Teamcenter Import Summary BEGIN: Processed the following PLMXML Elements
+  Element:: UserData                                           Count:: 17 
+  Element:: WorkflowBusinessRule                               Count:: 14 
+  Element:: WorkflowBusinessRuleHandler                        Count:: 14 
+  Element:: WorkflowHandler                                    Count:: 14 
+  Element:: WorkflowTemplate                                   Count:: 18 
+///// Teamcenter Import Summary: Processed the following Teamcenter Objects
+ TCObject:: EPMAddStatusTaskTemplate                           Count:: 3 
+ TCObject:: EPMBRHandler                                       Count:: 14 
+ TCObject:: EPMBusinessRule                                    Count:: 14 
+ TCObject:: EPMConditionTaskTemplate                           Count:: 2 
+ TCObject:: EPMDoTaskTemplate                                  Count:: 3 
+ TCObject:: EPMHandler                                         Count:: 14 
+ TCObject:: EPMOrTaskTemplate                                  Count:: 6 
+ TCObject:: EPMPerformSignoffTaskTemplate                      Count:: 1 
+ TCObject:: EPMReviewTaskTemplate                              Count:: 1 
+ TCObject:: EPMSelectSignoffTaskTemplate                       Count:: 1 
+ TCObject:: EPMTaskTemplate                                    Count:: 1 
+///// Teamcenter Import Summary END: /////
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4MaterialOwnedByLOV" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="ExxonMobil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vendor Provided" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4MaterialOwnedByLOV" typeName="E4EMCPGFormulaMRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="e4ProducedBy" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

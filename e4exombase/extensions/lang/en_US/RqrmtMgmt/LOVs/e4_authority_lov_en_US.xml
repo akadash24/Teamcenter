@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}1-4-DIOXANE" status="Approved">1-4-DIOXANE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}2-ETHYL-1-HEXANOL"
+       status="Approved">2-ETHYL-1-HEXANOL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ACRYLAMIDE" status="Approved">ACRYLAMIDE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ACRYLONITRILE"
+       status="Approved">ACRYLONITRILE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ALKYL MESILATES"
+       status="Approved">ALKYL MESILATES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ALLERGENS IN FOOD"
+       status="Approved">ALLERGENS IN FOOD</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ANIMAL DERIVED SUBSTANCES"
+       status="Approved">ANIMAL DERIVED SUBSTANCES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ANVISA FOOD CONTACT REGULATION"
+       status="Approved">ANVISA FOOD CONTACT REGULATION</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ASBESTOS" status="Approved">ASBESTOS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ATRAZINE" status="Approved">ATRAZINE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BADGE- NOGE - EU 1895/2005"
+       status="Approved">BADGE- NOGE - EU 1895/2005</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BENZENE" status="Approved">BENZENE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BENZOPHENONE"
+       status="Approved">BENZOPHENONE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BENZOTRIAZOLES"
+       status="Approved">BENZOTRIAZOLES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BHT-BUTYLATED HYDROXY TOLUENE"
+       status="Approved">BHT-BUTYLATED HYDROXY TOLUENE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BIOCIDES" status="Approved">BIOCIDES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BISPHENOL A &amp; F &amp; S"
+       status="Approved">BISPHENOL A &amp; F &amp; S</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BLOWING AGENTS"
+       status="Approved">BLOWING AGENTS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}BROMINE / BROMINE COMPOUNDS"
+       status="Approved">BROMINE / BROMINE COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CALIFORNIA PROP 65 - LIQUIDS"
+       status="Approved">CALIFORNIA PROP 65 - LIQUIDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CALIFORNIA PROP 65 - POLYMERS"
+       status="Approved">CALIFORNIA PROP 65 - POLYMERS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CANADIAN EPA"
+       status="Approved">CANADIAN EPA</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CANADIAN FOOD LAW (HPB)"
+       status="Approved">CANADIAN FOOD LAW (HPB)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CHINA FOOD-CONTACT LAW"
+       status="Approved">CHINA FOOD-CONTACT LAW</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CHLORINE/CHLORINATED COMPOUNDS"
+       status="Approved">CHLORINE/CHLORINATED COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CHOLECALCIFEROL AND MANCOZEB"
+       status="Approved">CHOLECALCIFEROL AND MANCOZEB</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CLASSIFICATION &amp; LABELLING"
+       status="Approved">CLASSIFICATION &amp; LABELLING</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}COBALT / COBALT COMPOUNDS"
+       status="Approved">COBALT / COBALT COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}COLORANTS" status="Approved">COLORANTS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}CONEG/WASTE PACKAGING"
+       status="Approved">CONEG/WASTE PACKAGING</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}COSMETICS / INCI"
+       status="Approved">COSMETICS / INCI</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}DIMETHYLFUMARATE"
+       status="Approved">DIMETHYLFUMARATE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}DIOXIN" status="Approved">DIOXIN</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}DRINKING WATER STATUS -GER/KTW"
+       status="Approved">DRINKING WATER STATUS -GER/KTW</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}DRUG MASTER FILE (US FDA)"
+       status="Approved">DRUG MASTER FILE (US FDA)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ELEMENTAL IMPURITIES"
+       status="Approved">ELEMENTAL IMPURITIES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ENDOCRINE DISRUPTORS"
+       status="Approved">ENDOCRINE DISRUPTORS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}EPOXIDIZED SOYBEAN OIL"
+       status="Approved">EPOXIDIZED SOYBEAN OIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ETHYLBENZENE"
+       status="Approved">ETHYLBENZENE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ETHYLENE OXIDE"
+       status="Approved">ETHYLENE OXIDE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}EU 2000/53/EC"
+       status="Approved">EU 2000/53/EC</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}EURASIA AND RUSSIA REACH"
+       status="Approved">EURASIA AND RUSSIA REACH</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}EUROPEAN FOOD LAW"
+       status="Approved">EUROPEAN FOOD LAW</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}FIFRA REGULATIONS"
+       status="Approved">FIFRA REGULATIONS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}FLAME RETARDANTS"
+       status="Approved">FLAME RETARDANTS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}FLUORINE" status="Approved">FLUORINE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}FORMALDEHYDE"
+       status="Approved">FORMALDEHYDE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}FURANES / BENZOFURANES"
+       status="Approved">FURANES / BENZOFURANES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}GMO" status="Approved">GMO</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}HALAL STATUS - INDONESIA"
+       status="Approved">HALAL STATUS - INDONESIA</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}HALAL STATUS"
+       status="Approved">HALAL STATUS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}HAZARDOUS AIR POLLUTANTS-HAPS"
+       status="Approved">HAZARDOUS AIR POLLUTANTS-HAPS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}HCFCS-HFCS-CFCS&amp;OTHER HALONS"
+       status="Approved">HCFCS-HFCS-CFCS&amp;OTHER HALONS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}HEXAVALENT CHROMIUM COMPOUNDS"
+       status="Approved">HEXAVALENT CHROMIUM COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}IMDS - GADSL"
+       status="Approved">IMDS - GADSL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}IMDS STATUS" status="Approved">IMDS STATUS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}IODINE / IODINE COMPOUNDS"
+       status="Approved">IODINE / IODINE COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ISO 10993" status="Approved">ISO 10993</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ISOPROPYLTHIOXAN-THONE (ITX)"
+       status="Approved">ISOPROPYLTHIOXAN-THONE (ITX)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}JAPAN FOOD CONTACT REGULATIONS"
+       status="Approved">JAPAN FOOD CONTACT REGULATIONS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}JATROPHA PLANT DERIVATIVES"
+       status="Approved">JATROPHA PLANT DERIVATIVES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}KOREA AREC REGISTRATION STATUS"
+       status="Approved">KOREA AREC REGISTRATION STATUS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}KOSHER STATUS"
+       status="Approved">KOSHER STATUS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}LATEX / NATURAL RUBBER"
+       status="Approved">LATEX / NATURAL RUBBER</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}MELAMINE" status="Approved">MELAMINE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}MERCOSUR FOODLAW"
+       status="Approved">MERCOSUR FOODLAW</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}METALS / METALLOIDS"
+       status="Approved">METALS / METALLOIDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}METHANOL" status="Approved">METHANOL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}METHYLNAPHTHALENES/NAPHTHALENE"
+       status="Approved">METHYLNAPHTHALENES/NAPHTHALENE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}MICA" status="Approved">MICA</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}MICROPLASTICS"
+       status="Approved">MICROPLASTICS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}MINERAL OIL" status="Approved">MINERAL OIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}NANO-SCALE MATERIALS"
+       status="Approved">NANO-SCALE MATERIALS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}NATIONAL CHEMICAL INVENTORY"
+       status="Approved">NATIONAL CHEMICAL INVENTORY</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}NICKEL / NICKEL COMPOUNDS"
+       status="Approved">NICKEL / NICKEL COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}NITROSAMINES"
+       status="Approved">NITROSAMINES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}NONYLPHENOL &amp; ...ETHOXYLATES"
+       status="Approved">NONYLPHENOL &amp; ...ETHOXYLATES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}OXO-DEGRADABLE PLASTICS"
+       status="Approved">OXO-DEGRADABLE PLASTICS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}OZONE DEPLETING SUBSTANCES"
+       status="Approved">OZONE DEPLETING SUBSTANCES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PALM OIL" status="Approved">PALM OIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PERSISTENT ORGANIC POLLUTANTS"
+       status="Approved">PERSISTENT ORGANIC POLLUTANTS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PESTICIDES" status="Approved">PESTICIDES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PFAS" status="Approved">PFAS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PFOS &amp; PFOA"
+       status="Approved">PFOS &amp; PFOA</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PHARMACOPOEIA STATUS (EU)"
+       status="Approved">PHARMACOPOEIA STATUS (EU)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PHARMACOPOEIA STATUS (US)"
+       status="Approved">PHARMACOPOEIA STATUS (US)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PHENOL" status="Approved">PHENOL</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PHTHALATES/ADIPATES"
+       status="Approved">PHTHALATES/ADIPATES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PNA / PAH" status="Approved">PNA / PAH</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}PRIMARY AROMATIC AMINES"
+       status="Approved">PRIMARY AROMATIC AMINES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}RADIOACTIVE SUBSTANCES"
+       status="Approved">RADIOACTIVE SUBSTANCES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}REACH CANDIDATE LIST"
+       status="Approved">REACH CANDIDATE LIST</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}REACH REG - OR"
+       status="Approved">REACH REG - OR</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}REACH-1907/2006 ANNEX XVII"
+       status="Approved">REACH-1907/2006 ANNEX XVII</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}RESORCINOL (1,3-BENZENEDIOL)"
+       status="Approved">RESORCINOL (1,3-BENZENEDIOL)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ROHS" status="Approved">ROHS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}SAFETY OF TOYS"
+       status="Approved">SAFETY OF TOYS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}SILICONES / SILOXANES"
+       status="Approved">SILICONES / SILOXANES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}STYRENE" status="Approved">STYRENE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}SUBST. OF VEGETABLE ORIGIN-GMO"
+       status="Approved">SUBST. OF VEGETABLE ORIGIN-GMO</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}SULFUR" status="Approved">SULFUR</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TALC" status="Approved">TALC</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}THIURAM MIX" status="Approved">THIURAM MIX</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TIN / ORGANOTIN COMPOUNDS"
+       status="Approved">TIN / ORGANOTIN COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TNPP" status="Approved">TNPP</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TOLUENE DIISOCYANATE (TDI)"
+       status="Approved">TOLUENE DIISOCYANATE (TDI)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TOLUENE" status="Approved">TOLUENE</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TSCA - PBT SUBSTANCES"
+       status="Approved">TSCA - PBT SUBSTANCES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}TSCA 12B STATUS"
+       status="Approved">TSCA 12B STATUS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}UK REACH CANDIDATE LIST"
+       status="Approved">UK REACH CANDIDATE LIST</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}USA FOOD LAW (FDA) - DIRECT"
+       status="Approved">USA FOOD LAW (FDA) - DIRECT</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}USA FOOD LAW (FDA)"
+       status="Approved">USA FOOD LAW (FDA)</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}USP 661.1" status="Approved">USP 661.1</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}VANADIUM / VANADIUM COMPOUNDS"
+       status="Approved">VANADIUM / VANADIUM COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}VOLATILE ORGANIC CPDS-VOC -EU"
+       status="Approved">VOLATILE ORGANIC CPDS-VOC -EU</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}VOLATILE ORGANIC CPDS-VOC -USA"
+       status="Approved">VOLATILE ORGANIC CPDS-VOC -USA</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}XYLENES" status="Approved">XYLENES</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ZINC / ZINC COMPOUNDS"
+       status="Approved">ZINC / ZINC COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ZIRCONIUM /ZIRCONIUM COMPOUNDS"
+       status="Approved">ZIRCONIUM /ZIRCONIUM COMPOUNDS</key>
+   <key locale="en_US" id="LOVValueDescription{::}E4AuthorityLov{::}ZZ-NEW REQUIREMENT"
+       status="Approved">ZZ-NEW REQUIREMENT</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}1-4-DIOXANE" status="Approved">1-4-DIOXANE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}2-ETHYL-1-HEXANOL" status="Approved">2-ETHYL-1-HEXANOL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ACRYLAMIDE" status="Approved">ACRYLAMIDE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ACRYLONITRILE" status="Approved">ACRYLONITRILE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ALKYL MESILATES" status="Approved">ALKYL MESILATES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ALLERGENS IN FOOD" status="Approved">ALLERGENS IN FOOD</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ANIMAL DERIVED SUBSTANCES"
+       status="Approved">ANIMAL DERIVED SUBSTANCES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ANVISA FOOD CONTACT REGULATION"
+       status="Approved">ANVISA FOOD CONTACT REGULATION</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ASBESTOS" status="Approved">ASBESTOS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ATRAZINE" status="Approved">ATRAZINE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BADGE- NOGE - EU 1895/2005"
+       status="Approved">BADGE- NOGE - EU 1895/2005</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BENZENE" status="Approved">BENZENE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BENZOPHENONE" status="Approved">BENZOPHENONE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BENZOTRIAZOLES" status="Approved">BENZOTRIAZOLES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BHT-BUTYLATED HYDROXY TOLUENE"
+       status="Approved">BHT-BUTYLATED HYDROXY TOLUENE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BIOCIDES" status="Approved">BIOCIDES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BISPHENOL A &amp; F &amp; S"
+       status="Approved">BISPHENOL A &amp; F &amp; S</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BLOWING AGENTS" status="Approved">BLOWING AGENTS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}BROMINE / BROMINE COMPOUNDS"
+       status="Approved">BROMINE / BROMINE COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CALIFORNIA PROP 65 - LIQUIDS"
+       status="Approved">CALIFORNIA PROP 65 - LIQUIDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CALIFORNIA PROP 65 - POLYMERS"
+       status="Approved">CALIFORNIA PROP 65 - POLYMERS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CANADIAN EPA" status="Approved">CANADIAN EPA</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CANADIAN FOOD LAW (HPB)"
+       status="Approved">CANADIAN FOOD LAW (HPB)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CHINA FOOD-CONTACT LAW" status="Approved">CHINA FOOD-CONTACT LAW</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CHLORINE/CHLORINATED COMPOUNDS"
+       status="Approved">CHLORINE/CHLORINATED COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CHOLECALCIFEROL AND MANCOZEB"
+       status="Approved">CHOLECALCIFEROL AND MANCOZEB</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CLASSIFICATION &amp; LABELLING"
+       status="Approved">CLASSIFICATION &amp; LABELLING</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}COBALT / COBALT COMPOUNDS"
+       status="Approved">COBALT / COBALT COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}COLORANTS" status="Approved">COLORANTS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}CONEG/WASTE PACKAGING" status="Approved">CONEG/WASTE PACKAGING</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}COSMETICS / INCI" status="Approved">COSMETICS / INCI</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}DIMETHYLFUMARATE" status="Approved">DIMETHYLFUMARATE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}DIOXIN" status="Approved">DIOXIN</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}DRINKING WATER STATUS -GER/KTW"
+       status="Approved">DRINKING WATER STATUS -GER/KTW</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}DRUG MASTER FILE (US FDA)"
+       status="Approved">DRUG MASTER FILE (US FDA)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ELEMENTAL IMPURITIES" status="Approved">ELEMENTAL IMPURITIES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ENDOCRINE DISRUPTORS" status="Approved">ENDOCRINE DISRUPTORS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}EPOXIDIZED SOYBEAN OIL" status="Approved">EPOXIDIZED SOYBEAN OIL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ETHYLBENZENE" status="Approved">ETHYLBENZENE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ETHYLENE OXIDE" status="Approved">ETHYLENE OXIDE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}EU 2000/53/EC" status="Approved">EU 2000/53/EC</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}EURASIA AND RUSSIA REACH"
+       status="Approved">EURASIA AND RUSSIA REACH</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}EUROPEAN FOOD LAW" status="Approved">EUROPEAN FOOD LAW</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}FIFRA REGULATIONS" status="Approved">FIFRA REGULATIONS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}FLAME RETARDANTS" status="Approved">FLAME RETARDANTS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}FLUORINE" status="Approved">FLUORINE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}FORMALDEHYDE" status="Approved">FORMALDEHYDE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}FURANES / BENZOFURANES" status="Approved">FURANES / BENZOFURANES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}GMO" status="Approved">GMO</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}HALAL STATUS - INDONESIA"
+       status="Approved">HALAL STATUS - INDONESIA</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}HALAL STATUS" status="Approved">HALAL STATUS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}HAZARDOUS AIR POLLUTANTS-HAPS"
+       status="Approved">HAZARDOUS AIR POLLUTANTS-HAPS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}HCFCS-HFCS-CFCS&amp;OTHER HALONS"
+       status="Approved">HCFCS-HFCS-CFCS&amp;OTHER HALONS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}HEXAVALENT CHROMIUM COMPOUNDS"
+       status="Approved">HEXAVALENT CHROMIUM COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}IMDS - GADSL" status="Approved">IMDS - GADSL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}IMDS STATUS" status="Approved">IMDS STATUS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}IODINE / IODINE COMPOUNDS"
+       status="Approved">IODINE / IODINE COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ISO 10993" status="Approved">ISO 10993</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ISOPROPYLTHIOXAN-THONE (ITX)"
+       status="Approved">ISOPROPYLTHIOXAN-THONE (ITX)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}JAPAN FOOD CONTACT REGULATIONS"
+       status="Approved">JAPAN FOOD CONTACT REGULATIONS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}JATROPHA PLANT DERIVATIVES"
+       status="Approved">JATROPHA PLANT DERIVATIVES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}KOREA AREC REGISTRATION STATUS"
+       status="Approved">KOREA AREC REGISTRATION STATUS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}KOSHER STATUS" status="Approved">KOSHER STATUS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}LATEX / NATURAL RUBBER" status="Approved">LATEX / NATURAL RUBBER</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}MELAMINE" status="Approved">MELAMINE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}MERCOSUR FOODLAW" status="Approved">MERCOSUR FOODLAW</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}METALS / METALLOIDS" status="Approved">METALS / METALLOIDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}METHANOL" status="Approved">METHANOL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}METHYLNAPHTHALENES/NAPHTHALENE"
+       status="Approved">METHYLNAPHTHALENES/NAPHTHALENE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}MICA" status="Approved">MICA</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}MICROPLASTICS" status="Approved">MICROPLASTICS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}MINERAL OIL" status="Approved">MINERAL OIL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}NANO-SCALE MATERIALS" status="Approved">NANO-SCALE MATERIALS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}NATIONAL CHEMICAL INVENTORY"
+       status="Approved">NATIONAL CHEMICAL INVENTORY</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}NICKEL / NICKEL COMPOUNDS"
+       status="Approved">NICKEL / NICKEL COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}NITROSAMINES" status="Approved">NITROSAMINES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}NONYLPHENOL &amp; ...ETHOXYLATES"
+       status="Approved">NONYLPHENOL &amp; ...ETHOXYLATES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}OXO-DEGRADABLE PLASTICS"
+       status="Approved">OXO-DEGRADABLE PLASTICS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}OZONE DEPLETING SUBSTANCES"
+       status="Approved">OZONE DEPLETING SUBSTANCES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PALM OIL" status="Approved">PALM OIL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PERSISTENT ORGANIC POLLUTANTS"
+       status="Approved">PERSISTENT ORGANIC POLLUTANTS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PESTICIDES" status="Approved">PESTICIDES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PFAS" status="Approved">PFAS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PFOS &amp; PFOA" status="Approved">PFOS &amp; PFOA</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PHARMACOPOEIA STATUS (EU)"
+       status="Approved">PHARMACOPOEIA STATUS (EU)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PHARMACOPOEIA STATUS (US)"
+       status="Approved">PHARMACOPOEIA STATUS (US)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PHENOL" status="Approved">PHENOL</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PHTHALATES/ADIPATES" status="Approved">PHTHALATES/ADIPATES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PNA / PAH" status="Approved">PNA / PAH</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}PRIMARY AROMATIC AMINES"
+       status="Approved">PRIMARY AROMATIC AMINES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}RADIOACTIVE SUBSTANCES" status="Approved">RADIOACTIVE SUBSTANCES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}REACH CANDIDATE LIST" status="Approved">REACH CANDIDATE LIST</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}REACH REG - OR" status="Approved">REACH REG - OR</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}REACH-1907/2006 ANNEX XVII"
+       status="Approved">REACH-1907/2006 ANNEX XVII</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}RESORCINOL (1,3-BENZENEDIOL)"
+       status="Approved">RESORCINOL (1,3-BENZENEDIOL)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ROHS" status="Approved">ROHS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}SAFETY OF TOYS" status="Approved">SAFETY OF TOYS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}SILICONES / SILOXANES" status="Approved">SILICONES / SILOXANES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}STYRENE" status="Approved">STYRENE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}SUBST. OF VEGETABLE ORIGIN-GMO"
+       status="Approved">SUBST. OF VEGETABLE ORIGIN-GMO</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}SULFUR" status="Approved">SULFUR</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TALC" status="Approved">TALC</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}THIURAM MIX" status="Approved">THIURAM MIX</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TIN / ORGANOTIN COMPOUNDS"
+       status="Approved">TIN / ORGANOTIN COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TNPP" status="Approved">TNPP</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TOLUENE DIISOCYANATE (TDI)"
+       status="Approved">TOLUENE DIISOCYANATE (TDI)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TOLUENE" status="Approved">TOLUENE</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TSCA - PBT SUBSTANCES" status="Approved">TSCA - PBT SUBSTANCES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}TSCA 12B STATUS" status="Approved">TSCA 12B STATUS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}UK REACH CANDIDATE LIST"
+       status="Approved">UK REACH CANDIDATE LIST</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}USA FOOD LAW (FDA) - DIRECT"
+       status="Approved">USA FOOD LAW (FDA) - DIRECT</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}USA FOOD LAW (FDA)" status="Approved">USA FOOD LAW (FDA)</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}USP 661.1" status="Approved">USP 661.1</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}VANADIUM / VANADIUM COMPOUNDS"
+       status="Approved">VANADIUM / VANADIUM COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}VOLATILE ORGANIC CPDS-VOC -EU"
+       status="Approved">VOLATILE ORGANIC CPDS-VOC -EU</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}VOLATILE ORGANIC CPDS-VOC -USA"
+       status="Approved">VOLATILE ORGANIC CPDS-VOC -USA</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}XYLENES" status="Approved">XYLENES</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ZINC / ZINC COMPOUNDS" status="Approved">ZINC / ZINC COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ZIRCONIUM /ZIRCONIUM COMPOUNDS"
+       status="Approved">ZIRCONIUM /ZIRCONIUM COMPOUNDS</key>
+   <key locale="en_US" id="LOVValue{::}E4AuthorityLov{::}ZZ-NEW REQUIREMENT" status="Approved">ZZ-NEW REQUIREMENT</key>
+</Add>
+</TcBusinessDataLocalization>

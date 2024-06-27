@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Approved" status="Approved">Approved</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Licensable" status="Approved">Licensable</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Meets the Engine Test Requirements"
+       status="Approved">Meets the Engine Test Requirements</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Meets" status="Approved">Meets</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Obtainable" status="Approved">Obtainable</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Quality Level (Agriculture Applications Only)"
+       status="Approved">Quality Level (Agriculture Applications Only)</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}QualityLevel" status="Approved">QualityLevel</key>
+   <key locale="en_US" id="LOVValue{::}E4TechReqLevelLov{::}Registered" status="Approved">Registered</key>
+</Add>
+</TcBusinessDataLocalization>

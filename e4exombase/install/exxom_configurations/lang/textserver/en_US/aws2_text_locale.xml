@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<!--
+Filename:   aws2_text_locale.xml
+Module:     aws2
+
+XML File defining ___ module text/error messages.
+This was previously done in UIH/UIL/VIL format.
+ -->
+<textsrv filename="aws2_text_locale.xml">
+    <!-- XRT keys for Active Workspace -->
+	<key id="tc_xrt_e4_id_info">ID Information</key>
+	<key id="tc_xrt_e4_status_info">Status Information</key>
+	<key id="tc_xrt_e4_requirement_info">Requirement Information</key>
+	<key id="tc_xrt_e4_user_info">User Information</key>
+	<key id="tc_xrt_e4_date_info">Date Information</key>
+	<key id="tc_xrt_e4_other_info">Other Information</key>
+	<key id="tc_xrt_e4_TestPlan">Test Plan</key>
+	<key id="tc_xrt_e4_ValidationPlan">Validation Plan</key>
+	<key id="tc_xrt_Item">Item</key>
+	<key id="tc_xrt_e4_Products">Product</key>
+	<key id="tc_xrt_e4_InstancedInProducts">Instanced in Products</key>
+    <key id="tc_xrt_Action">Action</key>
+    <key id="tc_xrt_AllReferences">All References</key>
+    <key id="tc_xrt_AllTargets">All Targets</key>
+    <key id="tc_xrt_Analyst">Analyst</key>
+    <key id="tc_xrt_AnswerTo">Answer To:</key>
+    <key id="tc_xrt_Approver">Approver</key>
+    <key id="tc_xrt_attachments">Attachments</key>
+    <key id="tc_xrt_Changes">Changes</key>
+    <key id="tc_xrt_ChangeImplementationBoard">Change Implementation Board</key>
+    <key id="tc_xrt_ChangeReviewBoard">Change Review Board</key>
+    <key id="tc_xrt_ChangeSpecialist1">Change Specialist 1</key>
+    <key id="tc_xrt_ChildComponents">Child Components</key>
+    <key id="tc_xrt_Children">Children</key>
+    <key id="tc_xrt_ClassificationInformation">Classification</key>
+    <key id="tc_xrt_Collaboration">Collaboration</key>
+    <key id="tc_xrt_CommentFor">Comment For:</key>
+    <key id="tc_xrt_Complying">Complying</key>
+    <key id="tc_xrt_ComplyingObjects">Complying Objects</key>
+    <key id="tc_xrt_CreateItem">Create Item</key>
+    <key id="tc_xrt_CreateDocument">Create Document</key>
+    <key id="tc_xrt_CurrentWorkingLocation">Current Working Location</key>
+    <key id="tc_xrt_Defining">Defining</key>
+    <key id="tc_xrt_DefiningObjects">Defining Objects</key>
+    <key id="tc_xrt_Documentation">Documentation</key>
+    <key id="tc_xrt_Documents">Documents</key>
+    <key id="tc_xrt_Drawings">Drawings</key>
+    <key id="tc_xrt_EmbeddedMedia">Embedded Media</key>
+    <key id="tc_xrt_ExternalWebLink">External Web Link</key>
+    <key id="tc_xrt_Files">Files</key>
+    <key id="tc_xrt_History">History</key>
+    <key id="tc_xrt_ImpactedItemFor">Impacted Item For:</key>
+    <key id="tc_xrt_Licenses">Licenses</key>
+    <key id="tc_xrt_Media">Media</key>
+    <key id="tc_xrt_MySurrogates">My Surrogates</key>
+    <key id="tc_xrt_OpenSelectedInStructureManager">Open Selected in Structure Manager</key>
+    <key id="tc_xrt_OutOfOfficeSetting">Forward Tasks (Out of Office)</key>
+    <key id="tc_xrt_Page">Page</key>
+    <key id="tc_xrt_ParagraphInformation">Paragraph Information</key>
+    <key id="tc_xrt_ParentAssemblies">Parent Assemblies</key>
+    <key id="tc_xrt_Participants">Participants</key>
+    <key id="tc_xrt_Picture">Picture</key>
+    <key id="tc_xrt_ProblemItemFor">Problem Item For:</key>
+    <key id="tc_xrt_Contexts">Contexts</key>
+    <key id="tc_xrt_ProposedResponsibleParty">Proposed Responsible Party</key>
+    <key id="tc_xrt_ProposedReviewers">Proposed Reviewers</key>
+    <key id="tc_xrt_Projects">Projects</key>
+    <key id="tc_xrt_QuestionOn">Question On:</key>
+    <key id="tc_xrt_References">References</key>
+    <key id="tc_xrt_RelatedDrawings">Related Drawings</key>
+    <key id="tc_xrt_Relations">Relations</key>
+    <key id="tc_xrt_Requestor">Requestor</key>
+    <key id="tc_xrt_RequirementInformation">Requirement Information</key>
+    <key id="tc_xrt_RequirementSpecInformation">Requirement Specification Information</key>
+    <key id="tc_xrt_Reviewers">Reviewers</key>
+    <key id="tc_xrt_RevisionHistory">Revision History</key>    
+    <key id="tc_xrt_DatasetVersions">Versions</key>
+    <key id="tc_xrt_SolutionItemFor">Solution Item For:</key>
+    <key id="tc_xrt_StructureNotNull">BOM</key>
+    <key id="tc_xrt_StructureNull">Structures (No Structures)</key>
+    <key id="tc_xrt_SurrogateFor">Surrogate For:</key>
+    <key id="tc_xrt_TargetItems">Target Items</key>
+    <key id="tc_xrt_CurrentAndCompletedTasks">Current and Completed Tasks</key>
+    <key id="tc_xrt_TraceabilityReport">Traceability Report</key>
+    <key id="tc_xrt_CreateServiceDiscrepancy">Create Service Discrepancy</key>
+    <key id="FND_TraceLinkModeFalse">Trace Link Mode (False)</key>
+    <key id="FND_TraceLinkModeTrue">Trace Link Mode (True)</key>
+    <key id="tc_xrt_Signoffs">Signoffs</key>
+    <key id="FND_TraceLinkNotNull">Trace Links</key>
+    <key id="tc_xrt_UsedInSpecification">Used in Specification</key>
+    <key id="tc_xrt_UserMemberships">User Memberships</key>
+    <key id="tc_xrt_VendorPartsNull">Vendor Parts (None)</key>
+    <key id="tc_xrt_viewer">Viewer</key>
+    <key id="tc_xrt_jt_viewer">3D</key>
+    <key id="tc_xrt_SnapshotContext">Context</key>
+    <key id="tc_xrt_Navigate">Navigate</key>
+    <key id="web_whereusedNotNull">Where Used</key>
+    <key id="web_whereusedNull">Where Used (No Assemblies)</key>
+    <key id="tc_xrt_Proposals">Proposals</key>
+    <key id="tc_xrt_Project_Team">Team Members</key>
+    <key id="tc_xrt_ParentProgram">Parent Program</key>
+    <key id="tc_xrt_ChildProjects">Child Projects</key>
+    <key id="tc_xrt_Activities">Activities</key>
+    <key id="tc_xrt_AlternateIds">Alternate IDs</key>
+    <key id="tc_xrt_AliasIds">Alias IDs</key>
+    <key id="tc_xrt_GlobalAlternates">Global Alternates</key>
+    <key id="tc_xrt_Traceability">Traceability</key>
+    <key id="tc_xrt_MySubscriptions">Resource Pool Subscriptions</key>
+    <key id="tc_xrt_Assignments">Assignments</key>
+    <key id="tc_xrt_RequirementHistory">Requirement History</key>
+    <key id="tc_xrt_AlignedDesigns">Aligned Designs</key>
+    <key id="tc_xrt_identity">Identity</key>
+    <key id="tc_xrt_contacts">Contacts</key>
+    <key id="tc_xrt_OverviewSummary">Overview and Summary Information</key>
+    <key id="tc_xrt_Progress">Progress</key>
+    <key id="tc_xrt_AlignedParts">Aligned Parts</key>
+    <key id="tc_xrt_UsedInStructures">Used in Structures</key>
+    <key id="tc_xrt_UsedInStructuresTopLevel">Top Level</key>
+    <key id="tc_xrt_SearchFolderRule">Rules</key>
+    <key id="tc_xrt_SearchFolderShareRule">Shared With</key>
+    <key id="tc_xrt_ParentServiceEvent">Parent Service Event</key>
+    <key id="tc_xrt_MoreProperties">More Properties</key>
+    <key id="tc_xrt_SearchFolderShared">Shared</key>
+    <key id="tc_xrt_PartMovement">Part Movements</key>
+    <key id="tc_xrt_PartRequests">Part Requests</key>
+    <key id="tc_xrt_BuildInformation">Build Information</key>
+    <key id="tc_xrt_RemoteInboxSubscription">Remote Inbox Subscription</key>
+    <key id="tc_xrt_Content">Content</key>
+    <key id="tc_xrt_Assets">Assets</key>
+    <key id="tc_xrt_UserCalendar">User Calendar</key>
+    <key id="tc_xrt_DispReports">Disposition Reports</key>
+    <key id="tc_xrt_OrigSource">Original Source</key>
+
+    <!-- keys for Search Syntax Keywords and Pre Filters-->
+    <key id="k_prefilter_value_any">Any</key>
+    <key id="k_fts_keyword_from">From</key>
+    <key id="k_fts_keyword_me">Me</key>
+    <key id="k_fts_keyword_mygroup">My Group</key>
+    <key id="k_fts_keyword_myrole">My Role</key>
+    <key id="k_fts_keyword_myproject">My Project</key>
+    <key id="k_fts_keyword_today">Today</key>
+    <key id="k_fts_keyword_this_week">This week</key>
+    <key id="k_fts_keyword_this_month">This month</key>
+    <key id="k_fts_keyword_to">To</key>
+    <key id="k_fts_keyword_unassigned">Unassigned</key>
+    <key id="k_fts_keyword_ownedByMe">Owned By Me</key>
+    <key id="k_fts_keyword_sharedWithMe">Shared With Me</key>
+    <key id="k_fts_keyword_yesterday">Yesterday</key>
+    <key id="k_fts_keyword_this_year">This Year</key>
+    <key id="k_fts_keyword_last_week">Last Week</key>
+    <key id="k_fts_keyword_last_month">Last Month</key>
+    <key id="k_fts_keyword_last_year">Last Year</key>
+    <key id="k_fts_keyword_search_criteria">Criteria</key>
+    <key id="k_keyword_search_saved_query">Saved Query</key>
+    <key id="k_fts_keyword_shape_search_similarity">Shape Similarity</key>
+    <key id="k_fts_keyword_shape_search_start_size">Shape Start Size</key>
+    <key id="k_fts_keyword_shape_search_end_size">Shape End Size</key>
+    <key id="k_keyword_active_folder_tile">Active Folders</key>  
+    <key id="k_keyword_my_active_folder_name">My Active Folders</key>
+    <key id="k_keyword_my_active_folder_desc">All Active Folders owned or shared with me</key>
+    <key id="k_keyword_default_active_folder_recently_modified">Recently Modified</key>
+    <key id="k_keyword_default_active_folder_recently_modified_by_me">By Me</key>
+    <key id="k_keyword_default_active_folder_recently_modified_by_my_group">By My Group</key>
+    <key id="k_keyword_default_active_folder_recently_modified_by_my_group_desc">Data recently modified by my Group</key>
+    <key id="k_keyword_default_active_folder_recently_modified_by_me_desc">Data recently modified by me</key>
+    <key id="k_keyword_default_active_folder_recently_modified_desc">Recently modified data</key>
+    
+    <!-- Log messages -->
+    <key id="k_error_fetching_prefilters">Error while retrieving pre-filters:</key>
+    <key id="k_error_compare_failed_paste_onsource">The comparison was not attached to "%1$" because it is read-only, but instead was saved in New Stuff.</key>
+    
+    <!-- General text Keys -->
+    <key id="k_classification_facet_label">Classification</key>
+    <key id="k_categorization_facet_label">Category</key>
+    <key id="k_search_site_facet_label">Search Site</key>
+    <key id="k_search_site_local_facet_label">Local</key>
+    <key id="k_search_site_remote_facet_label">Remote</key>
+    <key id="k_updated_results_facet_label">Updated Results</key>
+    <key id="k_updated_results_new_facet_label">New (since %1$)</key>
+    <key id="k_updated_results_modified_facet_label">Modified (since %1$)</key>
+    <key id="k_updated_results_unchanged_facet_label">Unchanged</key>
+    <key id="k_project_display_name">%1$ (%2$)</key>
+    
+    <!-- Declarative UI text Keys -->
+    <key id="k_dui_StartEdit">Start Edit</key>
+    <key id="k_dui_Save">Save</key>
+    <key id="k_dui_Add">Add</key>
+    <key id="k_dui_DownloadFile">Download File</key>
+    <key id="k_dui_Open">Open</key>
+    <key id="k_dui_NavigateObject">Navigate Object</key>
+    <key id="k_copy_Options">Copy Options</key>
+    <key id="k_not_Latest">Not Latest</key>
+    
+    <!-- XRT keys for TcRS -->
+    <key id="tcrs_xrt_FormProperties">Form Properties</key>
+    <key id="tcrs_xrt_MasterFormProperties">Master Form Properties</key>
+    <key id="tcrs_xrt_RevisionMasterFormProperties">Revision Master Form Properties</key>
+
+    <key id="excel_import_success">%1$ has been imported.</key>
+    <key id="excel_import_title">Excel Import</key>
+    <key id="excel_import_failed">Excel Import failed:::%1$ failed to import.</key>
+    <key id="excel_import_mapproperty_failed">Excel Import failed:::%1$ has been imported successfully. %2$ mapping could not be saved because of an internal error.</key>
+
+    <key id="excel_import_success_message">Excel Import:::%1$ has been imported successfully.</key>
+    <key id="excel_import_failed_message">Excel Import failed.</key>
+  
+</textsrv>

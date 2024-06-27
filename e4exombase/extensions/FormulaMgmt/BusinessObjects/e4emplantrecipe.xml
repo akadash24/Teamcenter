@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4EMPlantRecipe" parentClassName="E4AbsCPGFormulaM" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMPlantRecipeMasterS" parentClassName="E4AbsCPGFormulaMMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMPlantRecipeRevMasterS" parentClassName="E4AbsCPGFormulaMRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="E4EMPlantRecipeRevision" parentClassName="E4AbsCPGFormulaMRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="E4EMPlantRecipeCreI" parentTypeName="E4AbsCPGFormulaMCreI"
+       typeClassName="E4EMPlantRecipeCreI" description="CreateInput object for &quot;E4EMPlantRecipe&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeCreI"/>
+   <OperationInputType typeName="E4EMPlantRecipeMasterCreI" parentTypeName="E4AbsCPGFormulaMMasterCreI"
+       typeClassName="E4EMPlantRecipeMasterCreI" description="CreateInput object for &quot;E4EMPlantRecipeMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeMasterCreI"/>
+   <OperationInputType typeName="E4EMPlantRecipeMasterSCreI" parentTypeName="E4AbsCPGFormulaMMasterSCreI"
+       typeClassName="E4EMPlantRecipeMasterSCreI" description="CreateInput object for &quot;E4EMPlantRecipeMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeMasterSCreI"/>
+   <OperationInputType typeName="E4EMPlantRecipeMasterSSvAI" parentTypeName="E4AbsCPGFormulaMMasterSSvAI"
+       typeClassName="E4EMPlantRecipeMasterSSvAI" description="SaveAsInput object for &quot;E4EMPlantRecipeMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeMasterSSvAI"/>
+   <OperationInputType typeName="E4EMPlantRecipeMasterSvAI" parentTypeName="E4AbsCPGFormulaMMasterSvAI"
+       typeClassName="E4EMPlantRecipeMasterSvAI" description="SaveAsInput object for &quot;E4EMPlantRecipeMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeMasterSvAI"/>
+   <OperationInputType typeName="E4EMPlantRecipeRevMasterSCreI" parentTypeName="E4AbsCPGFormulaMRevMasterSCreI"
+       typeClassName="E4EMPlantRecipeRevMasterSCreI" description="CreateInput object for &quot;E4EMPlantRecipeRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevMasterSCreI"/>
+   <OperationInputType typeName="E4EMPlantRecipeRevMasterSSvAI" parentTypeName="E4AbsCPGFormulaMRevMasterSSvAI"
+       typeClassName="E4EMPlantRecipeRevMasterSSvAI" description="SaveAsInput object for &quot;E4EMPlantRecipeRevMasterS&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevMasterSSvAI"/>
+   <OperationInputType typeName="E4EMPlantRecipeRevisio_alt0CreI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0CreI"
+       typeClassName="E4EMPlantRecipeRevisio_alt0CreI" description="CreateInput object for &quot;E4EMPlantRecipeRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevisio_alt0CreI"/>
+   <OperationInputType typeName="E4EMPlantRecipeRevisio_alt0SvAI" parentTypeName="E4AbsCPGFormulaMRevisi_alt0SvAI"
+       typeClassName="E4EMPlantRecipeRevisio_alt0SvAI" description="SaveAsInput object for &quot;E4EMPlantRecipeRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevisio_alt0SvAI"/>
+   <OperationInputType typeName="E4EMPlantRecipeRevisionCreI" parentTypeName="E4AbsCPGFormulaMRevisionCreI"
+       typeClassName="E4EMPlantRecipeRevisionCreI" description="CreateInput object for &quot;E4EMPlantRecipeRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevisionCreI">
+     <OperationInputProperty propName="e4E4HasRecipe" compoundObjectConstant="" srcPropName="E4HasRecipe"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4EMPlantRecipeRevisionRevI" parentTypeName="E4AbsCPGFormulaMRevisionRevI"
+       typeClassName="E4EMPlantRecipeRevisionRevI" description="ReviseInput object for &quot;E4EMPlantRecipeRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevisionRevI"/>
+   <OperationInputType typeName="E4EMPlantRecipeRevisionSvAI" parentTypeName="E4AbsCPGFormulaMRevisionSvAI"
+       typeClassName="E4EMPlantRecipeRevisionSvAI" description="SaveAsInput object for &quot;E4EMPlantRecipeRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevisionSvAI"/>
+   <OperationInputType typeName="E4EMPlantRecipeSvAI" parentTypeName="E4AbsCPGFormulaMSvAI"
+       typeClassName="E4EMPlantRecipeSvAI" description="SaveAsInput object for &quot;E4EMPlantRecipe&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeSvAI"/>
+   <TcForm typeName="E4EMPlantRecipeMaster" parentTypeName="E4AbsCPGFormulaMMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMPlantRecipe&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeMaster" formStorageClassName="E4EMPlantRecipeMasterS"/>
+   <TcForm typeName="E4EMPlantRecipeRevisionMaster" parentTypeName="E4AbsCPGFormulaMRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;E4EMPlantRecipeRevision&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevisionMaster" formStorageClassName="E4EMPlantRecipeRevMasterS"/>
+   <TcStandardType typeName="E4EMPlantRecipe" parentTypeName="E4AbsCPGFormulaM" typeClassName="E4EMPlantRecipe"
+       description="" isAbstract="false" artifactName="E4EMPlantRecipe"/>
+   <TcStandardType typeName="E4EMPlantRecipeMasterS" parentTypeName="E4AbsCPGFormulaMMasterS"
+       typeClassName="E4EMPlantRecipeMasterS" description="Form Storage object for &quot;E4EMPlantRecipeMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeMasterS"/>
+   <TcStandardType typeName="E4EMPlantRecipeRevMasterS" parentTypeName="E4AbsCPGFormulaMRevMasterS"
+       typeClassName="E4EMPlantRecipeRevMasterS" description="Form Storage object for &quot;E4EMPlantRecipeRevMaster&quot; business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevMasterS"/>
+   <TcStandardType typeName="E4EMPlantRecipeRevision" parentTypeName="E4AbsCPGFormulaMRevision"
+       typeClassName="E4EMPlantRecipeRevision" description="ItemRevision object for &quot;E4EMPlantRecipe&quot;  business object"
+       isAbstract="false" artifactName="E4EMPlantRecipeRevision">
+     <TcProperty propName="E4HasRecipe" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMPlantRecipe" value="E4EMPlantRecipeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMPlantRecipeMaster"
+       value="E4EMPlantRecipeMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMPlantRecipeMasterS"
+       value="E4EMPlantRecipeMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMPlantRecipeRevision"
+       value="E4EMPlantRecipeRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMPlantRecipeRevisionMaster"
+       value="E4EMPlantRecipeRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4EMPlantRecipeRevMasterS"
+       value="E4EMPlantRecipeRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="E4EMPlantRecipe" value="E4EMPlantRecipeRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMPlantRecipe" value="E4EMPlantRecipeMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="E4EMPlantRecipeRevision"
+       value="E4EMPlantRecipeRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="E4EMPlantRecipeRevision"
+       value="E4EMPlantRecipeRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMPlantRecipe" value="E4EMPlantRecipeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMPlantRecipeMaster"
+       value="E4EMPlantRecipeMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMPlantRecipeMasterS"
+       value="E4EMPlantRecipeMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMPlantRecipeRevision"
+       value="E4EMPlantRecipeRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMPlantRecipeRevisionMaster"
+       value="E4EMPlantRecipeRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4EMPlantRecipeRevMasterS"
+       value="E4EMPlantRecipeRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4EMPlantRecipeRevision"
+       propertyName="E4HasRecipe" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4EMPlantRecipeRevision"
+       propertyName="E4HasRecipe" value="Write"/>
+</Add>
+</TcBusinessData>

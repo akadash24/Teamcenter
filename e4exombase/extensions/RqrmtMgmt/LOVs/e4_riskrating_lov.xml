@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4RiskRatingLov" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="1" description="" conditionName="isTrue"/>
+      <TcLOVValue value="2" description="" conditionName="isTrue"/>
+      <TcLOVValue value="3" description="" conditionName="isTrue"/>
+      <TcLOVValue value="4" description="" conditionName="isTrue"/>
+      <TcLOVValue value="5" description="" conditionName="isTrue"/>
+      <TcLOVValue value="N/A" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4RiskRatingLov" typeName="E4RegulatoryReqRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4RiskRating" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

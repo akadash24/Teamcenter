@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="E4HasGlobalAlternate" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="e4ValueChain" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="e4Comments" description="" attributeType="POM_string"
+         maxStringLength="512" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="E4HasGlobalAlternateCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="E4HasGlobalAlternateCreI" description="CreateInput object for &quot;E4HasGlobalAlternate&quot; business object"
+       isAbstract="false" artifactName="E4HasGlobalAlternateCreI">
+     <OperationInputProperty propName="e4ValueChain" compoundObjectConstant="" srcPropName="e4ValueChain"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="e4Comments" compoundObjectConstant="" srcPropName="e4Comments"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="E4HasGlobalAlternateSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="E4HasGlobalAlternateSvAI" description="SaveAsInput object for &quot;E4HasGlobalAlternate&quot; business object"
+       isAbstract="false" artifactName="E4HasGlobalAlternateSvAI"/>
+   <TcStandardType typeName="E4HasGlobalAlternate" parentTypeName="ImanRelation" typeClassName="E4HasGlobalAlternate"
+       description="" isAbstract="false" artifactName="E4HasGlobalAlternate"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="E4HasGlobalAlternate"
+       value="E4HasGlobalAlternateCreI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="E4HasGlobalAlternate"
+       value="E4HasGlobalAlternateSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4HasGlobalAlternate"
+       propertyName="e4Comments" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="E4HasGlobalAlternate"
+       propertyName="e4ValueChain" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4HasGlobalAlternate"
+       propertyName="e4Comments" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="E4HasGlobalAlternate"
+       propertyName="e4ValueChain" value="Write"/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4LOBLov" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="CVC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FVC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LVC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PV" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EV" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Marine" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Aviation" description="" conditionName="isTrue"/>
+      <TcLOVValue value="N/A" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4LOBLov" typeName="E4MarketingReqRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4MarketingLOB" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="E4LOBLov" typeName="E4RegulatoryReqRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4RegulatoryLOB" conditionName="isTrue"
+          override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

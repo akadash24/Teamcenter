@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcLOV name="E4_1-4-DIOXANE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="1-4-DIOXANE" description="1-4-DIOXANE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_2-ETHYL-1-HEXANOL" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="2-ETHYL-1-HEXANOL" description="2-ETHYL-1-HEXANOL" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ACRYLAMIDE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="ACRYLAMIDE" description="ACRYLAMIDE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ACRYLONITRILE" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ACRYLONITRILE" description="ACRYLONITRILE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ALKYL_MESILATES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ALKYL MESILATES" description="ALKYL MESILATES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ALLERGENS_IN_FOOD" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ALLERGENS IN FOOD" description="ALLERGENS IN FOOD" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ANIMAL_DERIVED_SUBSTANCES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ANIMAL DERIVED SUBSTANCES" description="ANIMAL DERIVED SUBSTANCES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ANVISA_FOOD_CONTACT_REGULATION" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ANVISA ADDITIVE INFO AND SML" description="ANVISA ADDITIVE INFO AND SML"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ANVISA GENERAL REQUIREMENT" description="ANVISA GENERAL REQUIREMENT"
+          conditionName="isTrue"/>
+      <TcLOVValue value="ANVISA MONOMERS SML" description="ANVISA MONOMERS SML" conditionName="isTrue"/>
+      <TcLOVValue value="ANVISA RESOLUTIONS" description="ANVISA RESOLUTIONS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ASBESTOS" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="ASBESTOS" description="ASBESTOS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ATRAZINE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="ATRAZINE" description="ATRAZINE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BADGE-NOGE-EU_1895_2005" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="BADGE- NOGE - EU DIRECTIVE" description="BADGE- NOGE - EU DIRECTIVE"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BENZENE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="BENZENE" description="BENZENE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BENZOPHENONE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="BENZOPHENONE" description="BENZOPHENONE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BENZOTRIAZOLES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="BENZOTRIAZOLES" description="BENZOTRIAZOLES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BHT-BUTYLATED_HYDROXY_TOLUENE" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="BHT-BUTYLATED HYDROXY TOLUENE" description="BHT-BUTYLATED HYDROXY TOLUENE"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BIOCIDES" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="BIOCIDES" description="BIOCIDES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BISPHENOL_A_&amp;_F_&amp;_S" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="BISPHENOL A &amp; F &amp; S" description="BISPHENOL A &amp; F &amp; S"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BLOWING_AGENTS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="BLOWING AGENTS" description="BLOWING AGENTS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_BROMINE_BROMINE-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="BROMINE / BROMINE COMPOUNDS" description="BROMINE / BROMINE COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CALIFORNIA_PROP_65-LIQUIDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CA PROP 65 - LI-BENZENE" description="CA PROP 65 - LI-BENZENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-CUMENE" description="CA PROP 65 - LI-CUMENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-ETHYLBENZENE" description="CA PROP 65 - LI-ETHYLBENZENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-GENERIC" description="CA PROP 65 - LI-GENERIC"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-N-HEXANE" description="CA PROP 65 - LI-N-HEXANE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-NAPHTHALENE" description="CA PROP 65 - LI-NAPHTHALENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-STYRENE" description="CA PROP 65 - LI-STYRENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - LI-TOLUENE" description="CA PROP 65 - LI-TOLUENE"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CALIFORNIA_PROP_65-POLYMERS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CA PROP 65 - PO-1-3-BUTADIENE" description="CA PROP 65 - PO-1-3-BUTADIENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-1-4-DIOXANE" description="CA PROP 65 - PO-1-4-DIOXANE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-ACETALDEHYDE" description="CA PROP 65 - PO-ACETALDEHYDE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-ANTIMONY OXIDE" description="CA PROP 65 - PO-ANTIMONY OXIDE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-ARSENIC" description="CA PROP 65 - PO-ARSENIC"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-BENZENE" description="CA PROP 65 - PO-BENZENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-CARBON BLACK" description="CA PROP 65 - PO-CARBON BLACK"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-DIB. PHTHALATE" description="CA PROP 65 - PO-DIB. PHTHALATE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-ETHYLBENZENE" description="CA PROP 65 - PO-ETHYLBENZENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-ETHYLENE OXIDE" description="CA PROP 65 - PO-ETHYLENE OXIDE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-FORMALDEHYDE" description="CA PROP 65 - PO-FORMALDEHYDE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-GENERIC" description="CA PROP 65 - PO-GENERIC"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-LEAD" description="CA PROP 65 - PO-LEAD"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-METHANOL" description="CA PROP 65 - PO-METHANOL"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-METHYLACRYLATE" description="CA PROP 65 - PO-METHYLACRYLATE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-N-HEXANE" description="CA PROP 65 - PO-N-HEXANE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-PNA/PAH" description="CA PROP 65 - PO-PNA/PAH"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-SILICA" description="CA PROP 65 - PO-SILICA"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-STYRENE" description="CA PROP 65 - PO-STYRENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-THF" description="CA PROP 65 - PO-THF" conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-TOLUENE" description="CA PROP 65 - PO-TOLUENE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CA PROP 65 - PO-ETHYLENE GLYCOL" description="CA PROP 65 - PO-ETHYLENE GLYCOL"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CANADIAN_EPA" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="CANADIAN EPA" description="CANADIAN EPA" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CANADIAN_FOOD_LAW_(HPB)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CANADIAN HPB" description="CANADIAN HPB" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CHINA_FOOD-CONTACT_LAW" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CHINA ADDITIVE INFO" description="CHINA ADDITIVE INFO" conditionName="isTrue"/>
+      <TcLOVValue value="CHINA ADDITIVE RESTRICTION" description="CHINA ADDITIVE RESTRICTION"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CHINA GENERAL NOTE" description="CHINA GENERAL NOTE" conditionName="isTrue"/>
+      <TcLOVValue value="CHINA POS. LIST&amp;NATIONAL STAND" description="CHINA POS. LIST&amp;NATIONAL STAND"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CHINA RESIN INFO" description="CHINA RESIN INFO" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CHLORINE_CHLORINATED-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CHLORINE/CHLORINATED COMPOUNDS" description="CHLORINE/CHLORINATED COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CHOLECALCIFEROL_AND_MANCOZEB" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CHOLECALCIFEROL AND MANCOZEB" description="CHOLECALCIFEROL AND MANCOZEB"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CLASSIFICATION_&amp;_LABELLING" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CLASSIFICATION &amp; LABELLING" description="CLASSIFICATION &amp; LABELLING"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_COBALT_COBALT-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="COBALT / COBALT COMPOUNDS" description="COBALT / COBALT COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_COLORANTS" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="COLORANTS" description="COLORANTS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_CONEG_WASTE-PACKAGING" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="CONEG/WASTE PACKAGING" description="CONEG/WASTE PACKAGING"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_COSMETICS_INCI" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="COSMETICS / INCI" description="COSMETICS / INCI" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_DIMETHYLFUMARATE" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="DIMETHYLFUMARATE" description="DIMETHYLFUMARATE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_DIOXIN" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="DIOXIN" description="DIOXIN" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_DRINKING_WATER_STATUS-GER_KTW" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="DRINKING WATER STATUS -GER/KTW" description="DRINKING WATER STATUS -GER/KTW"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_DRUG_MASTER_FILE_(US_FDA)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="DMF (FDA)" description="DMF (FDA)" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ELEMENTAL_IMPURITIES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ELEMENTAL IMPURITIES" description="ELEMENTAL IMPURITIES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ENDOCRINE_DISRUPTORS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ENDOCRINE DISRUPTORS" description="ENDOCRINE DISRUPTORS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_EPOXIDIZED_SOYBEAN_OIL" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="EPOXIDIZED SOYBEAN OIL" description="EPOXIDIZED SOYBEAN OIL"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ETHYLBENZENE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="ETHYLBENZENE" description="ETHYLBENZENE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ETHYLENE_OXIDE" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ETHYLENE OXIDE" description="ETHYLENE OXIDE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_EURASIA_AND_RUSSIA_REACH" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="EURASIA AND RUSSIA REACH" description="EURASIA AND RUSSIA REACH"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_EUROPEAN_FOOD_LAW" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ADDITIVES SML" description="ADDITIVES SML" conditionName="isTrue"/>
+      <TcLOVValue value="DUAL USE ADDITIVES" description="DUAL USE ADDITIVES" conditionName="isTrue"/>
+      <TcLOVValue value="EU ADDITIVES COMPOSITION INFO" description="EU ADDITIVES COMPOSITION INFO"
+          conditionName="isTrue"/>
+      <TcLOVValue value="EU AND NATIONAL LEGISLATION" description="EU AND NATIONAL LEGISLATION"
+          conditionName="isTrue"/>
+      <TcLOVValue value="EU GENERAL REQUIREMENT" description="EU GENERAL REQUIREMENT"
+          conditionName="isTrue"/>
+      <TcLOVValue value="MONOMERS SML" description="MONOMERS SML" conditionName="isTrue"/>
+      <TcLOVValue value="OVERALL MIGRATION LIMIT (OML)" description="OVERALL MIGRATION LIMIT (OML)"
+          conditionName="isTrue"/>
+      <TcLOVValue value="PEROXIDES" description="PEROXIDES" conditionName="isTrue"/>
+      <TcLOVValue value="SIMULANT D" description="SIMULANT D" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_EU_2000-53-EC" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="END OF LIFE VEHICLE - EU" description="END OF LIFE VEHICLE - EU"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_FIFRA_REGULATIONS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="FIFRA REGULATIONS" description="FIFRA REGULATIONS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_FLAME_RETARDANTS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="FLAME RETARDANTS" description="FLAME RETARDANTS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_FLUORINE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="FLUORINE" description="FLUORINE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_FORMALDEHYDE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="FORMALDEHYDE" description="FORMALDEHYDE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_FURANES_BENZOFURANES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="FURANES / BENZOFURANES" description="FURANES / BENZOFURANES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_GMO" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="GMO" description="GMO" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_HALAL_STATUS" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="HALAL STATUS" description="HALAL STATUS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_HALAL_STATUS-INDONESIA" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="HALAL STATUS - INDONESIA" description="HALAL STATUS - INDONESIA"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_HAZARDOUS_AIR_POLLUTANTS-HAPS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="HAPS - 2-2-4-TRIMETHYLPENTANE" description="HAPS - 2-2-4-TRIMETHYLPENTANE"
+          conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - BENZENE" description="HAPS - BENZENE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - CUMENE" description="HAPS - CUMENE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - ETHYLBENZENE" description="HAPS - ETHYLBENZENE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - GENERIC" description="HAPS - GENERIC" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - N-HEXANE" description="HAPS - N-HEXANE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - NAPHTHALENE" description="HAPS - NAPHTHALENE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - STYRENE" description="HAPS - STYRENE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - TOLUENE" description="HAPS - TOLUENE" conditionName="isTrue"/>
+      <TcLOVValue value="HAPS - XYLENES (ALL ISOMERS)" description="HAPS - XYLENES (ALL ISOMERS)"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_HCFCS-HFCS-CFCS&amp;OTHER_HALONS" lovType="ListOfValuesString"
+        usage="Exhaustive" description="">
+      <TcLOVValue value="HCFCS-HFCS-CFCS&amp;OTHER HALONS" description="HCFCS-HFCS-CFCS&amp;OTHER HALONS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_HEXAVALENT_CHROMIUM_COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="HEXAVALENT CHROMIUM COMPOUNDS" description="HEXAVALENT CHROMIUM COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_IMDS-GADSL" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="IMDS - GADSL" description="IMDS - GADSL" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_IMDS_STATUS" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="IMDS GENERAL STATEMENT" description="IMDS GENERAL STATEMENT"
+          conditionName="isTrue"/>
+      <TcLOVValue value="IMDS ID" description="IMDS ID" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_IODINE_IODINE-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="IODINE / IODINE COMPOUNDS" description="IODINE / IODINE COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ISO-10993" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="ISO 10993 STATUS" description="ISO 10993 STATUS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ISOPROPYLTHIOXAN-THONE_(ITX)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ISOPROPYLTHIOXAN-THONE (ITX)" description="ISOPROPYLTHIOXAN-THONE (ITX)"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_JAPAN_FOOD_CONTACT_REGULATIONS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="JAPAN GENERAL REQUIREMENT" description="JAPAN GENERAL REQUIREMENT"
+          conditionName="isTrue"/>
+      <TcLOVValue value="JAPAN LEGISLATION" description="JAPAN LEGISLATION" conditionName="isTrue"/>
+      <TcLOVValue value="JAPAN PRODUCT STATUS" description="JAPAN PRODUCT STATUS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_JATROPHA_PLANT_DERIVATIVES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="JATROPHA PLANT DERIVATIVES" description="JATROPHA PLANT DERIVATIVES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_KOREA_AREC_REGISTRATION_STATUS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="KOREA AREC REGISTRATION STATUS" description="KOREA AREC REGISTRATION STATUS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_KOSHER_STATUS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="KOSHER STATUS" description="KOSHER STATUS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_LATEX_NATURAL-RUBBER" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="LATEX / NATURAL RUBBER" description="LATEX / NATURAL RUBBER"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_MELAMINE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="MELAMINE" description="MELAMINE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_MERCOSUR_FOODLAW" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="MERCOSUR ADDITIVE INFO AND SML" description="MERCOSUR ADDITIVE INFO AND SML"
+          conditionName="isTrue"/>
+      <TcLOVValue value="MERCOSUR GENERAL REQUIREMENT" description="MERCOSUR GENERAL REQUIREMENT"
+          conditionName="isTrue"/>
+      <TcLOVValue value="MERCOSUR MONOMERS SML" description="MERCOSUR MONOMERS SML"
+          conditionName="isTrue"/>
+      <TcLOVValue value="MERCOSUR RESOLUTIONS" description="MERCOSUR RESOLUTIONS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_METALS_METALLOIDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="METALS / METALLOIDS" description="METALS / METALLOIDS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_METHANOL" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="METHANOL" description="METHANOL" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_METHYLNAPHTHALENES_NAPHTHALENE" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="METHYLNAPHTHALENES/NAPHTHALENE" description="METHYLNAPHTHALENES/NAPHTHALENE"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_MICA" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="MICA" description="MICA" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_MICROPLASTICS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="MICROPLASTICS" description="MICROPLASTICS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_MINERAL_OIL" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="MINERAL OIL" description="MINERAL OIL" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_NANO-SCALE_MATERIALS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="NANO-SCALE MATERIALS" description="NANO-SCALE MATERIALS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_NATIONAL_CHEMICAL_INVENTORY" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="AUSTRALIA AICS INVENTORY" description="AUSTRALIA AICS INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CANADA DSL/NDSL INVENTORY" description="CANADA DSL/NDSL INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="CAS NUMBER" description="CAS NUMBER" conditionName="isTrue"/>
+      <TcLOVValue value="CHINA IECSC INVENTORY" description="CHINA IECSC INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="JAPAN METI INVENTORY" description="JAPAN METI INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="KOREA KECL INVENTORY" description="KOREA KECL INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="NEW ZEALAND HSNO INVENTORY" description="NEW ZEALAND HSNO INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="PHILIPPINES PICCS INVENTORY" description="PHILIPPINES PICCS INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="TAIWAN TCSI" description="TAIWAN TCSI" conditionName="isTrue"/>
+      <TcLOVValue value="THAILAND CHEMICAL INVENTORY" description="THAILAND CHEMICAL INVENTORY"
+          conditionName="isTrue"/>
+      <TcLOVValue value="US TSCA INVENTORY" description="US TSCA INVENTORY" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_NICKEL_NICKEL-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="NICKEL / NICKEL COMPOUNDS" description="NICKEL / NICKEL COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_NITROSAMINES" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="NITROSAMINES" description="NITROSAMINES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_NONYLPHENOL_&amp;...ETHOXYLATES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="NONYLPHENOL &amp; ...ETHOXYLATES" description="NONYLPHENOL &amp; ...ETHOXYLATES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_OXO-DEGRADABLE_PLASTICS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="OXO-DEGRADABLE PLASTICS" description="OXO-DEGRADABLE PLASTICS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_OZONE_DEPLETING_SUBSTANCES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="OZONE DEPLETING SUBSTANCES" description="OZONE DEPLETING SUBSTANCES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PALM_OIL" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="PALM OIL" description="PALM OIL" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PERSISTENT_ORGANIC_POLLUTANTS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="PERSISTENT ORGANIC POLLUTANTS" description="PERSISTENT ORGANIC POLLUTANTS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PESTICIDES" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="PESTICIDES" description="PESTICIDES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PFAS" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="PFAS" description="PFAS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PFOS_&amp;_PFOA" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="PFOS &amp; PFOA" description="PFOS &amp; PFOA" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PHARMACOPOEIA_STATUS_(EU)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="PHARMACOPOEIA STATUS (EU)" description="PHARMACOPOEIA STATUS (EU)"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PHARMACOPOEIA_STATUS_(US)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="PHARMACOPOEIA STATUS (US)" description="PHARMACOPOEIA STATUS (US)"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PHENOL" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="PHENOL" description="PHENOL" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PHTHALATES_ADIPATES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="PHTHALATES/ADIPATES" description="PHTHALATES/ADIPATES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PNA_PAH" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="PNA / PAH" description="PNA / PAH" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_PRIMARY_AROMATIC_AMINES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="PRIMARY AROMATIC AMINES" description="PRIMARY AROMATIC AMINES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_RADIOACTIVE_SUBSTANCES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="RADIOACTIVE SUBSTANCES" description="RADIOACTIVE SUBSTANCES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_REACH-1907-2006_ANNEX_XVII" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="REACH-1907/2006 ANNEX XVII" description="REACH-1907/2006 ANNEX XVII"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_REACH_CANDIDATE_LIST" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="REACH CANDIDATE LIST" description="REACH CANDIDATE LIST"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_REACH_REG-OR" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="REACH REG - OR" description="REACH REG - OR" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_RESORCINOL_(1,3-BENZENEDIOL)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="RESORCINOL (1,3-BENZENEDIOL)" description="RESORCINOL (1,3-BENZENEDIOL)"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ROHS" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="ROHS" description="ROHS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_SAFETY_OF_TOYS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="SAFETY OF TOYS" description="SAFETY OF TOYS" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_SILICONES_SILOXANES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="SILICONES / SILOXANES" description="SILICONES / SILOXANES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_STYRENE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="STYRENE" description="STYRENE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_SUBST._OF_VEGETABLE_ORIGIN-GMO" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="SUBST. OF VEGETABLE ORIGIN-GMO" description="SUBST. OF VEGETABLE ORIGIN-GMO"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_SULFUR" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="SULFUR" description="SULFUR" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TALC" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="TALC" description="TALC" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_THIURAM_MIX" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="THIURAM MIX" description="THIURAM MIX" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TIN_ORGANOTIN-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="TIN / ORGANOTIN COMPOUNDS" description="TIN / ORGANOTIN COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TNPP" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="TNPP" description="TNPP" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TOLUENE" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="TOLUENE" description="TOLUENE" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TOLUENE_DIISOCYANATE_(TDI)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="TOLUENE DIISOCYANATE (TDI)" description="TOLUENE DIISOCYANATE (TDI)"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TSCA-PBT_SUBSTANCES" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="TSCA - PBT SUBSTANCES" description="TSCA - PBT SUBSTANCES"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_TSCA_12B_STATUS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="TSCA 12B" description="TSCA 12B" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_UK_REACH_CANDIDATE_LIST" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="UK REACH CANDIDATE LIST" description="UK REACH CANDIDATE LIST"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_USA_FOOD_LAW_(FDA)" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="21 CFR STATUS" description="21 CFR STATUS" conditionName="isTrue"/>
+      <TcLOVValue value="FDA GENERAL REQUIREMENT" description="FDA GENERAL REQUIREMENT"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_USA_FOOD_LAW_(FDA)-DIRECT" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="21 CFR - DIRECT/SEC DIR STATUS" description="21 CFR - DIRECT/SEC DIR STATUS"
+          conditionName="isTrue"/>
+      <TcLOVValue value="FDA GENERAL REQ - DIR/SEC DIR" description="FDA GENERAL REQ - DIR/SEC DIR"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_USP_661.1" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="USP 661.1" description="USP 661.1" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_VANADIUM_VANADIUM-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="VANADIUM / VANADIUM COMPOUNDS" description="VANADIUM / VANADIUM COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_VOLATILE_ORGANIC_CPDS-VOC-EU" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="VOLATILE ORGANIC CPDS-VOC -EU" description="VOLATILE ORGANIC CPDS-VOC -EU"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_VOLATILE_ORGANIC_CPDS-VOC-USA" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="VOLATILE ORGANIC CPDS-VOC -USA" description="VOLATILE ORGANIC CPDS-VOC -USA"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_XYLENES" lovType="ListOfValuesString" usage="Exhaustive" description="">
+      <TcLOVValue value="XYLENES" description="XYLENES" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ZINC_ZINC-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ZINC / ZINC COMPOUNDS" description="ZINC / ZINC COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ZIRCONIUM_ZIRCONIUM-COMPOUNDS" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ZIRCONIUM /ZIRCONIUM COMPOUNDS" description="ZIRCONIUM /ZIRCONIUM COMPOUNDS"
+          conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="E4_ZZ-NEW_REQUIREMENT" lovType="ListOfValuesString" usage="Exhaustive"
+        description="">
+      <TcLOVValue value="ZZ-NEW REQUIREMENT" description="ZZ-NEW REQUIREMENT" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="E4AuthorityLov" typeName="E4RegulatoryReqRevision">
+      <TcLOVAttachPropertyInfo valuePropertyName="e4Authority" conditionName="isTrue"
+          override="false" level="1"/>
+      <TcLOVAttachPropertyInfo valuePropertyName="e4Regulation" conditionName="isTrue"
+          override="false" level="2" parentPropertyName="e4Authority"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

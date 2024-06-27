@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcAttributeAttach className="Fnd0GeneralAudit">
+      <TcAttribute attributeName="e4Additive" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4AdditiveOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4AdditiveTreatRate" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4AdditiveTreatRateOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ApprovalDate" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ApprovalDateOvl" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Authority" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4AuthorityOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Brand" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4BrandOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Category" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4CategoryOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ClaimSynReq" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ClaimSynReqOvl" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Comment" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4CommentOvl" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Disclaimer" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4DisclaimerOvl" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4FacilityCertification" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4FacilityCertificationOvl" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4FacilityTesting" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4FacilityTestingOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ForInternalUseOnly" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4ForInternalUseOnlyOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4GlobalGuidance" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4GlobalGuidanceOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4LastReviewed" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4LastReviewedOvl" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4MarkClassificationOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4MarketingClassification" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4MarketingLOB" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4MarketingLOBOvl" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4OEMIndustryEBName" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4OEMIndustryEBNameOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegClassificationOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegCoreAdditional" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegCoreAdditionalOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegExpirationDate" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegExpirationDateOvl" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Region" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegionOvl" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegReqLevel" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegReqLevelOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Regulation" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false"/>
+      <TcAttribute attributeName="e4RegulationOvl" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegulatoryClassification" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegulatoryLOB" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RegulatoryLOBOvl" description="" attributeType="POM_long_string"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RequirementCost" description="" attributeType="POM_double"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RequirementCostOvl" description="" attributeType="POM_double"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RequirementDescription" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RequirementDescriptionOvl" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RequirementStatus" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RequirementStatusOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RiskRating" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4RiskRatingOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TechCoreAdditional" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TechCoreAdditionalOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TechExpirationDate" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TechExpirationDateOvl" description="" attributeType="POM_date"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TechReqlevel" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TechReqlevelOvl" description="" attributeType="POM_string"
+          maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4Time" description="" attributeType="POM_int" maxStringLength="0"
+          isArray="false" followOnExport="false" isNullsAllowed="true" isUnique="false"
+          isPublicRead="true" isPublicWrite="false" isCandidateKey="false" isTransient="false"
+          exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4TimeOvl" description="" attributeType="POM_int"
+          maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ValidationPlan" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+      <TcAttribute attributeName="e4ValidationPlanOvl" description="" attributeType="POM_string"
+          maxStringLength="1280" isArray="false" followOnExport="false" isNullsAllowed="true"
+          isUnique="false" isPublicRead="true" isPublicWrite="false" isCandidateKey="false"
+          isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+   </TcAttributeAttach>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Additive"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4AdditiveOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4AdditiveTreatRate"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4AdditiveTreatRateOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ApprovalDate"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ApprovalDateOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Authority"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4AuthorityOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Brand"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4BrandOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Category"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4CategoryOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ClaimSynReq"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ClaimSynReqOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Comment"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4CommentOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Disclaimer"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4DisclaimerOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4FacilityCertification"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4FacilityCertificationOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4FacilityTesting"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4FacilityTestingOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ForInternalUseOnly"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ForInternalUseOnlyOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4GlobalGuidance"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4GlobalGuidanceOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4LastReviewed"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4LastReviewedOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4MarketingLOB"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4MarketingLOBOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4OEMIndustryEBName"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4OEMIndustryEBNameOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegCoreAdditional"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegCoreAdditionalOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegExpirationDate"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegExpirationDateOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Region"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegionOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegReqLevel"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegReqLevelOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4Regulation"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegulationOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegulatoryLOB"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RegulatoryLOBOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RiskRating"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4RiskRatingOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4TechCoreAdditional"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4TechCoreAdditionalOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4TechExpirationDate"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4TechExpirationDateOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4TechReqlevel"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4TechReqlevelOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ValidationPlan"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Fnd0GeneralAudit" propertyName="e4ValidationPlanOvl"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Additive" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4AdditiveOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4AdditiveTreatRate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4AdditiveTreatRateOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ApprovalDate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ApprovalDateOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Authority" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4AuthorityOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Brand" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4BrandOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Category" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4CategoryOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ClaimSynReq" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ClaimSynReqOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Comment" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4CommentOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Disclaimer" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4DisclaimerOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4FacilityCertification" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4FacilityCertificationOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4FacilityTesting" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4FacilityTestingOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ForInternalUseOnly" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ForInternalUseOnlyOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4GlobalGuidance" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4GlobalGuidanceOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4LastReviewed" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4LastReviewedOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4MarkClassificationOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4MarketingClassification" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4MarketingLOB" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4MarketingLOBOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4OEMIndustryEBName" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4OEMIndustryEBNameOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegClassificationOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegCoreAdditional" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegCoreAdditionalOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegExpirationDate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegExpirationDateOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Region" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegionOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegReqLevel" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegReqLevelOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Regulation" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegulationOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegulatoryClassification" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegulatoryLOB" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RegulatoryLOBOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RequirementCost" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RequirementCostOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RequirementDescription" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RequirementDescriptionOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RequirementStatus" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RequirementStatusOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RiskRating" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4RiskRatingOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TechCoreAdditional" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TechCoreAdditionalOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TechExpirationDate" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TechExpirationDateOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TechReqlevel" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TechReqlevelOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4Time" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4TimeOvl" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ValidationPlan" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Fnd0GeneralAudit"
+        propertyName="e4ValidationPlanOvl" value="Write"/>
+   <AuditDefinition primaryType="E4AbsRequirementRevision" eventType="__Modify" condition="isTrue"
+        isActive="true" eventTypeMapping="ItemRevision:__Modify" trackOldValues="true"
+        auditPropertyChangeOnly="true" description="">
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4Category"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Category"
+          ovlTargetPropertyName="e4CategoryOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4Comment"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Comment"
+          ovlTargetPropertyName="e4CommentOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4Region"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Region"
+          ovlTargetPropertyName="e4RegionOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4RequirementCost"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementCost"
+          ovlTargetPropertyName="e4RequirementCostOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4RequirementDescription"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementDescription"
+          ovlTargetPropertyName="e4RequirementDescriptionOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4RequirementStatus"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementStatus"
+          ovlTargetPropertyName="e4RequirementStatusOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4AbsRequirementRevision" propertyName="e4Time"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Time"
+          ovlTargetPropertyName="e4TimeOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+   </AuditDefinition>
+   <AuditDefinition primaryType="E4MarketingReqRevision" eventType="__Modify" condition="isTrue"
+        isActive="true" eventTypeMapping="ItemRevision:__Modify" trackOldValues="true"
+        auditPropertyChangeOnly="true" description="">
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Additive"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Additive"
+          ovlTargetPropertyName="e4AdditiveOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4AdditiveTreatRate"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4AdditiveTreatRate"
+          ovlTargetPropertyName="e4AdditiveTreatRateOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4ApprovalDate"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4ApprovalDate"
+          ovlTargetPropertyName="e4ApprovalDateOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Brand"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Brand"
+          ovlTargetPropertyName="e4BrandOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Category"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Category"
+          ovlTargetPropertyName="e4CategoryOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Comment"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Comment"
+          ovlTargetPropertyName="e4CommentOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Disclaimer"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Disclaimer"
+          ovlTargetPropertyName="e4DisclaimerOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4GlobalGuidance"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4GlobalGuidance"
+          ovlTargetPropertyName="e4GlobalGuidanceOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4LastReviewed"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4LastReviewed"
+          ovlTargetPropertyName="e4LastReviewedOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4MarketingLOB"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4MarketingLOB"
+          ovlTargetPropertyName="e4MarketingLOBOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Region"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Region"
+          ovlTargetPropertyName="e4RegionOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4RequirementCost"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementCost"
+          ovlTargetPropertyName="e4RequirementCostOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4RequirementDescription"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementDescription"
+          ovlTargetPropertyName="e4RequirementDescriptionOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4RequirementStatus"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementStatus"
+          ovlTargetPropertyName="e4RequirementStatusOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4Time"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Time"
+          ovlTargetPropertyName="e4TimeOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4ValidationPlan"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4ValidationPlan"
+          ovlTargetPropertyName="e4ValidationPlanOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4MarketingReqRevision" propertyName="e4MarketingClassification"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4MarketingClassification"
+          ovlTargetPropertyName="e4MarkClassificationOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+   </AuditDefinition>
+   <AuditDefinition primaryType="E4RegulatoryReqRevision" eventType="__Modify" condition="isTrue"
+        isActive="true" eventTypeMapping="ItemRevision:__Modify" trackOldValues="true"
+        auditPropertyChangeOnly="true" description="">
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4Category"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Category"
+          ovlTargetPropertyName="e4CategoryOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4Comment"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Comment"
+          ovlTargetPropertyName="e4CommentOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4Region"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Region"
+          ovlTargetPropertyName="e4RegionOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RequirementCost"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementCost"
+          ovlTargetPropertyName="e4RequirementCostOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RequirementDescription"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementDescription"
+          ovlTargetPropertyName="e4RequirementDescriptionOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RequirementStatus"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementStatus"
+          ovlTargetPropertyName="e4RequirementStatusOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4Time"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Time"
+          ovlTargetPropertyName="e4TimeOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4Authority"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Authority"
+          ovlTargetPropertyName="e4AuthorityOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4ForInternalUseOnly"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4ForInternalUseOnly"
+          ovlTargetPropertyName="e4ForInternalUseOnlyOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RegCoreAdditional"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RegCoreAdditional"
+          ovlTargetPropertyName="e4RegCoreAdditionalOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RegExpirationDate"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RegExpirationDate"
+          ovlTargetPropertyName="e4RegExpirationDateOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RegReqLevel"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RegReqLevel"
+          ovlTargetPropertyName="e4RegReqLevelOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4Regulation"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Regulation"
+          ovlTargetPropertyName="e4RegulationOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RegulatoryLOB"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RegulatoryLOB"
+          ovlTargetPropertyName="e4RegulatoryLOBOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RiskRating"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RiskRating"
+          ovlTargetPropertyName="e4RiskRatingOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4RegulatoryReqRevision" propertyName="e4RegulatoryClassification"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RegulatoryClassification"
+          ovlTargetPropertyName="e4RegClassificationOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+   </AuditDefinition>
+   <AuditDefinition primaryType="E4TechnicalReqRevision" eventType="__Modify" condition="isTrue"
+        isActive="true" eventTypeMapping="ItemRevision:__Modify" trackOldValues="true"
+        auditPropertyChangeOnly="true" description="">
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4Category"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Category"
+          ovlTargetPropertyName="e4CategoryOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4Comment"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Comment"
+          ovlTargetPropertyName="e4CommentOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4Region"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Region"
+          ovlTargetPropertyName="e4RegionOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4RequirementCost"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementCost"
+          ovlTargetPropertyName="e4RequirementCostOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4RequirementDescription"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementDescription"
+          ovlTargetPropertyName="e4RequirementDescriptionOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4RequirementStatus"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4RequirementStatus"
+          ovlTargetPropertyName="e4RequirementStatusOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4Time"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4Time"
+          ovlTargetPropertyName="e4TimeOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4ClaimSynReq"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4ClaimSynReq"
+          ovlTargetPropertyName="e4ClaimSynReqOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4FacilityCertification"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4FacilityCertification"
+          ovlTargetPropertyName="e4FacilityCertificationOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4FacilityTesting"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4FacilityTesting"
+          ovlTargetPropertyName="e4FacilityTestingOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4ForInternalUseOnly"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4ForInternalUseOnly"
+          ovlTargetPropertyName="e4ForInternalUseOnlyOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4OEMIndustryEBName"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4OEMIndustryEBName"
+          ovlTargetPropertyName="e4OEMIndustryEBNameOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4TechCoreAdditional"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4TechCoreAdditional"
+          ovlTargetPropertyName="e4TechCoreAdditionalOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4TechExpirationDate"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4TechExpirationDate"
+          ovlTargetPropertyName="e4TechExpirationDateOvl" refDisplayPropertyName=""
+          ovlRefDisplayPropertyName=""/>
+      <AuditDefProperty objectType="E4TechnicalReqRevision" propertyName="e4TechReqlevel"
+          isSecondary="false" enableTracking="track_always" targetPropertyName="e4TechReqlevel"
+          ovlTargetPropertyName="e4TechReqlevelOvl" refDisplayPropertyName="" ovlRefDisplayPropertyName=""/>
+   </AuditDefinition>
+</Add>
+</TcBusinessData>

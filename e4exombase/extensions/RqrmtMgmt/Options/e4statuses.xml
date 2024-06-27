@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcStatus statusName="E4Active" description=""/>
+   <TcStatus statusName="E4Development" description=""/>
+   <TcStatus statusName="E4Draft" description=""/>
+   <TcStatus statusName="E4InActive" description=""/>
+   <TcStatus statusName="E4InReview" description=""/>
+   <TcStatus statusName="E4Released" description=""/>
+</Add>
+</TcBusinessData>
