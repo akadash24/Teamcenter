@@ -1,0 +1,13 @@
+name: BMIDE Package Deploy
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Create Backup
+      run: |
+        cd C:\Exxon\TC14
+        Xcopy "C:\Exxon\TC" C:\test /E/H/C/I
