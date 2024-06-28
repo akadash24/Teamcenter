@@ -8,6 +8,7 @@
       <TcLOVValue value="4" description="" conditionName="isTrue"/>
       <TcLOVValue value="5" description="" conditionName="isTrue"/>
       <TcLOVValue value="N/A" description="" conditionName="isTrue"/>
+      <TcLOVValue value="6" description="" conditionName="isTrue"/>
    </TcLOV>
    <TcLOVAttach lovName="E4RiskRatingLov" typeName="E4RegulatoryReqRevision">
       <TcLOVAttachPropertyInfo valuePropertyName="e4RiskRating" conditionName="isTrue"

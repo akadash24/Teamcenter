@@ -5,7 +5,7 @@
 Copyright 2021.
 Siemens Product Lifecycle Management Software Inc.
 All Rights Reserved.
-====================================================
+==================================================
 @<COPYRIGHT>@
 --><ProjectInfo>
     <NameValue key="ExternalBuild.LinkCommand.linux" value="/opt/rh/devtoolset-7/root/usr/bin/g++"/>
@@ -20,7 +20,7 @@ All Rights Reserved.
     <NameValue key="ExternalBuild.LinkCommand.solaris" value="/opt/developerstudio12.6/bin/CC"/>
     <NameValue key="SoaExternalBuild.NETWebtierFeatureUuid" value="452cdebcbcc7473baeee2bcd91ec055e"/>
     <NameValue key="ExternalBuild.LinkerFlags.solaris" value="-G -m64"/>
-    <NameValue key="ProjectBackup.LocalFileSystem.LastBkpTime" value="2024_05_02_12-38-17"/>
+    <NameValue key="ProjectBackup.LocalFileSystem.LastBkpTime" value="2024_06_27_13-19-23"/>
     <NameValue key="Windows.Platform.OS" value="Win64-bit"/>
     <NameValue key="ExternalBuild.CompilerFlags.solaris" value="-c -KPIC -mt -m64 -DSTEP -DAP203 -DAP214 -erroff=nonewline -DPOSIX -DUNX -DSUN -D_SOLARIS_SOURCE -DNO_DOT_H "/>
     <NameValue key="SoaExternalBuild.RacClientDependJars" value=""/>
